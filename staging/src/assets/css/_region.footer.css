@@ -1,0 +1,57 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {}
+.footer .footer__outer { position: relative; z-index: 1; padding: 116px 0 107px; background-image: url(../images/temp/footer-bg.jpg); color: #fff; background-position: center; background-size: cover; }
+.footer .footer__outer:before { width: 50%; position: absolute; top: 0; left: 0; bottom: 0; background: linear-gradient(to right, #000, rgba(255,255,255, 0)); content: ''; z-index: -1; }
+
+.footer .footer__outer h2 { margin-bottom: 31px; }
+.footer .footer__outer p { max-width: 695px; margin-bottom: 49px; line-height: 1.6; }
+
+.footer .subscribe { padding-left: 5px; }
+
+.footer .footer__inner { display: flex; align-items: center; padding: 68px 0 63px; }
+.footer .logo { margin-right: 114px; }
+
+.footer .footer__nav { margin-right: auto; font-size: 14px; }
+
+.footer .footer__nav ul { display: flex; }
+.footer .footer__nav li + li { margin-left: 57px; }
+
+.footer .footer__nav a { color: $color-text; font-weight: 400; }
+
+.footer .footer__copyright { color: #726676; font-size: 14px; padding-right: 17px; }
+.footer .footer__copyright a { color: inherit; font-weight: inherit; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.footer .footer__outer { padding-top: 113px; padding-bottom: 118px; }
+	.footer .footer__outer h2 { margin-bottom: 35px; }
+	.footer .footer__outer p { margin-bottom: 49px; max-width: 630px; }
+
+	.footer .logo { margin-right: 0; }
+
+	.footer .footer__inner { justify-content: space-between; }
+
+	.footer .footer__nav { margin: 3px 15px 0 5px; }
+	.footer .footer__nav li + li { margin-left: 60px; }
+
+	.footer .footer__inner { padding-top: 58px; padding-bottom: 67px; }
+
+	.footer .footer__copyright { padding-right: 1px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.footer .footer__outer { padding-top: 35px; padding-bottom: 45px; }
+	.footer .footer__outer h2 { margin-bottom: 19px; font-size: 24px; line-height: 1.33; }
+	.footer .footer__outer p { margin-bottom: 39px; }
+
+	.footer .footer__inner { display: block; padding-top: 37px; padding-bottom: 52px; padding-left: 14px; }
+
+	.footer .footer__nav { margin-left: 0; margin-bottom: 41px; }
+	.footer .logo { margin-bottom: 34px; }
+}

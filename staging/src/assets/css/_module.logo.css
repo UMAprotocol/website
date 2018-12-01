@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------ *\
+	Logo
+\* ------------------------------------------------------------ */
+
+.logo { display: inline-block; width: 137px; height: 34px; text-indent: -9999px; white-space: nowrap; background-image: url(../images/logo.svg); background-size: 100% auto; background-repeat: no-repeat; background-position: center; }
+
+.logo--alt { background-image: url(../images/logo-alt.svg);  }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.logo { width: 117px; height: 29px; }
+	.logo--alt { width: 137px; height: 34px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.logo { width: 97px; height: 25px; }
+}

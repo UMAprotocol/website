@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	Container
+\* ------------------------------------------------------------ */
+
+.container { max-width: 1125px; padding-left: 24px; padding-right: 24px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.container { padding-left: 50px; padding-right: 50px; }
+}
+
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.container { padding-left: 22px; padding-right: 22px; }
+}

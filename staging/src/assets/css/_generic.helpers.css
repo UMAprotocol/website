@@ -1,0 +1,160 @@
+/* ------------------------------------------------------------ *\
+	Helpers
+\* ------------------------------------------------------------ */
+
+/*  Clear  */
+
+.clear { @util clearfix; }
+
+/*  Notext  */
+
+.notext { @util text-hide; }
+
+/*  Hidden  */
+
+[hidden],
+.hidden { display: none !important; }
+
+/*  Alignleft  */
+
+.alignleft { float: left; }
+
+/*  Alignright  */
+
+.alignright { float: right; }
+
+/*  Disabled  */
+
+[disabled],
+.disabled { cursor: default; }
+
+/*  Grid  */
+
+.row { margin-left: -20px; margin-right: -20px; }
+.row > [class^="col"] { padding-left: 20px; padding-right: 20px; }
+
+.row.vertical-gutters-medium { margin-bottom: -31px; }
+.row.vertical-gutters-medium > [class^="col"] { padding-bottom: 31px; }
+
+.row.vertical-gutters { margin-bottom: -45px; }
+.row.vertical-gutters > [class^="col"] { padding-bottom: 45px; }
+
+.row.vertical-gutters-large { margin-bottom: -65px; }
+.row.vertical-gutters-large > [class^="col"] { padding-bottom: 65px; }
+
+.row.large-gutters { margin-left: -28px; margin-right: -28px; }
+.row.large-gutters > [class^="col"] { padding-left: 28px; padding-right: 28px; }
+
+.row.medium-gutters { margin-left: -7px; margin-right: -7px; }
+.row.medium-gutters > [class^="col"] { padding-left: 7px; padding-right: 7px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.row.large-gutters { margin-left: -22px; margin-right: -22px; }
+	.row.large-gutters > [class^="col"] { padding-left: 22px; padding-right: 22px; }
+
+	.row.vertical-gutters-large { margin-bottom: -57px; }
+	.row.vertical-gutters-large > [class^="col"] { padding-bottom: 57px; }
+
+	.row.vertical-gutters { margin-bottom: -34ppx; }
+	.row.vertical-gutters > [class^="col"] { padding-bottom: 34ppx; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.row.vertical-gutters-large { margin-bottom: -103px; }
+	.row.vertical-gutters-large > [class^="col"] { padding-bottom: 103px; }
+
+	.row.vertical-gutters-medium { margin-bottom: -41px; }
+	.row.vertical-gutters-medium > [class^="col"] { padding-bottom: 41px; }
+
+	.row.vertical-gutters { margin-bottom: -28px; }
+	.row.vertical-gutters > [class^="col"] { padding-bottom: 28px; }
+}
+
+.cols { display: flex; flex-flow: row wrap; }
+
+.col { max-width: 100%; flex: 1; }
+.col--1of2 { max-width: 50%; flex: 0 0 50%; }
+
+/*  Responsive Helpers  */
+
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block { display: none !important; }
+
+@media (max-width: $responsive-xs) {
+	.hidden-xs { display: none !important; }
+	.visible-xs-block { display: block !important; }
+	.visible-xs-inline { display: inline !important; }
+	.visible-xs-inline-block { display: inline-block !important; }
+}
+
+@media (min-width: calc($responsive-xs + 1px)) and (max-width: $responsive-sm) {
+	.hidden-sm { display: none !important; }
+	.visible-sm-block { display: block !important; }
+	.visible-sm-inline { display: inline !important; }
+	.visible-sm-inline-block { display: inline-block !important; }
+}
+
+@media (min-width: calc($responsive-sm + 1px)) and (max-width: $responsive-md) {
+	.hidden-md { display: none !important; }
+	.visible-md-block { display: block !important; }
+	.visible-md-inline { display: inline !important; }
+	.visible-md-inline-block { display: inline-block !important; }
+}
+
+@media (min-width: calc($responsive-md + 1px)) {
+	.hidden-lg { display: none !important; }
+	.visible-lg-block { display: block !important; }
+	.visible-lg-inline { display: inline !important; }
+	.visible-lg-inline-block { display: inline-block !important; }
+}
+
+.is-scratched { position: relative; z-index: 1; }
+.is-scratched:after { z-index: -1; position: absolute; top: 100%; left: 0; right: 0; height: 7px; margin-top: -0.33em; content: ''; background-color: $primary; }
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.is-scratched:after { height: 5px; margin-top: -0.4em; }
+}
+
+.prevent-scrolling { position: relative; height: 100%; overflow: hidden; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.img-bain-capital { width: 235px; height: 74px; }
+	.img-box-group { width: 180px; height: 71px;}
+	.img-placeholder-logo { width: 246px; height: 39px; }
+	.img-blockchain-capital { width: 253px; height: 74px; }
+	.img-dragonfly { width: 142px; height: 77px; }
+	.img-coinbase { width: 215px; height: 60px; }
+	.img-two-sigma-venture { width: 162px; height: 42px; }
+	.img-fintech-collective { width: 211px; height: 60px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.img-bain-capital { width: 184px; height: 60px; }
+	.img-box-group { width: 141px; height: 58px; }
+	.img-placeholder-logo { width: 193px; height: 32px; }
+	.img-blockchain-capital { width: 198px; height: 60px; }
+	.img-dragonfly { width: 111px; height: 62px; }
+	.img-coinbase { width: 168px; height: 49px; }
+	.img-two-sigma-venture { width: 127px; height: 34px; }
+	.img-fintech-collective { width: 165px; height: 49px; }
+}

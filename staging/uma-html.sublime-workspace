@@ -1,0 +1,2459 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mas",
+				"maskedField"
+			],
+			[
+				"ico-click",
+				"ico-click-yellow.png"
+			],
+			[
+				"ico-key",
+				"ico-key-yellow.png"
+			],
+			[
+				"h",
+				"height\tAttr"
+			],
+			[
+				"css",
+				"css-abs-center\tcss-abs-center"
+			],
+			[
+				"jsparall",
+				"js-parallax-wrapper"
+			],
+			[
+				"ou",
+				"outerHeight"
+			],
+			[
+				"parent",
+				"parentSection"
+			],
+			[
+				"transl",
+				"translateRemoveHandler"
+			],
+			[
+				"prevent",
+				"prevent-scrolling\t(_generic.helpers.css)"
+			],
+			[
+				"collapse",
+				"collapse-mobile"
+			],
+			[
+				"tgog",
+				"toggleClass"
+			],
+			[
+				"card--conta",
+				"card--container-alt"
+			],
+			[
+				"card--cot",
+				"card--container-alt"
+			],
+			[
+				"categro",
+				"categoryList"
+			],
+			[
+				"sidebar",
+				"sidebar"
+			],
+			[
+				"sideb",
+				"sidebarDisplay"
+			],
+			[
+				"field--",
+				"field--size-xs\t(_module.form-elements.css)"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"js-reveal",
+				"js-reveal-content"
+			],
+			[
+				"bgposi",
+				"backgroundPosition"
+			],
+			[
+				"js-parallax",
+				"js-parallax-bg\t(the-tech.html)"
+			],
+			[
+				"zoom",
+				"zoomInNav\t(_keyframes.scss)"
+			],
+			[
+				"ico-arrow",
+				"ico-arrow-left-a\t(home.html)"
+			],
+			[
+				"ico-arrow-e",
+				"ico-arrow-left-a"
+			],
+			[
+				"newParen",
+				"newParent"
+			],
+			[
+				"data-",
+				"data-insert-after"
+			],
+			[
+				"initi",
+				"initialHeight"
+			],
+			[
+				"ini",
+				"initialHeight"
+			],
+			[
+				"header",
+				"headerHeight"
+			],
+			[
+				"type-ani",
+				"type-animation-image\t(home.html)"
+			],
+			[
+				"drop-in",
+				"drop-in-container"
+			],
+			[
+				"drop",
+				"dropIn"
+			],
+			[
+				"slider--",
+				"slider--center-mode\t(home.html)"
+			],
+			[
+				"present",
+				"presentationAnimation"
+			],
+			[
+				"accordion-secondar",
+				"accordion-secondary--animated\t(_accordion.scss)"
+			],
+			[
+				"sac",
+				"scaleY"
+			],
+			[
+				"js-anim",
+				"js-animate-contents\t(_helpers.scss)"
+			],
+			[
+				"js-ai",
+				"js-animate-contents"
+			],
+			[
+				"js-animate",
+				"js-animate-contents"
+			],
+			[
+				"js-ani",
+				"js-animate-contents"
+			],
+			[
+				"toggle",
+				"toggleHeaderOverlay"
+			],
+			[
+				"review__sect",
+				"review__section--narrow"
+			],
+			[
+				"review__section",
+				"review__section--narrow\t(_review.scss)"
+			],
+			[
+				"slider__slide-image",
+				"slider__slide-image--lg\t(_slider.scss)"
+			],
+			[
+				"verti",
+				"vertical-gutters-mobile\t(_grid.scss)"
+			],
+			[
+				"list-reasons",
+				"list-reasons--alt-xs\t(_lists.scss)"
+			],
+			[
+				"brekapoint",
+				"breakpoint-xlarge-desktop"
+			],
+			[
+				"section--descript",
+				"section--descriptive-secondary\t(_section.scss)"
+			],
+			[
+				"inside",
+				"insideNumber"
+			],
+			[
+				"intro",
+				"introAnimation"
+			],
+			[
+				"animt",
+				"animatedClass"
+			],
+			[
+				"gogle",
+				"googleMap"
+			],
+			[
+				"activeC",
+				"activeClass"
+			],
+			[
+				"activ",
+				"activeClass"
+			],
+			[
+				"active",
+				"active"
+			],
+			[
+				"switch",
+				"switchPaging"
+			],
+			[
+				"presenti",
+				"presentationController"
+			],
+			[
+				"section__benef",
+				"section__benefits-bottom\t(home.html)"
+			],
+			[
+				"transition",
+				"transition-delay\tproperty"
+			],
+			[
+				"ace",
+				"space-between"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"grid-template",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"border-botlerad",
+				"border-bottom-leftradius"
+			],
+			[
+				"elemnt",
+				"elementTop"
+			],
+			[
+				"header__search",
+				"header__search-background\t(header.shtml)"
+			],
+			[
+				"sc",
+				"scm\t/* ------------------------------------------------------------ *\\\\\n\t${0}\n\\\\* ------------------------------------------------------------ */\n\n${0}"
+			],
+			[
+				"newParent",
+				"newParentClass"
+			],
+			[
+				"section--gal",
+				"section--gallery-testimonial"
+			],
+			[
+				"section--spacing-x",
+				"section--spacing-xxxl"
+			],
+			[
+				"card-secondar",
+				"card-secondary--simple"
+			],
+			[
+				"vertica",
+				"vertical-gutters-md-tablet"
+			],
+			[
+				"just",
+				"justify-content-center\t(kids.html)"
+			],
+			[
+				"article--sm",
+				"article--summary"
+			],
+			[
+				"ginput_",
+				"ginput_container_checkbox"
+			],
+			[
+				"gform_b",
+				"gform_button"
+			],
+			[
+				"justif",
+				"justify-content-center\t(kids.html)"
+			],
+			[
+				"row",
+				"row.vertical-gutters-sm-mobile\t(_grid.scss)"
+			],
+			[
+				"sa",
+				"section__actions"
+			],
+			[
+				"translatE",
+				"translateValue"
+			],
+			[
+				"ani",
+				"animate"
+			],
+			[
+				"animate",
+				"animate-contents"
+			],
+			[
+				"slickList",
+				"slickListHeight"
+			],
+			[
+				"section--secondar",
+				"section--secondary-callout"
+			],
+			[
+				"section--spacing",
+				"section--spacing-xl"
+			],
+			[
+				"visible-x",
+				"visible-xs-block"
+			],
+			[
+				"visible-xs-",
+				"visible-xs-inline-block"
+			],
+			[
+				"magnifp",
+				"magnificPopupTriggers"
+			],
+			[
+				"magnif",
+				"magnificPopupTriggers"
+			],
+			[
+				"label-price",
+				"label-price--lg"
+			],
+			[
+				"netx",
+				"nextArrow"
+			],
+			[
+				"widget",
+				"collapsibleWidgets"
+			],
+			[
+				"border-bottom-left",
+				"border-bottom-left-radius\tproperty"
+			],
+			[
+				"fot",
+				"footer__title--margin-lg"
+			],
+			[
+				"la",
+				"l-a\tleft: auto; "
+			],
+			[
+				"text-id",
+				"text-indent\tproperty"
+			],
+			[
+				"slidesToS",
+				"slidesToScroll"
+			],
+			[
+				"transt",
+				"transition\tproperty"
+			],
+			[
+				"acti",
+				"activeClass"
+			],
+			[
+				"container--",
+				"container--no-spacing-xs"
+			],
+			[
+				"new",
+				"newPosition"
+			],
+			[
+				"hambur",
+				"hamburgerControls"
+			],
+			[
+				"pageove",
+				"pageOverlay"
+			],
+			[
+				"pageOv",
+				"pageOverlayActive"
+			],
+			[
+				"pageo",
+				"pageOverlayActive"
+			],
+			[
+				"has",
+				"has-visible-element"
+			],
+			[
+				"slider__controls",
+				"slider__controls--dark"
+			],
+			[
+				"actcl",
+				"widgetActiveClass"
+			],
+			[
+				"head",
+				"headerHeight"
+			],
+			[
+				"js",
+				"js-shipping"
+			],
+			[
+				"breaka",
+				"break-all"
+			],
+			[
+				"click",
+				"clickedWidget"
+			],
+			[
+				"persp",
+				"perspective()"
+			],
+			[
+				"transf",
+				"transform-origin\tproperty"
+			],
+			[
+				"lsn",
+				"lis-n\tlist-style: none; "
+			],
+			[
+				"flex",
+				"flex-shrink\tproperty"
+			],
+			[
+				"list-style",
+				"list-style-position\tproperty"
+			],
+			[
+				"headerne",
+				"headerMenu"
+			],
+			[
+				"btn--tilt",
+				"btn--tilt-left"
+			],
+			[
+				"eif",
+				"eifel-tower-2.png\tw:448 h:792"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"s",
+				"startIsotope.js"
+			],
+			[
+				"a",
+				"assets/"
+			],
+			[
+				"footer",
+				"footer-logo"
+			],
+			[
+				"par",
+				"partner3.png\tw:129 h:21"
+			],
+			[
+				"ste",
+				"step2.jpg\tw:1171 h:679"
+			],
+			[
+				"fea",
+				"feature-arrow2.png\tw:308 h:130"
+			],
+			[
+				"feat",
+				"feature3.png\tw:186 h:255"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/assets/css/_module.list.css",
+			"settings":
+			{
+				"buffer_size": 1079,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/home.html",
+			"settings":
+			{
+				"buffer_size": 4090,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/css/_module.service.css",
+			"settings":
+			{
+				"buffer_size": 1729,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/partials/footer-smaller.html",
+			"settings":
+			{
+				"buffer_size": 670,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/css/_settings.css",
+			"settings":
+			{
+				"buffer_size": 837,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/css/_generic.base.css",
+			"settings":
+			{
+				"buffer_size": 1950,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reidne",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reidn",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wwtog",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wwto",
+				"Word Wrap: Toggle"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"wwtogl",
+				"Word Wrap: Toggle"
+			],
+			[
+				"titlec",
+				"Convert Case: Title Case"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"wwot",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wwt",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wordrw",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wwo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wwtg",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wwth",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wordwrta",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wordw",
+				"Word Wrap: Toggle"
+			],
+			[
+				"htmlbeau",
+				"HTMLBeautify"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"addrep",
+				"Package Control: Add Repository"
+			],
+			[
+				"jspret",
+				"JsPrettier: Format Code"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"enc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"setsyscs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"riend",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"titleca",
+				"Convert Case: Title Case"
+			],
+			[
+				"math",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"removepack",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"encoe",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"hmtl",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 592.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/server/projects/umaproject/uma",
+		"/D/server/projects/umaproject/uma/src",
+		"/D/server/projects/umaproject/uma/src/assets",
+		"/D/server/projects/umaproject/uma/src/assets/css"
+	],
+	"file_history":
+	[
+		"/D/server/projects/umaproject/uma/src/assets/css/_region.footer.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.subscribe.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.nav.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.service.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.logo.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_generic.base.css",
+		"/D/server/projects/umaproject/uma/src/partials/footer.html",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.btn.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_region.wrapper.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.section.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.profile.css",
+		"/D/server/projects/umaproject/uma/src/team.html",
+		"/D/server/projects/umaproject/uma/src/assets/css/_generic.helpers.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.intro.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_module.list.css",
+		"/D/server/projects/umaproject/uma/src/home.html",
+		"/D/server/projects/umaproject/uma/src/partials/footer-smaller.html",
+		"/D/server/projects/umaproject/uma/src/assets/js/main.js",
+		"/D/server/projects/umaproject/uma/src/assets/css/_region.container.css",
+		"/D/server/projects/umaproject/uma/src/partials/header.html",
+		"/D/server/projects/umaproject/uma/src/assets/css/_region.header.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_region.shell.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_load.css",
+		"/D/server/projects/umaproject/uma/src/assets/css/_theme.bootstrap.css",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_accordion.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_theme.woocomerce.scss",
+		"/D/server/projects/blvr_com/aline/wp-admin/css/nav-menus.css",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_cart.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/lib/woocommerce-functions.php",
+		"/D/server/projects/blvr_com/aline/wp-content/plugins/woocommerce/assets/css/woocommerce.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_woocommerce.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/plugins/woocommerce/woocommerce.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/woocommerce/checkout/form-checkout.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_mixins.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_btn.scss",
+		"/D/server/projects/blvr_com/aline/wp-admin/css/colors/_mixins.scss",
+		"/D/server/projects/blvr_com/aline/wp-includes/theme.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_form-elements.scss",
+		"/D/server/projects/blvr_com/aline/wp-admin/css/forms.css",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_form.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.tooltip.css",
+		"/D/server/projects/numan_akhtar/versus-law/vendor/jQuery-Mask-Plugin/jquery.mask.min.js",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.form-elements.css",
+		"/D/server/projects/numan_akhtar/versus-law/src/app.js",
+		"/D/server/projects/numan_akhtar/versus-law/fees.html",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_product.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/docs/4.0/examples/product/product.css",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/fragments/profiles-cart-content.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_section.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_nav.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/assets/scss/_examples.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/assets/scss/_component-examples.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_tip.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_popup.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/woocommerce/single-product/add-to-cart/variable-subscription.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/woocommerce/single-product/add-to-cart/variable.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/scripts/main.js",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/fragments/regular-cart-content.php",
+		"/D/server/projects/blvr_com/aline/wp-content/.dumps/2018-11-26--12-27-38--58aef827ff3c.sql",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/manifest.json",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/woocommerce/cart/cart.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/index.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_link.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_variables.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/scss/_variables.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/woocommerce/cart/cart-totals.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_keyframes.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/main.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/tooltipster.main.min.css",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/_includes/header.html",
+		"/C/Users/User01/Downloads/tooltipster-4.2.6/tooltipster-4.2.6/dist/css/tooltipster.main.css",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_theme.tooltipster.css",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_helpers.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_article.scss",
+		"/D/server/projects/numan_akhtar/versus-law/gulpfile.js",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/vendor/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_slider.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_notice.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/templates/head.php",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_container.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/_layouts/home.html",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/_data/nav.yml",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/vendor/bootstrap-4.0.0/_includes/scripts.html",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_card.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_loader.scss",
+		"/D/server/projects/numan_akhtar/versus-law/sub-page.html",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.fixed.css",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.intro.css",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.section.css",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.form.css",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.nav.css",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_generic.helpers.css",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.tabs.css",
+		"/C/Users/User01/Downloads/Inputmask-4.0.3/Inputmask-4.0.3/dist/inputmask/jquery.inputmask.js",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_typography.scss",
+		"/D/server/projects/blvr_com/aline/wp-content/themes/aline/assets/styles/_subscribe.scss",
+		"/D/server/projects/blvr_com/aline/themes/aline/assets/scripts/main.js",
+		"/D/server/projects/blvr_com/aline/themes/aline/assets/styles/_subscribe.scss",
+		"/D/server/projects/blvr_com/aline/themes/aline/assets/styles/_mixins.scss",
+		"/D/server/projects/blvr_com/aline/themes/aline/assets/styles/_typography.scss",
+		"/D/server/projects/blvr_com/aline/themes/aline/assets/manifest.json",
+		"/D/server/projects/blvr_com/aline/themes/aline/package-lock.json",
+		"/D/server/projects/blvr_com/aline/themes/aline/template-custom.php",
+		"/D/server/projects/numan_akhtar/versus-law/partials/head.shtml",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.slider.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/home.html",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.testimonial.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_load.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.section.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.article.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.btn.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.list.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.card.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_region.container.css",
+		"/D/server/projects/k2dsquared/opus-peace-home-page/src/assets/css/_module.temp-css.css",
+		"/D/server/projects/numan_akhtar/versus-law/home.html",
+		"/D/server/projects/numan_akhtar/versus-law/postcss/_module.accordion.css",
+		"/D/server/projects/tgsi/cortijo-romero/src/quick-check-list.html",
+		"/D/server/projects/tgsi/cortijo-romero/src/planning.html",
+		"/D/server/projects/tgsi/cortijo-romero/src/payment.html",
+		"/D/server/projects/tgsi/cortijo-romero/src/general-template.html",
+		"/D/server/projects/tgsi/cortijo-romero/src/assets/css/_module.slider.css",
+		"/D/server/projects/tgsi/cortijo-romero/src/assets/css/_generic.helpers.css",
+		"/D/server/projects/tgsi/cortijo-romero/src/gateway.html",
+		"/D/server/projects/tgsi/cortijo-romero/src/experience.html",
+		"/D/server/projects/tgsi/cortijo-romero/src/course-leader.html",
+		"/D/server/projects/tgsi/cortijo-romero/src/course-detail.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"service__link\">",
+			"service",
+			"43",
+			"110px",
+			"33.3333%;",
+			"33",
+			"45px",
+			"css/images/temp",
+			"</d",
+			"<",
+			"=\"col-lg4",
+			"45px",
+			"{ ",
+			"md-6",
+			"service",
+			"mail",
+			"h4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/assets/css/_module.list.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								766,
+								766
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2770,
+								2770
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/assets/css/_module.service.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1729,
+						"regions":
+						{
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										246,
+										250
+									],
+									[
+										318,
+										322
+									],
+									[
+										506,
+										510
+									],
+									[
+										662,
+										666
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										144,
+										144
+									],
+									[
+										454,
+										454
+									],
+									[
+										619,
+										619
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								1160,
+								1160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/partials/footer-smaller.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "src/assets/css/_settings.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 837,
+						"regions":
+						{
+							"col_493F4CFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										828,
+										835
+									]
+								],
+								"scope": "col_493F4CFF"
+							},
+							"col_493F4CFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_493F4CFF_circle.png",
+								"regions":
+								[
+									[
+										815,
+										815
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF4A4AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										806,
+										813
+									]
+								],
+								"scope": "col_FF4A4AFF"
+							},
+							"col_FF4A4AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF4A4AFF_circle.png",
+								"regions":
+								[
+									[
+										796,
+										796
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								837,
+								837
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/assets/css/_generic.base.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1950,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										289,
+										293
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										141,
+										141
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										178,
+										182
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										141,
+										141
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5359375,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "uma-html.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"footerht",
+				"src\\partials\\footer-smaller.html"
+			],
+			[
+				"servi",
+				"src\\assets\\css\\_module.service.css"
+			],
+			[
+				"service",
+				"src\\assets\\css\\_module.service.css"
+			],
+			[
+				"home",
+				"src\\home.html"
+			],
+			[
+				"footer",
+				"src\\assets\\css\\_region.footer.css"
+			],
+			[
+				"footercs",
+				"src\\assets\\css\\_region.footer.css"
+			],
+			[
+				"footerh",
+				"src\\partials\\footer.html"
+			],
+			[
+				"base",
+				"src\\assets\\css\\_generic.base.css"
+			],
+			[
+				"logo",
+				"src\\assets\\css\\_module.logo.css"
+			],
+			[
+				"nav",
+				"src\\assets\\css\\_module.nav.css"
+			],
+			[
+				"subs",
+				"src\\assets\\css\\_module.subscribe.css"
+			],
+			[
+				"btn",
+				"src\\assets\\css\\_module.btn.css"
+			],
+			[
+				"serv",
+				"src\\assets\\css\\_module.service.css"
+			],
+			[
+				"sectio",
+				"src\\assets\\css\\_module.section.css"
+			],
+			[
+				"list",
+				"src\\assets\\css\\_module.list.css"
+			],
+			[
+				"sect",
+				"src\\assets\\css\\_module.section.css"
+			],
+			[
+				"teamht",
+				"src\\team.html"
+			],
+			[
+				"prof",
+				"src\\assets\\css\\_module.profile.css"
+			],
+			[
+				"helper",
+				"src\\assets\\css\\_generic.helpers.css"
+			],
+			[
+				"profile",
+				"src\\assets\\css\\_module.profile.css"
+			],
+			[
+				"section",
+				"src\\assets\\css\\_module.section.css"
+			],
+			[
+				"intro",
+				"src\\assets\\css\\_module.intro.css"
+			],
+			[
+				"wrapp",
+				"src\\assets\\css\\_region.wrapper.css"
+			],
+			[
+				"teamh",
+				"src\\team.html"
+			],
+			[
+				"team",
+				"src\\team.html"
+			],
+			[
+				"introcs",
+				"src\\assets\\css\\_module.intro.css"
+			],
+			[
+				"listcs",
+				"src\\assets\\css\\_module.list.css"
+			],
+			[
+				"helpercs",
+				"src\\assets\\css\\_generic.helpers.css"
+			],
+			[
+				"subscr",
+				"src\\assets\\css\\_module.subscribe.css"
+			],
+			[
+				"headercs",
+				"src\\assets\\css\\_region.header.css"
+			],
+			[
+				"mainj",
+				"src\\assets\\js\\main.js"
+			],
+			[
+				"contain",
+				"src\\assets\\css\\_region.container.css"
+			],
+			[
+				"header",
+				"src\\partials\\header.html"
+			],
+			[
+				"headerht",
+				"src\\partials\\header.html"
+			],
+			[
+				"btnc",
+				"src\\assets\\css\\_module.btn.css"
+			],
+			[
+				"conta",
+				"src\\assets\\css\\_region.container.css"
+			],
+			[
+				"shell",
+				"src\\assets\\css\\_region.shell.css"
+			],
+			[
+				"footerhtm",
+				"src\\partials\\footer.html"
+			],
+			[
+				"subscri",
+				"src\\assets\\css\\_module.subscribe.css"
+			],
+			[
+				"sec",
+				"src\\assets\\css\\_module.section.css"
+			],
+			[
+				"load",
+				"src\\assets\\css\\_load.css"
+			],
+			[
+				"theme",
+				"src\\assets\\css\\_theme.bootstrap.css"
+			],
+			[
+				"logosc",
+				"src\\assets\\css\\_module.logo.css"
+			],
+			[
+				"setcs",
+				"src\\assets\\css\\_settings.css"
+			],
+			[
+				"headerhtml",
+				"src\\partials\\header.html"
+			],
+			[
+				"navcs",
+				"wp-admin\\css\\nav-menus.css"
+			],
+			[
+				"themewoocome",
+				"wp-content\\themes\\aline\\assets\\styles\\_theme.woocomerce.scss"
+			],
+			[
+				"themewoocom",
+				"wp-content\\themes\\aline\\assets\\styles\\_theme.woocomerce.scss"
+			],
+			[
+				"themewoocomm",
+				"wp-content\\themes\\aline\\lib\\woocommerce-functions.php"
+			],
+			[
+				"_woocomme",
+				"wp-content\\themes\\aline\\assets\\styles\\_woocommerce.scss"
+			],
+			[
+				"woocommercescss",
+				"wp-content\\plugins\\woocommerce\\assets\\css\\woocommerce.scss"
+			],
+			[
+				"accordionscss",
+				"wp-content\\themes\\aline\\assets\\styles\\_accordion.scss"
+			],
+			[
+				"accordion",
+				"wp-content\\themes\\aline\\assets\\styles\\_accordion.scss"
+			],
+			[
+				"woocommmerce",
+				"wp-content\\plugins\\woocommerce\\woocommerce.php"
+			],
+			[
+				"cartscss",
+				"wp-content\\themes\\aline\\assets\\styles\\_cart.scss"
+			],
+			[
+				"formchec",
+				"wp-content\\themes\\aline\\woocommerce\\checkout\\form-checkout.php"
+			],
+			[
+				"formcheckphp",
+				"wp-content\\themes\\aline\\woocommerce\\checkout\\form-checkout.php"
+			],
+			[
+				"accordionscs",
+				"wp-content\\themes\\aline\\assets\\styles\\_accordion.scss"
+			],
+			[
+				"mixinscss",
+				"wp-content\\themes\\aline\\assets\\styles\\_mixins.scss"
+			],
+			[
+				"mixin",
+				"wp-admin\\css\\colors\\_mixins.scss"
+			],
+			[
+				"themwo",
+				"wp-content\\themes\\aline\\assets\\styles\\_theme.woocomerce.scss"
+			],
+			[
+				"formcheck",
+				"wp-content\\themes\\aline\\woocommerce\\checkout\\form-checkout.php"
+			],
+			[
+				"accordionsc",
+				"wp-content\\themes\\aline\\assets\\styles\\_accordion.scss"
+			],
+			[
+				"mixinscs",
+				"wp-content\\themes\\aline\\assets\\styles\\_mixins.scss"
+			],
+			[
+				"woocomer",
+				"wp-content\\themes\\aline\\assets\\styles\\_theme.woocomerce.scss"
+			],
+			[
+				"formscss",
+				"wp-content\\themes\\aline\\assets\\styles\\_form.scss"
+			],
+			[
+				"mixinsc",
+				"wp-admin\\css\\colors\\_mixins.scss"
+			],
+			[
+				"formelcs",
+				"wp-content\\themes\\aline\\assets\\styles\\_form-elements.scss"
+			],
+			[
+				"accordioscss",
+				"wp-content\\themes\\aline\\assets\\styles\\_accordion.scss"
+			],
+			[
+				"formcheckout",
+				"wp-content\\themes\\aline\\woocommerce\\checkout\\form-checkout.php"
+			],
+			[
+				"themewo",
+				"wp-content\\themes\\aline\\assets\\styles\\_theme.woocomerce.scss"
+			],
+			[
+				"btncs",
+				"wp-content\\themes\\aline\\assets\\styles\\_btn.scss"
+			],
+			[
+				"variablscss",
+				"wp-content\\themes\\aline\\assets\\styles\\_variables.scss"
+			],
+			[
+				"app",
+				"src\\app.js"
+			],
+			[
+				"tooltipscs",
+				"postcss\\_module.tooltip.css"
+			],
+			[
+				"feesh",
+				"fees.html"
+			],
+			[
+				"tooltip",
+				"postcss\\_module.tooltip.css"
+			],
+			[
+				"appjs",
+				"src\\app.js"
+			],
+			[
+				"mainjs",
+				"vendor\\jQuery-Mask-Plugin\\jquery.mask.min.js"
+			],
+			[
+				"cartcs",
+				"aline\\assets\\styles\\_cart.scss"
+			],
+			[
+				"productscss",
+				"aline\\assets\\styles\\_product.scss"
+			],
+			[
+				"product",
+				"aline\\assets\\vendor\\bootstrap-4.0.0\\docs\\4.0\\examples\\product\\product.css"
+			],
+			[
+				"variablescss",
+				"aline\\assets\\styles\\_variables.scss"
+			],
+			[
+				"basescs",
+				"aline\\assets\\vendor\\bootstrap-4.0.0\\assets\\scss\\_examples.scss"
+			],
+			[
+				"basecscs",
+				"aline\\assets\\vendor\\bootstrap-4.0.0\\assets\\scss\\_component-examples.scss"
+			],
+			[
+				"settingsscss",
+				"aline\\assets\\styles\\_settings.scss"
+			],
+			[
+				"productcs",
+				"aline\\assets\\styles\\_product.scss"
+			],
+			[
+				"tipcs",
+				"aline\\assets\\styles\\_tip.scss"
+			],
+			[
+				"variablephp",
+				"aline\\woocommerce\\single-product\\add-to-cart\\variable.php"
+			],
+			[
+				"variable",
+				"aline\\woocommerce\\single-product\\add-to-cart\\variable-subscription.php"
+			],
+			[
+				"tip",
+				"aline\\assets\\styles\\_tip.scss"
+			],
+			[
+				"popup",
+				"aline\\assets\\styles\\_popup.scss"
+			],
+			[
+				"productcss",
+				"aline\\assets\\styles\\_product.scss"
+			],
+			[
+				"cartcontent",
+				"aline\\fragments\\regular-cart-content.php"
+			],
+			[
+				"profilephp",
+				"aline\\fragments\\profiles-cart-content.php"
+			],
+			[
+				"profilesc",
+				"aline\\fragments\\profiles-cart-content.php"
+			],
+			[
+				"cartphp",
+				"aline\\woocommerce\\cart\\cart.php"
+			],
+			[
+				"manif",
+				"aline\\assets\\manifest.json"
+			],
+			[
+				"profiles",
+				"aline\\fragments\\profiles-cart-content.php"
+			],
+			[
+				"cartp",
+				"aline\\woocommerce\\cart\\cart.php"
+			],
+			[
+				"manifset",
+				"aline\\assets\\manifest.json"
+			],
+			[
+				"link",
+				"aline\\assets\\styles\\_link.scss"
+			],
+			[
+				"cartconten",
+				"aline\\fragments\\regular-cart-content.php"
+			],
+			[
+				"profilescar",
+				"aline\\fragments\\profiles-cart-content.php"
+			],
+			[
+				"assvaria",
+				"aline\\assets\\styles\\_variables.scss"
+			],
+			[
+				"variables",
+				"aline\\assets\\vendor\\bootstrap-4.0.0\\scss\\_variables.scss"
+			],
+			[
+				"regcartco",
+				"aline\\fragments\\regular-cart-content.php"
+			],
+			[
+				"cartota",
+				"aline\\woocommerce\\cart\\cart-totals.php"
+			],
+			[
+				"regularca",
+				"aline\\fragments\\regular-cart-content.php"
+			],
+			[
+				"cartc",
+				"aline\\assets\\styles\\_cart.scss"
+			],
+			[
+				"woocom",
+				"aline\\assets\\styles\\_theme.woocomerce.scss"
+			],
+			[
+				"woocomme",
+				"aline\\lib\\woocommerce-functions.php"
+			],
+			[
+				"cart",
+				"aline\\assets\\styles\\_cart.scss"
+			],
+			[
+				"woocomerce",
+				"aline\\assets\\styles\\_theme.woocomerce.scss"
+			],
+			[
+				"keyfr",
+				"aline\\assets\\styles\\_keyframes.scss"
+			],
+			[
+				"tipscss",
+				"aline\\assets\\styles\\_tip.scss"
+			],
+			[
+				"variab",
+				"aline\\woocommerce\\single-product\\add-to-cart\\variable-subscription.php"
+			],
+			[
+				"variableph",
+				"aline\\woocommerce\\single-product\\add-to-cart\\variable.php"
+			],
+			[
+				"tipscs",
+				"aline\\assets\\styles\\_tip.scss"
+			],
+			[
+				"style",
+				"aline\\assets\\styles\\main.scss"
+			],
+			[
+				"variabh",
+				"aline\\woocommerce\\single-product\\add-to-cart\\variable.php"
+			],
+			[
+				"stylecs",
+				"aline\\assets\\styles\\main.scss"
+			],
+			[
+				"headht",
+				"aline\\assets\\vendor\\bootstrap-4.0.0\\_includes\\header.html"
+			],
+			[
+				"varia",
+				"aline\\woocommerce\\single-product\\add-to-cart\\variable.php"
+			],
+			[
+				"manijs",
+				"aline\\assets\\scripts\\main.js"
+			],
+			[
+				"variablesubs",
+				"aline\\woocommerce\\single-product\\add-to-cart\\variable-subscription.php"
+			],
+			[
+				"sectioncs",
+				"aline\\assets\\styles\\_section.scss"
+			],
+			[
+				"mixi",
+				"aline\\assets\\styles\\_mixins.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "deicke",
+		"selected_items":
+		[
+			[
+				"deicke",
+				"D:\\Sublime Projects\\deicke-richards-html.sublime-project"
+			],
+			[
+				"izneo",
+				"D:\\Sublime Projects\\izneo-evolutions-html.sublime-project"
+			],
+			[
+				"mar-hall",
+				"D:\\Sublime Projects\\mar-hall-html.sublime-project"
+			],
+			[
+				"marha",
+				"D:\\Sublime Projects\\mar-hall-html.sublime-project"
+			],
+			[
+				"all4",
+				"D:\\Sublime Projects\\all4pack-2018-ez-site-html.sublime-project"
+			],
+			[
+				"kite",
+				"D:\\Sublime Projects\\kitchen.sublime-project"
+			],
+			[
+				"tasks",
+				"D:\\Sublime Projects\\tasks-notifier.sublime-project"
+			],
+			[
+				"burger",
+				"D:\\Sublime Projects\\htmlburger.sublime-project"
+			],
+			[
+				"html",
+				"D:\\Sublime Projects\\htmlburger.sublime-project"
+			],
+			[
+				"job",
+				"D:\\Sublime Projects\\job-forms.sublime-project"
+			],
+			[
+				"solar",
+				"D:\\Sublime Projects\\solar-panel-comparison-table-html.sublime-project"
+			],
+			[
+				"abeka",
+				"D:\\Sublime Projects\\abeka-html.sublime-project"
+			],
+			[
+				"streamre",
+				"D:\\Sublime Projects\\streamers-html.sublime-project"
+			],
+			[
+				"rw",
+				"D:\\Sublime Projects\\rw-new-recruitment-html.sublime-project"
+			],
+			[
+				"levy",
+				"D:\\Sublime Projects\\levy-creative-management-wordpress.sublime-project"
+			],
+			[
+				"fellow",
+				"D:\\Sublime Projects\\fellow-html.sublime-project"
+			],
+			[
+				"harvard",
+				"D:\\Sublime Projects\\harvard-html.sublime-project"
+			],
+			[
+				"validator",
+				"D:\\Sublime Projects\\validator.sublime-project"
+			],
+			[
+				"task",
+				"D:\\Sublime Projects\\tasks-notifier.sublime-project"
+			],
+			[
+				"casions",
+				"D:\\Sublime Projects\\casinos-of-winnipeg-html.sublime-project"
+			],
+			[
+				"r",
+				"D:\\Sublime Projects\\rw-new-recruitment-html.sublime-project"
+			],
+			[
+				"fx",
+				"D:\\Sublime Projects\\fx-ground-wp-wordpress.sublime-project"
+			],
+			[
+				"ayhan",
+				"D:\\Sublime Projects\\self-improvement-ayhan-html.sublime-project"
+			],
+			[
+				"cas",
+				"D:\\Sublime Projects\\casinos-of-winnipeg-html.sublime-project"
+			],
+			[
+				"casino",
+				"D:\\Sublime Projects\\casinos-of-winnipeg-html.sublime-project"
+			],
+			[
+				"corte",
+				"D:\\Sublime Projects\\cortex-html.sublime-project"
+			],
+			[
+				"cortex",
+				"D:\\Sublime Projects\\cortex-html.sublime-project"
+			],
+			[
+				"fell",
+				"D:\\Sublime Projects\\fellow-html.sublime-project"
+			],
+			[
+				"solu",
+				"D:\\Sublime Projects\\solufonds-html.sublime-project"
+			],
+			[
+				"soluf",
+				"D:\\Sublime Projects\\solufonds-html.sublime-project"
+			],
+			[
+				"street",
+				"D:\\Sublime Projects\\streety-html.sublime-project"
+			],
+			[
+				"stret",
+				"D:\\Sublime Projects\\streety-html.sublime-project"
+			],
+			[
+				"codeo",
+				"D:\\Sublime Projects\\codeo-landing-page-html.sublime-project"
+			],
+			[
+				"auto",
+				"D:\\Sublime Projects\\auto-co-il-html.sublime-project"
+			],
+			[
+				"sporte",
+				"D:\\Sublime Projects\\sporteng-html.sublime-project"
+			],
+			[
+				"the-valle",
+				"D:\\Sublime Projects\\the-valley-of-tomorrow-html.sublime-project"
+			],
+			[
+				"the-lecla",
+				"D:\\Sublime Projects\\the-leclaire-group-wordpress.sublime-project"
+			],
+			[
+				"sprot",
+				"D:\\Sublime Projects\\sporteng-html.sublime-project"
+			],
+			[
+				"sport",
+				"D:\\Sublime Projects\\sporteng-html.sublime-project"
+			],
+			[
+				"zioo",
+				"D:\\Sublime Projects\\zoominkb-html.sublime-project"
+			],
+			[
+				"the-lec",
+				"D:\\Sublime Projects\\the-leclaire-group-wordpress.sublime-project"
+			],
+			[
+				"kitch",
+				"D:\\Sublime Projects\\kitchen-app-html.sublime-project"
+			],
+			[
+				"volta",
+				"D:\\Sublime Projects\\volta-html.sublime-project"
+			],
+			[
+				"ntu",
+				"D:\\Sublime Projects\\ntu-html.sublime-project"
+			],
+			[
+				"alber",
+				"D:\\Sublime Projects\\albert-einstein-store-html.sublime-project"
+			],
+			[
+				"stream",
+				"D:\\Sublime Projects\\streamers-html.sublime-project"
+			],
+			[
+				"xs-spc",
+				"D:\\Sublime Projects\\xs-html.sublime-project"
+			],
+			[
+				"vish",
+				"D:\\Sublime Projects\\vish-online-portfolio-html.sublime-project"
+			],
+			[
+				"mambo",
+				"D:\\Sublime Projects\\mambourin-html.sublime-project"
+			],
+			[
+				"the",
+				"D:\\Sublime Projects\\the-leclaire-group-sass-html.sublime-project"
+			],
+			[
+				"moxie",
+				"D:\\Sublime Projects\\moxie-html.sublime-project"
+			],
+			[
+				"ave",
+				"D:\\Sublime Projects\\avengers-dan-hitzhusen-html.sublime-project"
+			],
+			[
+				"coen",
+				"D:\\Sublime Projects\\cornell-college.sublime-project"
+			],
+			[
+				"mint",
+				"D:\\Sublime Projects\\mint-print-html.sublime-project"
+			],
+			[
+				"thel",
+				"D:\\Sublime Projects\\the-leclaire-group-html.sublime-workspace"
+			],
+			[
+				"visual",
+				"D:\\Sublime Projects\\visualsbyimpulse-wordpress.sublime-project"
+			],
+			[
+				"aven",
+				"D:\\Sublime Projects\\avengers-js-vasil-html.sublime-project"
+			],
+			[
+				"opan",
+				"D:\\Sublime Projects\\opan-home-landing-page-html.sublime-project"
+			],
+			[
+				"inten",
+				"D:\\Sublime Projects\\intentiq-html.sublime-project"
+			],
+			[
+				"hayf",
+				"D:\\Sublime Projects\\hayfield-touchscreen-html.sublime-project"
+			],
+			[
+				"corn",
+				"D:\\Sublime Projects\\cornell-college.sublime-project"
+			],
+			[
+				"tri",
+				"D:\\Sublime Projects\\tru-2017-html.sublime-project"
+			],
+			[
+				"dan",
+				"D:\\Sublime Projects\\dan-hitzhusen-html.sublime-project"
+			],
+			[
+				"mars",
+				"D:\\Sublime Projects\\mars-intranet.sublime-project"
+			],
+			[
+				"corne",
+				"D:\\Sublime Projects\\cornell-college.sublime-project"
+			],
+			[
+				"scie",
+				"D:\\Sublime Projects\\science-trust-html.sublime-project"
+			],
+			[
+				"moxi",
+				"D:\\Sublime Projects\\moxie-html.sublime-project"
+			],
+			[
+				"ite",
+				"D:\\Sublime Projects\\intentiq-html.sublime-project"
+			],
+			[
+				"casion",
+				"D:\\Sublime Projects\\casion-org-ro-html.sublime-project"
+			],
+			[
+				"js-val",
+				"D:\\Sublime Projects\\avengers-js-vasil-html.sublime-project"
+			],
+			[
+				"nor",
+				"D:\\Sublime Projects\\northeast-texas-community-college-html.sublime-project"
+			],
+			[
+				"north",
+				"D:\\Sublime Projects\\northeast-texas-community-college-html.sublime-project"
+			],
+			[
+				"ener",
+				"D:\\Sublime Projects\\energizer-html.sublime-project"
+			],
+			[
+				"sc",
+				"D:\\Sublime Projects\\science-website-html.sublime-project"
+			],
+			[
+				"harv",
+				"D:\\Sublime Projects\\harvard-html.sublime-workspace"
+			],
+			[
+				"harva",
+				"D:\\Sublime Projects\\harvard-html.sublime-workspace"
+			],
+			[
+				"har",
+				"D:\\Sublime Projects\\harvard-html.sublime-workspace"
+			],
+			[
+				"mihs",
+				"D:\\Sublime Projects\\mihs-care-reimagined-web-page-html.sublime-project"
+			],
+			[
+				"signa",
+				"D:\\Sublime Projects\\signature-broadbeach-html.sublime-project"
+			],
+			[
+				"cotton",
+				"D:\\Sublime Projects\\cotton-on-group-html.sublime-project"
+			],
+			[
+				"sign",
+				"D:\\Sublime Projects\\signature-broadbeach-html.sublime-project"
+			],
+			[
+				"uip",
+				"D:\\Sublime Projects\\uipp-extranet-html.sublime-project"
+			],
+			[
+				"cabe",
+				"D:\\Sublime Projects\\cabe-html.sublime-project"
+			],
+			[
+				"congo",
+				"D:\\Sublime Projects\\the-congo-basin-forest-html.sublime-project"
+			],
+			[
+				"cong",
+				"D:\\Sublime Projects\\the-congo-basin-forest-html.sublime-project"
+			],
+			[
+				"cornl",
+				"D:\\Sublime Projects\\cornell-college-html.sublime-project"
+			],
+			[
+				"clas",
+				"D:\\Sublime Projects\\classroom-cuisine-html.sublime-project"
+			],
+			[
+				"buddy",
+				"D:\\Sublime Projects\\buddy-and-soul-html.sublime-project"
+			],
+			[
+				"bizle",
+				"D:\\Sublime Projects\\bizlend-html.sublime-project"
+			],
+			[
+				"tribeca",
+				"D:\\Sublime Projects\\tribeca-website-html.sublime-project"
+			],
+			[
+				"hol",
+				"D:\\Sublime Projects\\holden-dealership-site-html.sublime-project"
+			],
+			[
+				"sq",
+				"D:\\Sublime Projects\\sq-hybrid-comparison-table-html.sublime-project"
+			],
+			[
+				"holde",
+				"D:\\Sublime Projects\\holden-dealership-site-html.sublime-project"
+			],
+			[
+				"sq-hyb",
+				"D:\\Sublime Projects\\sq-hybrid-comparison-table-html.sublime-project"
+			],
+			[
+				"sports",
+				"D:\\Sublime Projects\\sports-illustrated-html.sublime-project"
+			],
+			[
+				"tim",
+				"D:\\Sublime Projects\\tim-html.sublime-project"
+			],
+			[
+				"spor",
+				"D:\\Sublime Projects\\sports-illustrated-html.sublime-project"
+			],
+			[
+				"inte",
+				"D:\\Sublime Projects\\integration-ea-html.sublime-project"
+			],
+			[
+				"integ",
+				"D:\\Sublime Projects\\integration-ea-html.sublime-project"
+			],
+			[
+				"",
+				"D:\\Sublime Projects\\ac-html.sublime-project"
+			],
+			[
+				"lp-wd",
+				"D:\\Sublime Projects\\lp-wd-html.sublime-project"
+			],
+			[
+				"dona",
+				"D:\\Sublime Projects\\donation-form-html.sublime-project"
+			],
+			[
+				"fio",
+				"D:\\Sublime Projects\\fiona-lynch-html.sublime-project"
+			],
+			[
+				"fiona",
+				"D:\\Sublime Projects\\fiona-lynch-html.sublime-project"
+			],
+			[
+				"fyon",
+				"D:\\Sublime Projects\\fiona-lynch-html.sublime-project"
+			],
+			[
+				"fion",
+				"D:\\Sublime Projects\\fiona-lynch-html.sublime-project"
+			],
+			[
+				"holden",
+				"D:\\Sublime Projects\\holden-dealership-site-html.sublime-project"
+			],
+			[
+				"dtv",
+				"D:\\Sublime Projects\\dtv-landing-page-html.sublime-project"
+			],
+			[
+				"flori",
+				"D:\\Sublime Projects\\florentino-html.sublime-project"
+			],
+			[
+				"ac-",
+				"D:\\Sublime Projects\\ac-html.sublime-project"
+			],
+			[
+				"commu",
+				"D:\\Sublime Projects\\community-foundations-of-the-hudson-valley-html.sublime-project"
+			],
+			[
+				"raines",
+				"D:\\Sublime Projects\\raines-fitzroy-roi-html.sublime-project"
+			],
+			[
+				"tender",
+				"D:\\Sublime Projects\\tender-market-html.sublime-project"
+			],
+			[
+				"ac",
+				"D:\\Sublime Projects\\ac-html.sublime-project"
+			],
+			[
+				"etab2",
+				"D:\\Sublime Projects\\etab2-html.sublime-project"
+			],
+			[
+				"etab",
+				"D:\\Sublime Projects\\etab2-html.sublime-project"
+			],
+			[
+				"tony",
+				"D:\\Sublime Projects\\tony-robbins-html.sublime-project"
+			],
+			[
+				"heleum",
+				"D:\\Sublime Projects\\heleum-html.sublime-project"
+			],
+			[
+				"bur",
+				"D:\\Sublime Projects\\business-lenders-website-html.sublime-project"
+			],
+			[
+				"cott",
+				"D:\\Sublime Projects\\cotton-on-group-html.sublime-project"
+			],
+			[
+				"apl",
+				"D:\\Sublime Projects\\apl-html.sublime-project"
+			],
+			[
+				"hel",
+				"D:\\Sublime Projects\\heleum-html.sublime-project"
+			],
+			[
+				"villas",
+				"D:\\Sublime Projects\\villas4me-sass-html.sublime-project"
+			],
+			[
+				"85",
+				"D:\\Sublime Projects\\85-spring-street-html.sublime-project"
+			],
+			[
+				"villas4",
+				"D:\\Sublime Projects\\villas4me-sass-html.sublime-project"
+			],
+			[
+				"step",
+				"D:\\Sublime Projects\\step-in-html.sublime-project"
+			],
+			[
+				"aef",
+				"D:\\Sublime Projects\\aef-mobile-ez-site-html.sublime-project"
+			],
+			[
+				"hele",
+				"D:\\Sublime Projects\\heleum-html.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 411.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

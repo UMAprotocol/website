@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+
+.intro { padding-top: 212px; padding-bottom: 122px; background-color: #F5F5F5; }
+.intro h1 { max-width: 868px; margin-bottom: 56px; line-height: 1; }
+.intro .intro__content > p { max-width: 888px; }
+.intro .intro__content > p:not(:last-child) { margin-bottom: 62px; }
+
+/* Small Desktop */
+
+$breakpoint-small-desktop {
+	.intro { padding-top: 180px; }
+}
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.intro { padding-top: 225px; padding-bottom: 77px; padding-left: 2px; }
+	.intro h1 { margin-bottom: 43px; line-height: 1.17; }
+	.intro .intro__content > p:not(:last-child) { margin-bottom: 42px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.intro { padding-top: 94px; padding-bottom: 77px; }
+	.intro h1 { margin-bottom: 18px; padding-right: 40px; }
+	.intro .intro__content > p:not(:last-child) { margin-bottom: 33px; }
+}
+
+.intro--alt { padding-bottom: 108px; }
+.intro--alt h1 { margin-bottom: 45px; }
+.intro--alt .intro__content > p { max-width: 770px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.intro--alt { padding-bottom: 73px; }
+	.intro--alt h1 { margin-bottom: 42px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.intro--alt { padding-top: 113px; padding-bottom: 58px; }
+	.intro--alt h1 { margin-bottom: 24px; }
+}

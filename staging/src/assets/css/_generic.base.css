@@ -1,0 +1,82 @@
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body { min-width: 320px; background: #fff; font-family: $ff-text; font-size: $font-size-base; line-height: $line-height-base; color: #000; }
+
+/* Mobile */
+
+$breakpoint-mobile {
+	body { font-size: 16px; }
+}
+
+a { position: relative; color: inherit; color: $primary; font-weight: 700; transition: color .3s; text-decoration: none; }
+a:after { position: absolute; top: 100%; left: 0; right: 0; margin-top: -.17em; height: 2px; background-color: currentColor; content: ''; transition: opacity .3s, transform .3s; }
+
+figure > a:after,
+a.link-reset:after { display: none; }
+
+a:hover { color: $primary; }
+a:hover:after { opacity: 0; transform: translateY(10px); }
+
+a:hover,
+a[href^="tel"] { text-decoration: none; }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 { margin-bottom: calc($(line-height-base)em / 2); color: inherit; font-family: $ff-heading; font-weight: 600; }
+
+h1, .h1 { font-size: 80px; line-height: 1; }
+h2, .h2 { font-size: 60px; line-height: 1.17; }
+h3, .h3 { font-size: 50px; line-height: 1.2; }
+h4, .h4 { font-size: 30px; }
+h5, .h5 { font-size: 24px; }
+h6, .h6 { font-size: 20px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	h1, .h1 { font-size: 60px; }
+	h2, .h2 { font-size: 50px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	h1, .h1 { font-size: 28px; font-weight: 600; line-height: 1.14; }
+	h2, .h2 { font-size: 24px; font-weight: 600; line-height: 1.33; }
+	h3, .h3 { font-size: 24px; }
+	h4, .h4 {}
+	h5, .h5 {}
+	h6, .h6 { font-size: 16px; }
+}
+
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+blockquote { margin-bottom: $(line-height-base)em; }
+
+h1[class],
+h2[class],
+h3[class],
+h4[class],
+h5[class],
+h6[class],
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+ul:last-child,
+ol:last-child,
+dl:last-child,
+table:last-child,
+blockquote:last-child { margin-bottom: 0; }

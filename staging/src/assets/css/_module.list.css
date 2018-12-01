@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------ *\
+	List
+\* ------------------------------------------------------------ */
+
+[class^="list-"] { list-style: none outside none; }
+
+.list-supporters { display: flex; justify-content: space-between; align-items: center; }
+.list-supporters li { display: flex; align-items: center; }
+
+.list-supporters + .list-supporters { margin-top: 69px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.list-supporters { flex-wrap: wrap; margin-bottom: -79px !important; }
+	.list-supporters + .list-supporters { margin-top: 79px; }
+
+	.list-supporters li { flex: 0 0 50%; max-width: 50%; padding-bottom: 79px; padding-left: 5px; padding-right: 39px; }
+	.list-supporters li:nth-child(even) img { margin-left: auto; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.list-supporters { margin-bottom: 0 !important; padding-left: 14px; }
+	.list-supporters + .list-supporters { margin-top: 28px; }
+
+	.list-supporters li { flex:  0 0 100%; max-width: 100%; padding-bottom: 0; }
+	.list-supporters li + li { margin-top: 28px; }
+
+	.list-supporters img { margin-left: 0 !important; }
+}

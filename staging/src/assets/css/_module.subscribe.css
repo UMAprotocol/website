@@ -1,0 +1,41 @@
+/* ------------------------------------------------------------ *\
+	Subscribe
+\* ------------------------------------------------------------ */
+
+.subscribe {}
+.subscribe.has-submitted .subscribe__success { display: block; }
+
+.subscribe .h6 { margin-bottom: 22px; font-family: inherit; font-weight: 700; }
+.subscribe .subscribe__field { width: 372px; border: 2px solid #fff; height: 60px; line-height: 60px; padding-right: 10px; padding-left: 19px; background-color: #fff; border-radius: 4px; vertical-align: middle; color: #5F5F5F; transition: border .3s; }
+.subscribe .subscribe__button { margin-left: 18px; }
+.subscribe .subscribe__success { display: none; color: $primary; font-size: 16px; margin-top: 19px; }
+
+.subscribe .subscribe__field:focus { border-color: $primary; }
+
+.subscribe--alt .subscribe__field { color: #CCC; width: 372px; }
+.subscribe--alt .subscribe__button { margin-left: 13px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.subscribe .subscribe__field { width: 494px; }
+
+	.subscribe--alt .h6 { margin-bottom: 31px; }
+	.subscribe--alt .subscribe__button { margin-left: 17px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.subscribe .h6 { margin-bottom: 25px; }
+	.subscribe .subscribe__button { margin-left: 0; margin-top: 19px; }
+
+	.subscribe .subscribe__button,
+	.subscribe .subscribe__field { width: 100%; }
+
+	.subscribe .subscribe__field { height: 40px; line-height: 40px; padding-left: 14px; }
+
+	.subscribe--alt .h6 { margin-bottom: 23px; }
+	.subscribe--alt .subscribe__field { height: 45px; line-height: 45px; }
+	.subscribe--alt .subscribe__button { margin-top: 17px; }
+}
