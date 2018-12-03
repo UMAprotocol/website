@@ -1,0 +1,1 @@
+!function(n,e,o){o(n),o(e);var t=o(".nav"),l=o("body, html");o(".btn-menu").click(function(n){n.preventDefault(),t.toggleClass("is-open"),o(this).toggleClass("is-open"),l.toggleClass("prevent-scrolling")})}(window,document,window.jQuery);
