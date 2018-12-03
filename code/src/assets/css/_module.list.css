@@ -22,11 +22,11 @@ $breakpoint-tablet-portrait {
 /* Mobile */
 
 $breakpoint-mobile {
-	.list-supporters { margin-bottom: 0 !important; padding-left: 14px; }
-	.list-supporters + .list-supporters { margin-top: 28px; }
+	.list-supporters { margin-bottom: 0 !important; padding-left: 1px; }
+	.list-supporters + .list-supporters { margin-top: 30px; }
 
 	.list-supporters li { flex:  0 0 100%; max-width: 100%; padding-bottom: 0; }
-	.list-supporters li + li { margin-top: 28px; }
+	.list-supporters li + li { margin-top: 30px; }
 
 	.list-supporters img { margin-left: 0 !important; }
 }

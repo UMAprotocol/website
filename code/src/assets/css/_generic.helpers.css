@@ -64,8 +64,8 @@ $breakpoint-tablet-portrait {
 /* Mobile */
 
 $breakpoint-mobile {
-	.row.vertical-gutters-large { margin-bottom: -103px; }
-	.row.vertical-gutters-large > [class^="col"] { padding-bottom: 103px; }
+	.row.vertical-gutters-large { margin-bottom: -76px; }
+	.row.vertical-gutters-large > [class^="col"] { padding-bottom: 76px; }
 
 	.row.vertical-gutters-medium { margin-bottom: -41px; }
 	.row.vertical-gutters-medium > [class^="col"] { padding-bottom: 41px; }

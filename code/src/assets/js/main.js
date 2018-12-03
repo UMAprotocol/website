@@ -11,6 +11,13 @@
 		$bodyHtml.toggleClass('prevent-scrolling');
 	});
 
+
+	var length  = location.pathname.split("/").length;
+
+	var index = location.pathname.split("/")[length-1]
+
+	$('.nav a[href^="' + index + '"]').parent().addClass('current');
+
 	// Your code goes here...
 	// jQuery.ready is no longer needed
 })(window, document, window.jQuery);

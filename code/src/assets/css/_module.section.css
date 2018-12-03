@@ -45,12 +45,12 @@ $breakpoint-tablet-portrait {
 $breakpoint-mobile {
 	.section { padding-top: 46px; padding-bottom: 52px;  }
 	.section.large-spacing-xs { padding-bottom: 100px; }
-	.section.medium-spacing { padding-top: 56px; padding-bottom: 108px; }
+	.section.medium-spacing { padding-top: 56px; padding-bottom: 107px; }
 
 	.section .section__head .section__title { margin-bottom: 27px; }
 	.section .section__head p { margin-bottom: 58px; }
 
-	.section .section__title.tablet-large-spacing { margin-bottom: 45px; }
+	.section .section__title.tablet-large-spacing { margin-bottom: 50px; }
 	.section .section__title.tablet-medium-spacing { margin-bottom: 16px; }
 
 	.section .section__subtitle { font-size: 24px; }
@@ -179,11 +179,13 @@ $breakpoint-mobile {
 /* Tablet Portrait */
 
 $breakpoint-tablet-portrait {
+	.section--supporters { padding-bottom: 85px; }
 	.section--supporters .section__title { margin-bottom: 72px; }
 }
 
-/* Tablet Portrait */
+/* Mobile */
 
-$breakpoint-tablet-portrait {
-	.section--supporters { padding-bottom: 85px; }
+$breakpoint-mobile {
+	.section--supporters { padding-bottom: 78px; }
+	.section--supporters .section__title { margin-bottom: 45px; }
 }

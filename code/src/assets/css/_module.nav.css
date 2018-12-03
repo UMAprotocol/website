@@ -7,11 +7,14 @@
 .nav li + li { margin-left: 46px; }
 
 .nav a { position: relative; color: $color-text; text-decoration: none; font-weight: 700; }
-.nav a:after { transform: translateY(10px); opacity: 0; }
-.nav a:hover:after { transform: none; opacity: 1; }
 
-.nav .current a { color: $primary; }
+.nav a:after { transform: translateY(10px); opacity: 0; }
+
+.nav a:hover:after,
 .nav .current a:after { opacity: 1; transform: none; }
+
+.nav a:hover,
+.nav .current a { color: $primary; }
 
 /* Tablet Portrait */
 
