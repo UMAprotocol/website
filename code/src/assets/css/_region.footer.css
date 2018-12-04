@@ -7,7 +7,7 @@
 .footer .footer__outer:before { width: 50%; position: absolute; top: 0; left: 0; bottom: 0; background: linear-gradient(to right, #000, rgba(255,255,255, 0)); content: ''; z-index: -1; }
 
 .footer .footer__outer h2 { margin-bottom: 31px; }
-.footer .footer__outer p { max-width: 695px; margin-bottom: 49px; line-height: 1.6; }
+.footer .footer__entry { max-width: 695px; margin-bottom: 49px; line-height: 1.6; }
 
 .footer .subscribe { padding-left: 5px; }
 
@@ -29,7 +29,7 @@
 $breakpoint-tablet-portrait {
 	.footer .footer__outer { padding-top: 113px; padding-bottom: 118px; }
 	.footer .footer__outer h2 { margin-bottom: 35px; }
-	.footer .footer__outer p { margin-bottom: 49px; max-width: 630px; }
+	.footer .footer__entry { margin-bottom: 49px; max-width: 630px; }
 
 	.footer .logo { margin-right: 0; }
 
@@ -48,7 +48,7 @@ $breakpoint-tablet-portrait {
 $breakpoint-mobile {
 	.footer .footer__outer { padding-top: 35px; padding-bottom: 45px; }
 	.footer .footer__outer h2 { margin-bottom: 19px; font-size: 24px; line-height: 1.33; }
-	.footer .footer__outer p { margin-bottom: 39px; }
+	.footer .footer__entry { margin-bottom: 39px; }
 
 	.footer .footer__inner { display: block; padding-top: 37px; padding-bottom: 52px; padding-left: 14px; }
 
