@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<include src="head.html"></include>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>UMA</title>
+
+	<link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16">
+	<link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#FF4A4A">
+	
+	<!-- Below is from https://realfavicongenerator.net/ -->
+	<!-- <link rel="manifest" href="/site.webmanifest"> -->
+	<!-- <meta name="msapplication-TileColor" content="#da532c"> -->
+	<!-- <meta name="theme-color" content="#ffffff"> -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bundle.css">
+	<link rel="stylesheet" href="https://use.typekit.net/jll8euv.css">
+</head>
+
 <body>
 	<div class="wrapper">
-		<include src="header.html"></include>
+		<!-- Your header goes here -->
+
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<a href="index.html" class="logo link-reset">UMA</a>
+
+			<a href="index.html" class="btn-menu link-reset">
+				<span class="btn__icon">
+					<span></span>
+				</span>
+			</a>
+
+			<nav class="nav">
+				<ul>
+					<li class="d-block d-md-none">
+						<a href="index.html">
+							Home
+						</a>
+					</li>
+
+					<li>
+						<a href="about.html">About</a>
+					</li>
+
+					<li>
+						<a href="https://medium.com/uma-project">Medium</a>
+					</li>
+
+					<li>
+						<a href="https://twitter.com/UMAprotocol">Twitter</a>
+					</li>
+				</ul>
+			</nav><!-- /.nav -->
+		</div><!-- /.header__inner -->
+	</div><!-- /.container -->
+</header><!-- /.header -->
 
 		<section class="intro intro--alt">
 			<div class="container">
@@ -353,9 +407,42 @@
 			</div><!-- /.container -->
 		</section><!-- /.section-/-primary -->
 
-		<include src="footer-smaller.html"></include>
+		<!-- Your footer goes here -->
+
+<footer class="footer">
+	<div class="footer__bar">
+		<div class="container">
+			<div class="footer__inner">
+				<a href="index.html" class="logo link-reset logo--alt footer__logo">UMA</a>
+
+				<nav class="footer__nav">
+					<ul>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+
+						<li>
+							<a href="https://medium.com/uma-project">Medium</a>
+						</li>
+
+						<li>
+							<a href="https://twitter.com/UMAprotocol">Twitter</a>
+						</li>
+					</ul>
+				</nav><!-- /.footer__nav -->
+
+				<p class="footer__copyright">
+					Copyright 2018
+					Risk Labs
+				</p><!-- /.footer__copyright -->
+			</div><!-- /.footer__inner -->
+		</div><!-- /.container -->
+	</div><!-- /.footer__bar -->
+</footer><!-- /.footer -->
 	</div><!-- /.wrapper -->
 
-	<include src="scripts.html"></include>
+	<script src="assets/vendor/jquery-3.1.1.min.js"></script>
+<script src="assets/js/bundle.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,1 @@
+!function(n,t,e){e(n),e(t);var a=e(".nav"),l=e("body, html");e(".btn-menu").click(function(n){n.preventDefault(),a.toggleClass("is-open"),e(this).toggleClass("is-open"),l.toggleClass("prevent-scrolling")});var o=location.pathname.split("/").length,s=location.pathname.split("/")[o-1];e('.nav a[href^="'+s+'"]').parent().addClass("current")}(window,document,window.jQuery);
