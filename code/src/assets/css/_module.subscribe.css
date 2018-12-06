@@ -18,7 +18,7 @@
 
 .subscribe .subscribe__field:focus { border-color: $primary; }
 
-.subscribe--alt .subscribe__field { color: #CCC; width: 372px; }
+.subscribe--alt .subscribe__field { width: 372px; }
 .subscribe--alt .subscribe__button { margin-left: 13px; }
 
 /* Tablet Portrait */
