@@ -12,7 +12,12 @@
 .subscribe.has-submitted .subscribe__message { display: block; }
 
 .subscribe .h6 { display: block; margin-bottom: 22px; font-family: inherit; font-weight: 700; }
-.subscribe .subscribe__field { width: 372px; border: 2px solid #fff; height: 60px; line-height: 60px; padding-right: 10px; padding-left: 19px; background-color: #fff; border-radius: 4px; vertical-align: middle; color: #5F5F5F; transition: border .3s; }
+
+.subscribe .subscribe__field { width: 372px; border: 2px solid #fff; height: 60px; line-height: 60px; padding-right: 10px; padding-left: 19px; background-color: #fff; border-radius: 4px; vertical-align: middle; color: #5F5F5F; transition: border .3s;  }
+
+.subscribe input:-webkit-autofill,
+.subscribe input-webkit-autofill:focus { -webkit-text-fill-color: #5F5F5F; }
+
 .subscribe .subscribe__button { margin-left: 18px; }
 .subscribe .subscribe__message { display: none; color: $primary; font-size: 16px; margin-top: 19px; }
 
