@@ -1,5 +1,8 @@
-# Task Runner
-Front-end tool for task automation / instructions on how to build the website from source files and components.
+# Source Code for UMAproject.org
+
+If you are looking for UMA `press-kit` assets, please see [`docs/press-kit`](https://github.com/UMAprotocol/website/tree/master/docs/press-kit).
+
+# Instructions for UMAproject.org Building Source Code
 
 ## Dependencies
 1. Latest version of [NodeJS](http://nodejs.org/) (min v6.0.0)
@@ -89,3 +92,6 @@ To build the project for production environment (e.g. minimize bundles css and j
 ```
 npm run prod
 ```
+
+**NOTE**: the script `postprod` has been added to move the `build` folder to `docs`. This allows us to automatically host the site on GitHub Pages by pointing at the `/docs` folder.
+
