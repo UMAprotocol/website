@@ -10,7 +10,7 @@
         "dev": "cross-env NODE_ENV=development npm run start -- dev",
         "build": "cross-env NODE_ENV=build npm run start -- build",
         "prod": "cross-env NODE_ENV=production npm run start -- build",
-        "postprod": "mv build docs"
+        "postprod": "rm -rf docs && mv build docs"
     },
     "dependencies": {
         "bootstrap": "^4.1.3"
