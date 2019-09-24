@@ -1,8 +1,8 @@
-# Source Code for UMAproject.org
+# UMA Press Kit Assets
 
 If you are looking for UMA `press-kit` assets, please see [`docs/press-kit`](https://github.com/UMAprotocol/website/tree/master/docs/press-kit).
 
-# Instructions for UMAproject.org Building Source Code
+# Instructions for Building UMAproject.org Source Code
 
 ## Dependencies
 1. Latest version of [NodeJS](http://nodejs.org/) (min v6.0.0)
