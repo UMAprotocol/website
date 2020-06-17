@@ -122,7 +122,7 @@ $breakpoint-mobile {
 	.visible-lg-inline-block { display: inline-block !important; }
 }
 
-.is-scratched { position: relative; z-index: 1; }
+.is-scratched { position: relative; z-index: 1; white-space: nowrap; }
 .is-scratched:after { z-index: -1; position: absolute; top: 100%; left: 0; right: 0; height: 7px; margin-top: -0.33em; content: ''; background-color: $primary; }
 
 /* Mobile */
