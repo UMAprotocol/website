@@ -16,10 +16,27 @@
 .nav a:hover,
 .nav .current a { color: $primary; }
 
+.nav .social-icon {
+	height: 24px;
+}
+.nav .social-icon:hover {
+	opacity: 0.6;
+}
+.nav .social-icon.discord {
+	height: 32px;
+	transform: translateX(-8px)
+}
+.nav a.social:after {
+	display: none;
+}
+
 /* Tablet Portrait */
 
 $breakpoint-tablet-portrait {
 	.nav { position: relative; top: -5px; padding-right: 2px; }
+	.nav .social-icon, .nav .social-icon.discord {
+		transform: scale(4);
+	}
 }
 
 /* Mobile */
@@ -30,4 +47,6 @@ $breakpoint-mobile {
 	.nav ul { display: block; width: 100%; text-align: center; }
 	.nav a { font-weight: 600; }
 	.nav li + li { margin-left: 0; margin-top: 14px; }
+	.nav .social-icon { transform: unset; }
+	.nav .social-icon.discord { transform: unset; margin-bottom: 18px; }
 }
