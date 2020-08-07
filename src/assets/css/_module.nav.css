@@ -4,7 +4,7 @@
 
 .nav { font-size: 18px; }
 .nav ul { display: flex; }
-.nav li + li { margin-left: 46px; }
+.nav li + li { margin-left: 32px; }
 
 .nav a { position: relative; color: $color-text; text-decoration: none; font-weight: 700; }
 
@@ -34,9 +34,6 @@
 
 $breakpoint-tablet-portrait {
 	.nav { position: relative; top: -5px; padding-right: 2px; }
-	.nav .social-icon, .nav .social-icon.discord {
-		transform: scale(4);
-	}
 }
 
 /* Mobile */
