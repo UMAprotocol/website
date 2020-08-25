@@ -1,0 +1,29 @@
+{
+  "name": "UMA",
+  "keywords": ["defi", "uma", "yield"],
+  "timestamp": "2020-08-25T01:40:34.305Z",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+      "name": "UMA",
+      "symbol": "UMA",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
+      "name": "yUSD Synthetic Expiring 1 September 2020",
+      "symbol": "yUSDSEP20",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
+      "name": "yUSD Synthetic Expiring 1 October 2020",
+      "symbol": "yUSDOCT20",
+      "decimals": 18
+    }
+  ],
+  "version": { "major": 0, "minor": 0, "patch": 0 }
+}
