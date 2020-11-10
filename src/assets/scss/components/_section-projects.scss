@@ -1,0 +1,51 @@
+/* ------------------------------------------------------------ *\
+	section-projects
+\* ------------------------------------------------------------ */
+
+.section-projects {
+	padding: 140px 0 100px;
+
+	@include breakpoint-down(tablet) {
+		padding: 121px 0 80px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 76px 0 80px;
+	}
+
+	h5 {
+		line-height: 1.68;
+		padding: 0 26px;
+		border-left: 1px solid #000;
+		margin-bottom: 81px;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 88px;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 0 20px;
+			margin-bottom: 63px;
+		}
+	}
+
+	.section__grid {
+		margin: 0 -10px 42px;
+	}
+
+	.section__col {
+		padding: 0 10px;
+	}
+
+	.section__actions {
+		margin-top: 80px;
+
+		@include breakpoint-down(tablet) {
+			margin-top: -15px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin-top: -34px;
+		}
+	}
+}

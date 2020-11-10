@@ -1,0 +1,100 @@
+/* ------------------------------------------------------------ *\
+	member
+\* ------------------------------------------------------------ */
+
+.member {
+	background-color: $c-white;
+	padding: 40px;
+
+	.member__image {
+		height: 60px;
+		width: 60px;
+		position: relative;
+		z-index: 1;
+		margin-bottom: 25px;
+
+		@include breakpoint-down(tablet) {
+			height: 50px;
+			width: 50px;
+			margin-bottom: 23px;
+		}
+	}
+
+	.member__image:after{
+		content: '';
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 2;
+		background-image: url('../images/temp/mask.png');
+		background-size: cover;
+		height: 60px;
+		width: 60px;
+
+		@include breakpoint-down(tablet) {
+			height: 50px;
+			width: 50px;
+		}
+	}
+
+	h5 {
+		color: $c-red;
+		margin-bottom: 0px;
+		line-height: 1.45;
+
+		@include breakpoint-down(tablet) {
+			font-size: 18px;
+			line-height: 1.56;
+		}
+	}
+
+	span {
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 1.45;
+
+		@include breakpoint-down(tablet) {
+			font-size: 18px;
+			line-height: 1.56;
+		}
+	}
+
+	.member__content {
+		margin-bottom: 26px;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 23px;
+		}
+	}
+
+	.member__socials ul {
+		display: flex;
+	}
+
+	.member__socials img {
+		width: 19px;
+		transition: opacity .3s;
+	}
+
+	.member__socials img:hover {
+		opacity: .5;
+	}
+
+	.member__socials li {
+		list-style: none;
+		font-size: 0;
+
+		@include breakpoint-down(tablet) {
+			width: 15px;
+		}
+	}
+
+
+	.member__socials li + li {
+		margin-left: 32px;
+
+		@include breakpoint-down(tablet) {
+			margin-left: 30px;
+		}
+	}
+}

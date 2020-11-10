@@ -1,0 +1,104 @@
+/* ------------------------------------------------------------ *\
+	feature
+\* ------------------------------------------------------------ */
+
+.feature {
+	display: flex;
+	align-items: center;
+	margin-bottom: 33px;
+	padding-left: 67px;
+
+	@include breakpoint-down(tablet) {
+		margin-bottom: 47px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding-left: 46px;
+	}
+
+	@include breakpoint-down(mobile) {
+		margin-bottom: 24px;
+	}
+
+	h4 {
+		font-size: 26px;
+		line-height: 1.38;
+
+		@include breakpoint-down(mobile) {
+			font-size: 18px;
+			line-height: 1.33;
+		}
+	}
+
+	.feature__image {
+		flex: 0 0 80px;
+		max-width: 80px;
+
+		@include breakpoint-down(mobile) {
+		    flex: 0 0 35px;
+    		max-width: 35px;
+		}
+	}
+
+	.feature__image img {
+		width: 50px;
+	}
+
+	.feature__content {
+		flex: 1;
+		padding-left: 15px;
+
+		@include breakpoint-down(mobile) {
+			padding-left: 33px;
+		}
+	}
+
+	.feature__image--alt img {
+		width: 72px;
+	}
+}
+
+.feature--alt {
+	position: relative;
+	padding-bottom: 44px;
+	margin-bottom: 41px;
+
+	@include breakpoint-down(tablet) {
+		padding-bottom: 55px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding-bottom: 30px;
+		margin-bottom: 25px;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 4px;
+		background: $c-white;
+	}
+
+	.feature__image {
+		width: 64px;
+	}
+
+	.feature__icon {
+		position: absolute;
+		left: 0;
+		top: 12%;
+		width: 25px;
+
+		@include breakpoint-down(tablet) {
+			top: 0;
+		}
+
+		@include breakpoint-down(mobile) {
+			width: 18px;
+			top: 5px;
+		}
+	}
+}

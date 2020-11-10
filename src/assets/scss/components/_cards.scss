@@ -1,0 +1,29 @@
+/* ------------------------------------------------------------ *\
+	cards
+\* ------------------------------------------------------------ */
+
+.cards {
+
+	.cards__items {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -10px;
+	}
+
+	.cards__item {
+		max-width: 50%;
+		flex: 0 0 50%;
+		padding: 0 10px;
+		margin-bottom: 67px;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 69px;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 100%;
+			flex: 0 0 100%;
+			margin-bottom: 50px;
+		}
+	}
+}

@@ -1,0 +1,61 @@
+/* ------------------------------------------------------------ *\
+	section-info
+\* ------------------------------------------------------------ */
+
+.section-info {
+	background-color: $c-black;
+	color: $c-white;
+	padding: 139px 0 140px;
+
+	@include breakpoint-down(tablet) {
+		padding: 119px 0 23px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 76px 0 27px;
+	}
+
+	.section__grid {
+		margin: 0 -35px;
+
+		@include breakpoint-down(tablet) {
+			margin: 0 -10px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: 0;
+		}
+	}
+
+	.section__col {
+		padding: 0 35px;
+
+		@include breakpoint-down(tablet) {
+			max-width: 50%;
+			flex: 0 0 50%;
+			padding: 0 10px;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 100%;
+			flex: 0 0 100%;
+			padding: 0;
+		}
+	}
+
+	h5 {
+		line-height: 1.68;
+		padding: 0 26px;
+		border-left: 1px solid $c-white;
+		margin-bottom: 115px;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 93px;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 0 20px;
+			margin-bottom: 46px;
+		}
+	}
+}

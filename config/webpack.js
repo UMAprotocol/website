@@ -26,7 +26,9 @@ const babelLoader = {
 				{
 					targets: {
 						browsers: settings.supportedBrowsers
-					}
+					},
+					useBuiltIns: settings.polyFill,
+					corejs: 3
 				}
 			]
 		]

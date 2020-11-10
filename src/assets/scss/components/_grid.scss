@@ -1,0 +1,120 @@
+/* ------------------------------------------------------------ *\
+	Grid
+\* ------------------------------------------------------------ */
+
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+
+	.grid__col {
+		max-width: 100%;
+		flex: 1;
+	}
+
+	/*  Grid col 1of2  */
+	.grid__col--1of2 {
+		max-width: 50%;
+		flex: 0 0 50%;
+	}
+
+	.grid__col--size1 {
+		max-width: 24%;
+		flex: 0 0 24%;
+
+		@include breakpoint-down(mobile) {
+			max-width: 100%;
+			flex: 0 0 100%;
+			padding: 0;
+		}
+	}
+
+	.grid__col--size2 {
+		max-width: 40%;
+		flex: 0 0 40%;
+
+		@include breakpoint-down(tablet) {
+			max-width: 34%;
+			flex: 0 0 34%;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 100%;
+			flex: 0 0 100%;
+			padding: 0;
+		}
+	}
+
+	.grid__col--size3 {
+		max-width: 36%;
+		flex: 0 0 36%;
+
+		@include breakpoint-down(tablet) {
+			max-width: 42%;
+			flex: 0 0 42%;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 100%;
+			flex: 0 0 100%;
+			padding: 0;
+		}
+	}
+
+	.grid__col--size4 {
+		max-width: 49%;
+		flex: 0 0 49%;
+
+		@include breakpoint-down(tablet) {
+			max-width: 100%;
+			flex: 0 0 100%;
+		}
+	}
+
+	.grid__col--size5 {
+		max-width: 18.5%;
+		flex: 0 0 18.5%;
+
+		@include breakpoint-down(tablet) {
+			max-width: 43.5%;
+			flex: 0 0 43.5%;
+			padding-left: 102px;
+		}
+
+
+		@include breakpoint-down(mobile) {
+			max-width: 50%;
+			flex: 0 0 50%;
+			padding-left: 0;
+		}
+	}
+
+	.grid__col--size6 {
+		max-width: 22.5%;
+		flex: 0 0 22.5%;
+
+		@include breakpoint-down(tablet) {
+			max-width: 34%;
+			flex: 0 0 34%;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 50%;
+			flex: 0 0 50%;
+		}
+	}
+
+	.grid__col--size7 {
+		max-width: 10%;
+		flex: 0 0 10%;
+
+		@include breakpoint-down(tablet) {
+			max-width: 22.5%;
+			flex: 0 0 22.5%;
+
+		@include breakpoint-down(mobile) {
+			max-width: 50%;
+			flex: 0 0 50%;
+		}
+		}
+	}
+}

@@ -1,0 +1,144 @@
+	/* ------------------------------------------------------------ *\
+	project
+\* ------------------------------------------------------------ */
+
+.project {
+	margin-bottom: 42px;
+
+	a {
+		text-decoration: none;
+		width: 100%;
+		display: block;
+	}
+
+	.project__inner {
+		display: flex;
+		margin: 0 -4px;
+		align-items: center;
+
+		@include breakpoint-down(tablet) {
+			display: block;
+		}
+	}
+
+	.project__inner:hover .project__actions span {
+		text-decoration: underline;
+	}
+
+	.project__content {
+		max-width: 50%;
+		flex: 0 0 50%;
+		margin: 0 4px;
+
+		@include breakpoint-down(tablet) {
+			max-width: 100%;
+			flex: 0 0 100%;
+		}
+	}
+
+	.project__image {
+		max-width: 50%;
+		flex: 0 0 50%;
+		margin: 0 4px;
+		padding: 39px 57px 0;
+		border-radius: 5px;
+		background-color: #F5F5F5;
+
+		@include breakpoint-down(tablet) {
+			max-width: 100%;
+			flex: 0 0 100%;
+			margin: 41px 0 92px;
+			padding: 49px 68px 0;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 26px 37px 0;
+			margin-bottom: 76px;
+		}
+	}
+
+	.project__image img {
+		width: 100%;
+	}
+
+	.project__icon {
+		margin: 0 0 35px;
+
+		@include breakpoint-down(tablet) {
+    		margin: 0 0 25px;
+		}
+
+		@include breakpoint-down(mobile) {
+			width: 35px;
+			margin: 0 0 21px;
+		}
+	}
+
+	.project__entry h3 {
+		margin-bottom: 11px;
+
+		@include breakpoint-down(mobile) {
+			font-size: 32px;
+		}
+	}
+
+	.project__entry {
+		font-size: 22px;
+		line-height: 1.32;
+		font-weight: 600;
+
+		@include breakpoint-down(mobile) {
+			font-size: 22px;
+		}
+	}
+
+	.project__entry p {
+		margin-bottom: 21px;
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 13px;
+		}
+	}
+
+	.project__actions {
+		color: rgba(0, 0, 0, .5);
+	}
+
+	.project__actions {
+		position: relative;
+		padding-right: 34px;
+		width: max-content;
+	}
+
+	.project__actions svg {
+		width: 7px;
+		position: absolute;
+		right: 7px;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 2;
+	}
+
+	.project__actions:after {
+		content: '';
+		display: block;
+		border-radius: 50%;
+		background-color: rgba(0, 0, 0, .5);
+		width: 23px;
+		height: 23px;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+.project--alt {
+
+	.project__entry {
+
+		@include breakpoint-down(mobile) {
+			font-size: 18px;
+		}
+	}
+}

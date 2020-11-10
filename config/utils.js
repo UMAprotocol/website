@@ -20,7 +20,7 @@ module.exports.srcScriptsPath = destPath =>
 
 // Base `src` path for stylesheets
 module.exports.srcStylesPath = destPath =>
-	exports.srcPath('assets/css', destPath);
+	exports.srcPath('assets/scss', destPath);
 
 // Base `src` path for images
 module.exports.srcImagesPath = destPath =>

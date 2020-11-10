@@ -2,7 +2,10 @@
  * The module dependencies.
  */
 const del = require('del');
+const path = require('path');
 const gulp = require('gulp');
+const sass = require('gulp-sass');
+const sassGlob = require('gulp-sass-glob');
 const utils = require('./utils');
 const gulpif = require('gulp-if');
 const rename = require('gulp-rename');
@@ -17,6 +20,7 @@ const settings = require('./settings');
 const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 const browserSync = require('browser-sync');
+const svgSprite = require('gulp-svg-sprite');
 
 /**
  * Setup the env.
@@ -37,16 +41,26 @@ const error = function(e) {
 };
 
 /**
- * Process CSS files through PostCSS.
+ * Process Sass files through Sass and PostCSS.
  */
 const styles = () => {
-	const src = utils.srcStylesPath('_load.css');
-	const dest = utils.buildStylesPath();
 	const config = require('./postcss');
+	const src = utils.srcStylesPath('style.scss');
+	const dest = utils.buildStylesPath();
 
 	return gulp
 		.src(src)
 		.pipe(gulpif(isDev, sourcemaps.init()))
+		.pipe(sassGlob())
+		.pipe(
+			sass({
+				includePaths: [
+					'.',
+					utils.srcVendorPath(),
+					path.resolve(__dirname, '../node_modules')
+				]
+			}).on('error', error)
+		)
 		.pipe(gulpif(isDev, plumber({ errorHandler: error })))
 		.pipe(postcss(config))
 		.pipe(rename('bundle.css'))
@@ -104,8 +118,8 @@ const copy = () => {
 		`!${utils.srcPath('**/*.html')}`,
 		`!${utils.srcPath('partials/')}`,
 		`!${utils.srcPath('partials/**')}`,
-		`!${utils.srcPath('assets/{css,fonts,images,js,vendor}/')}`,
-		`!${utils.srcPath('assets/{css,fonts,images,js,vendor}/**')}`,
+		`!${utils.srcPath('assets/{css,scss,fonts,images,js,vendor}/')}`,
+		`!${utils.srcPath('assets/{css,scss,fonts,images,js,vendor}/**')}`,
 		`!${utils.srcPath('assets/**/*.html')}`
 	];
 	const dest = utils.buildPath();
@@ -144,6 +158,63 @@ const images = () => {
 };
 
 /**
+ * Create SVG sprite.
+ */
+const svgs = () => {
+	const src = utils.srcImagesPath('svg/*');
+	const dest = utils.buildImagesPath();
+	const svgSettings = {
+		dest: dest,
+		svg: {
+			xmlDeclaration: false,
+			doctypeDeclaration: false,
+			transform: [
+				/**
+				 * Custom sprite SVG transformation
+				 *
+				 * @param {String} svg Sprite SVG
+				 * @return {String} Processed SVG
+				 *
+				 * Remove stroke and fill and styles from the SVG elements so they can be styled
+				 */
+				function(svg) {
+					let tempSVG;
+
+					if (settings.cleanSVGs) {
+						const fillRegEx = new RegExp('fill="[^"]+"', 'g');
+						const strokeRegEx = new RegExp('stroke="[^"]+"', 'g');
+						const styleRegEx = /<style[\s\S]+?<\/style>/gm;
+
+						let newSVG = svg.replace(fillRegEx, '').replace(strokeRegEx, '').replace(styleRegEx, '');
+
+						tempSVG = newSVG;
+					} else {
+						tempSVG = svg;
+					};
+
+					return tempSVG;
+				}
+			]
+		},
+		mode: {
+			symbol: {
+				dest: '',
+				inline: true,
+				example: true,
+				sprite: ''
+			}
+		}
+	};
+
+	return gulp
+		.src(src)
+		.pipe(plumber({ errorHandler: error }))
+		.pipe(svgSprite(svgSettings))
+		.pipe(gulp.dest(dest));
+};
+
+
+/**
  * Optimize all images in the build folder.
  */
 const optimize = () => {
@@ -176,7 +247,7 @@ const page = (file, folder) => {
  */
 const watch = () => {
 	gulp.watch(
-		[utils.srcStylesPath('*.css'), utils.srcImagesPath('sprite/*.png')],
+		[utils.srcStylesPath('**/*.scss'), utils.srcImagesPath('sprite/*.png')],
 		styles
 	);
 
@@ -208,8 +279,8 @@ const watch = () => {
 			`!${utils.srcPath('**/*.html')}`,
 			`!${utils.srcPath('partials/')}`,
 			`!${utils.srcPath('partials/**')}`,
-			`!${utils.srcPath('assets/{css,fonts,images,js,vendor}/')}`,
-			`!${utils.srcPath('assets/{css,fonts,images,js,vendor}/**')}`,
+			`!${utils.srcPath('assets/{scss,css,fonts,images,js,vendor}/')}`,
+			`!${utils.srcPath('assets/{scss,css,fonts,images,js,vendor}/**')}`,
 			`!${utils.srcPath('assets/**/*.html')}`
 		],
 		copy
@@ -218,6 +289,8 @@ const watch = () => {
 	gulp.watch([utils.srcVendorPath('**/*')], vendor);
 
 	gulp.watch([utils.srcImagesPath('**/*')], images);
+
+	gulp.watch([utils.srcImagesPath('svg/*')], svgs);
 };
 
 /**
@@ -243,6 +316,7 @@ gulp.task(
 	'dev',
 	gulp.series(
 		clean,
+		svgs,
 		gulp.parallel(
 			styles,
 			scripts,
@@ -258,7 +332,7 @@ gulp.task(
 
 gulp.task(
 	'build',
-	gulp.series(clean, styles, scripts, pages, copy, vendor, images, optimize)
+	gulp.series(clean, svgs, styles, scripts, pages, copy, vendor, images, optimize)
 );
 
 /**

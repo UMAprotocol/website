@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\
+	form
+\* ------------------------------------------------------------ */
+
+.form {
+
+	.form__row {
+		display: flex;
+		align-items: center;
+	}
+
+	.form__label {
+		font-size: 14px;
+		line-height: 1.43;
+		color: rgba(0, 0, 0, .5);
+	}
+
+	.form__controls {
+		margin: 0 22px;
+	}
+}

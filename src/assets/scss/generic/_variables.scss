@@ -1,0 +1,31 @@
+//Variables
+$font-size-base             : 18px;
+$font-weight-base           : 400;
+$line-height-base           : 1.67;
+
+$ff-sans-serif              : 'Halyard Display', Helvetica, Arial, sans-serif;
+$ff-serif                   : Georgia, "Times New Roman", Times, serif;
+
+$t-duration                 : 0.4s;
+
+$shell-max-width            : 996px;
+$shell-max-width-tablet     : 608px;
+$shell-max-width-mobile     : 315px;
+$shell-gutter               : 15px;
+
+$c-black                    : #000;
+$c-white                    : #fff;
+$c-base                     : #055590;
+$c-red                      : #FF4A4A;
+
+$responsive-ios             : 812px;
+
+$breakpoints: (
+	mobile-small: 374px,
+	mobile-medium: 575px,
+	mobile: 767px,
+	admin-bar: 782px,
+	tablet: 1023px,
+	small-desktop: 1199px,
+	large-desktop: 1399px
+);

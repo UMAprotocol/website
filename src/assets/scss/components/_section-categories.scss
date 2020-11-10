@@ -1,0 +1,92 @@
+/* ------------------------------------------------------------ *\
+	section-categories
+\* ------------------------------------------------------------ */
+
+.section-categories {
+
+	.section__head {
+	padding: 96px 0 31px;
+	display: flex;
+	align-items: center;
+
+		@include breakpoint-down(tablet) {
+			padding: 64px 0 30px;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 45px 0 25px;
+		}
+	}
+
+	.section__head h1 {
+		font-size: 72px;
+		margin: 0 29px;
+
+		@include breakpoint-down(tablet) {
+			font-size: 52px;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 42px;
+			margin: 0 14px;
+		}
+	}
+
+	.section__head span {
+		font-size: 38px;
+		display: block;
+		margin: 0 19px;
+		color: $c-white;
+		position: relative;
+
+		@include breakpoint-down(tablet) {
+			font-size: 35px;
+			margin: 0 15px;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 25px;
+		}
+	}
+
+	.section__head span:after {
+		content: '';
+		display: block;
+		border-radius: 50%;
+		background-color: $c-red;
+		height: 56px;
+		width: 56px;
+		position: absolute;
+		top: 3px;
+		left: -20px;
+		z-index: -1;
+
+		@include breakpoint-down(tablet) {
+			width: 46px;
+			height: 46px;
+			top: 7px;
+			left: -14px;
+		}
+
+		@include breakpoint-down(mobile) {
+			width: 36px;
+			height: 36px;
+			top: 2px;
+			left: -12px;
+		}
+	}
+
+	.section__nav {
+		margin-bottom: 50px;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 45px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 55px;
+		}
+	}
+}
+
+

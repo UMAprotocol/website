@@ -1,0 +1,65 @@
+/* ------------------------------------------------------------ *\
+	section-boxes
+\* ------------------------------------------------------------ */
+
+.section-boxes {
+	padding: 96px 0 63px;
+
+	@include breakpoint-down(tablet) {
+		padding: 67px 0 95px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 53px 0 41px;
+	}
+
+	.section__head h1 {
+		font-size: 72px;
+		margin-bottom: 36px;
+
+		@include breakpoint-down(tablet) {
+			font-size: 52px;
+			margin-bottom: 27px;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 42px;
+			line-height: 1.24;
+			max-width: 250px;
+			margin-bottom: 33px;
+		}
+	}
+
+	.section__form {
+		margin-bottom: 51px;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 0;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 14px;
+		}
+	}
+
+	.section__nav h6 {
+		font-size: 14px;
+		line-height: 1.43;
+		color: rgba(0, 0, 0, .5);
+		font-weight: 400;
+
+		@include breakpoint-down(tablet) {
+			display: none;
+		}
+	}
+
+	.section__nav {
+		padding: 0 0 24px;
+		border-bottom: 1px solid #E5E5E5;
+
+		@include breakpoint-down(tablet) {
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+	}
+}

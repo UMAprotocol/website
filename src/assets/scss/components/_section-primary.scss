@@ -1,0 +1,122 @@
+/* ------------------------------------------------------------ *\
+	section-primary
+\* ------------------------------------------------------------ */
+
+.section-primary {
+	padding: 96px 0 122px;
+
+	@include breakpoint-down(tablet) {
+		padding: 64px 0 96px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 45px 0 80px;
+	}
+
+	.section__head {
+		display: flex;
+		align-items: center;
+		margin-bottom: 27px;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 31px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 16px;
+		}
+	}
+
+	.section__icon {
+		position: relative;
+		margin: 0 15px 8px;
+
+		@include breakpoint-down(tablet) {
+			width: 18px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: 0 10px 8px;
+		}
+	}
+
+	.section__icon:before {
+		content: '';
+		display: block;
+		border-radius: 50%;
+		background-color: $c-red;
+		height: 56px;
+		width: 56px;
+		position: absolute;
+		top: -9px;
+		left: -15px;
+		z-index: -1;
+
+		@include breakpoint-down(tablet) {
+			top: -3px;
+			height: 46px;
+			width: 46px;
+		}
+
+		@include breakpoint-down(mobile) {
+			height: 36px;
+			width: 36px;
+			left: -10px;
+			top:0;
+		}
+	}
+
+	h1 {
+		font-size: 72px;
+		font-weight: 600;
+		margin: 0 30px;
+
+		@include breakpoint-down(tablet) {
+			font-size: 52px;
+			margin: 0 28px;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 42px;
+			margin: 0 20px;
+		}
+	}
+
+	.section__body {
+		color: rgba(0, 0, 0, 0.5);
+		font-size: 20px;
+		line-height: 1.6;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 -5px;
+
+		@include breakpoint-down(tablet) {
+			margin: 0;
+			display: block;
+			font-size: 18px;
+			line-height: 1.78;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 16px;
+			line-height: 1.63;
+		}
+	}
+
+	.section__content {
+		max-width: 500px;
+		padding: 0 5px;
+
+		@include breakpoint-down(tablet) {
+			padding: 0;
+			max-width: none;
+		}
+	}
+
+	.section__content p {
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 25px;
+		}
+	}
+}
