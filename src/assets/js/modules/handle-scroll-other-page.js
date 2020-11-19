@@ -1,7 +1,5 @@
-import { $window } from '../utils/globals.js';
-
 /**	
- * 
+ *  Handle smooth scrolling to element in other page
  */
 
 function scrollToProjects() {
