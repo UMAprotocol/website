@@ -270,44 +270,16 @@ module.exports = () => {
 		])
 	);
 
-	// Generate the table of contents at the top of the bundle.
-	plugins.push(require('postcss-toc'));
-
-	// Enable `mixins` support.
-	plugins.push(require('postcss-mixins'));
-
-	// Enable `extend` support.
-	plugins.push(require('postcss-simple-extend'));
-
-	// Enable `vars` support.
-	plugins.push(require('postcss-simple-vars'));
-
-	// Enable `color` support.
-	plugins.push(require('postcss-color-function'));
-
-	// Enable nested rules.
-	plugins.push(require('postcss-nesting'));
-
 	// Add helpers like `clearfix`.
 	plugins.push(require('postcss-utilities'));
-
-	// Remove the empty rules.
-	plugins.push(require('postcss-discard-empty'));
 
 	// Fix flexbox for IE
 	plugins.push(require('postcss-flexbugs-fixes'));
 
-	// Convert `calc` declarations.
-	plugins.push(
-		require('postcss-calc')({
-			mediaQueries: true
-		})
-	);
-
 	// Add vendor prefixes.
 	plugins.push(
 		require('autoprefixer')({
-			browsers: settings.supportedBrowsers
+			overrideBrowserslist: settings.supportedBrowsers
 		})
 	);
 

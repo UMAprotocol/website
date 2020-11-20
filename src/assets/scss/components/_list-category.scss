@@ -1,0 +1,44 @@
+/* ------------------------------------------------------------ *\
+	list-category
+\* ------------------------------------------------------------ */
+
+.list-category {
+	display: flex;
+	padding: 18px 0;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+
+	@include breakpoint-down(mobile) {
+		display: block;
+		padding: 20px 0 24px;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		text-decoration: none;
+		color: rgba(0, 0, 0, .35);
+		font-size: 14px;
+		font-weight: 500;
+		transition: color .3s;
+	}
+
+	a:hover {
+		color: $c-black;
+	}
+
+	li + li {
+		margin-left: 49px;
+
+		@include breakpoint-down(mobile) {
+			margin-left: 0;
+			margin-top: 17px;
+		}
+	}
+
+	.is-active a {
+		color: $c-black;
+	}
+}

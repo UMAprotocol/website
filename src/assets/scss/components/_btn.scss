@@ -1,0 +1,77 @@
+/* ------------------------------------------------------------ *\
+	Button
+\* ------------------------------------------------------------ */
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	appearance: none;
+	font-size: 16px;
+	color: $c-white;
+	font-weight: 600;
+	height: 58px;
+    line-height: 58px;
+    border-radius: 5px;
+    transition: background .4s;
+
+	@include breakpoint-down(mobile) {
+		height: 50px;
+		line-height: 50px;
+		font-size: 14px;
+	}
+}
+
+/*  Btn block  */
+
+.btn--block {
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.btn--red {
+    padding: 0 46px;
+	background-color: $c-red;
+
+	@include breakpoint-down(mobile) {
+		padding: 0 35px;
+	}
+}
+
+.btn--red:hover {
+	background-color: $c-black;
+}
+
+.btn--black {
+	background-color: $c-black;
+    padding: 0 27px;
+}
+
+.btn--black:hover {
+	background-color: #FF4A4A;
+}
+
+.btn--white {
+	background-color: #fff;
+	color: $c-red;
+    padding: 0 46px;
+
+    @include breakpoint-down(mobile) {
+		padding: 0 41px;
+    }
+}
+
+.btn--white:hover {
+	background-color: #000;
+}
+
+.btn--shorter {
+	padding: 0 26px;
+
+	@include breakpoint-down(tablet) {
+		padding: 0 21px;
+	}
+}

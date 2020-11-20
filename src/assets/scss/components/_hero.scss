@@ -1,0 +1,41 @@
+/* ------------------------------------------------------------ *\
+	hero
+\* ------------------------------------------------------------ */
+
+.hero {
+	padding: 80px 0 140px;
+
+	@include breakpoint-down(tablet) {
+		padding: 87px 0 100px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 56px 0 80px;
+	}
+
+	h1 {
+		line-height: 1.08;
+		font-weight: 600;
+		margin-bottom: 60px;
+
+		@include breakpoint-down(tablet) {
+			line-height: 1.13;
+			margin-bottom: 45px;
+		}
+
+		@include breakpoint-down(mobile) {
+			line-height: 1.08;
+		}
+	}
+
+	h1 span {
+		color: $c-red;
+	}
+
+	.hero__actions {
+
+		@include breakpoint-down(mobile) {
+			margin-top: -10px;
+		}
+	}
+}

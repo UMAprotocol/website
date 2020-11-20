@@ -1,411 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-  <include src="head.html"></include>
-  <body>
-    <div class="wrapper">
-      <include src="header.html"></include>
+	<include src="head.html"></include>
+<body>
+	<div class="wrapper">
+		<include src="header.html"></include>
 
-      <section class="intro">
-        <div class="container">
-          <div class="intro__content">
-            <h1>
-              A Protocol for Building
-              <span class="is-scratched">Synthetic Assets</span>
-            </h1>
+		<section class="hero">
+			<div class="shell">
+				<div class="hero__inner">
+					<h1>UMA enables Defi developers to build <span>synthetic assets.</span></h1>
 
-            <p>
-              Write self-enforcing smart contracts with economic guarantees.<br />Read
-              our
-              <a
-                href="https://github.com/UMAprotocol/whitepaper"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Whitepaper</a
-              >
-              and chat with us on
-              <a
-                href="https://discord.com/invite/jsb9XQJ"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Discord</a
-              >.
-            </p>
+					<div class="hero__actions">
+						<a href="https://docs.umaproject.org/tutorials/setup" class="btn btn--red">Get Started</a>
+					</div><!-- /.hero__actions -->
+				</div><!-- /.hero__inner -->
+			</div><!-- /.shell -->
+		</section><!-- /.hero -->
 
-            <div class="subscribe">
-              <label for="mail;" class="h6"
-                >Get UMA Updates + Early Access</label
-              >
+		<section class="section">
+			<div class="shell">
+				<div class="shell__inner">
+					<div class="grid section__grid">
+						<div class="grid__col grid__col--1of2 section__col">
+							<h5>What is UMA?</h5>
 
-              <form action="?" method="post">
-                <input
-                  type="email"
-                  id="maill"
-                  name="maill"
-                  value=""
-                  placeholder="Email Address"
-                  class="subscribe__field"
-                />
+							<h2>A fast, flexible, and secure way to create synthetic assets on Ethereum.</h2>
+						</div><!-- /.grid__col grid__col-/-1of2 section__col -->
 
-                <button class="subscribe__button btn" type="submit">
-                  Submit
-                </button>
-              </form>
+						<div class="grid__col grid__col--1of2 section__col">
+							<div class="features section__content">
+								<div class="feature">
+									<div class="feature__image">
+										<img src="assets/images/svg/illustration11.svg" alt="">
+									</div><!-- /.feature__image -->
 
-              <p class="subscribe__message"></p>
-              <!-- /.subscribe__error -->
-            </div>
-            <!-- /.subscribe -->
+									<div class="feature__content">
+										<h4> Priceless Contract Templates</h4>
+									</div><!-- /.feature__content -->
+								</div><!-- /.feature -->
 
-            <div class="subscribe-global">
-              <div id="mc_embed_signup">
-                <form
-                  action="https://umaproject.us19.list-manage.com/subscribe/post?u=b2e789cb476a06f1261e79e05&amp;id=85dfd6c316"
-                  method="post"
-                  id="mc-embedded-subscribe-form"
-                  name="mc-embedded-subscribe-form"
-                  class="validate"
-                  target="_blank"
-                  novalidate
-                >
-                  <div id="mc_embed_signup_scroll">
-                    <h2>Subscribe to our mailing list</h2>
-                    <div class="indicates-required">
-                      <span class="asterisk">*</span> indicates required
-                    </div>
-                    <div class="mc-field-group">
-                      <label for="mce-EMAIL"
-                        >Email Address <span class="asterisk">*</span>
-                      </label>
-                      <input
-                        type="email"
-                        value=""
-                        name="EMAIL"
-                        class="required email"
-                        id="mce-EMAIL"
-                      />
-                    </div>
-                    <div id="mce-responses" class="clear">
-                      <div
-                        class="response"
-                        id="mce-error-response"
-                        style="display: none;"
-                      ></div>
-                      <div
-                        class="response"
-                        id="mce-success-response"
-                        style="display: none;"
-                      ></div>
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div
-                      style="position: absolute; left: -5000px;"
-                      aria-hidden="true"
-                    >
-                      <input
-                        type="text"
-                        name="b_b2e789cb476a06f1261e79e05_85dfd6c316"
-                        tabindex="-1"
-                        value=""
-                      />
-                    </div>
-                    <div class="clear">
-                      <input
-                        type="submit"
-                        value="Subscribe"
-                        name="subscribe"
-                        id="mc-embedded-subscribe"
-                        class="button"
-                      />
-                    </div>
-                  </div>
-                </form>
-              </div>
+								<div class="feature feature--alt">
+									<div class="feature__icon">
+										<a href="#">
+											<img src="assets/images/svg/ico-plus.svg" alt="">
+										</a>
+									</div><!-- /.feature__icon -->
 
-              <script
-                type="text/javascript"
-                src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-              ></script>
-              <script type="text/javascript">
-                (function ($) {
-                  window.fnames = new Array();
-                  window.ftypes = new Array();
-                  fnames[0] = "EMAIL";
-                  ftypes[0] = "email";
-                  fnames[1] = "FNAME";
-                  ftypes[1] = "text";
-                  fnames[2] = "LNAME";
-                  ftypes[2] = "text";
-                  fnames[3] = "ADDRESS";
-                  ftypes[3] = "address";
-                  fnames[4] = "PHONE";
-                  ftypes[4] = "phone";
-                  fnames[5] = "BIRTHDAY";
-                  ftypes[5] = "birthday";
-                })(jQuery);
-                var $mcj = jQuery.noConflict(true);
-              </script>
-              <!--End mc_embed_signup-->
-            </div>
-            <!-- /.subscribe-global -->
-          </div>
-          <!-- /.intro__content -->
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /.intro -->
+									<div class="feature__image">
+										<img src="assets/images/svg/illustration22.svg" alt="">
+									</div><!-- /.feature__image -->
 
-      <section class="section section--alt-mobile">
-        <div class="container">
-          <header class="section__head section__head">
-            <h2 class="section__title medium-spacing">
-              We are a platform
-              <!-- <span class="is-scratched">platform</span> -->
-              for
-              <span class="is-scratched">your</span>
-              financial innovation.
-            </h2>
-            <!-- /.section__title -->
+									<div class="feature__content">
+										<h4>Optimistic Oracle Service</h4>
+									</div><!-- /.feature__content -->
+								</div><!-- /.feature feature--alt -->
 
-            <p>
-              UMA is designed to power the financial innovations made possible
-              by permissionless, public blockchains, like Ethereum. Using
-              concepts borrowed from fiat financial derivatives, UMA defines an
-              open-source protocol that allows any two counterparties to design
-              and create their own financial contracts. But unlike traditional
-              derivatives, UMA contracts are secured with economic incentives
-              alone, making them self-enforcing and universally accessible.
-            </p>
-          </header>
-          <!-- /.section__head -->
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /.section section-/-alt-mobile -->
+								<div class="feature">
+									<div class="feature__image feature__image--alt">
+										<img src="assets/images/svg/illustration33.svg" alt="">
+									</div><!-- /.feature__image -->
 
-      <section class="section">
-        <div class="container">
-          <h4 class="section__subtitle">
-            How It Works: A Financial Derivative (For Apples)
-          </h4>
-          <!-- /.section__subtitle -->
+									<div class="feature__content">
+										<h4>More secure & flexible synthetic assets</h4>
+									</div><!-- /.feature__content -->
+								</div><!-- /.feature -->
+							</div><!-- /.features section__content -->
+						</div><!-- /.grid__col grid__col-/-1of2 section__col -->
+					</div><!-- /.grid -->
+				</div><!-- /.shell__inner -->
+			</div><!-- /.shell -->
+		</section><!-- /.section -->
 
-          <div class="row medium-gutters vertical-gutters-medium">
-            <div class="col-lg-4">
-              <article class="step">
-                <figure>
-                  <img src="assets/images/temp/service1.jpg" alt="" />
-                </figure>
+		<section class="section-updates">
+			<div class="shell">
+				<div class="section__inner">
+					<h5>Why Use UMA?</h5>
 
-                <div class="step__content">
-                  <h5>
-                    <strong>1:</strong>
-                    Custom, 2-Party Agreement
-                  </h5>
+					<div class="cards">
+						<div class="cards__items">
+							<div class="cards__item">
+								<div class="card">
+									<div class="card__image">
+										<img src="assets/images/icon1.svg" alt="">
+									</div><!-- /.card__image -->
 
-                  <p>
-                    Alice thinks the price of apples will go down over the next
-                    six months. Bob thinks apples are cheap and wants to go
-                    long. Bob and Alice formalize their trade using an UMA smart
-                    contract. Both sides deposit a margin requirement of 10%
-                    that will be lost if they misbehave.
-                  </p>
-                </div>
-                <!-- /.step__content -->
-              </article>
-              <!-- /.step -->
-            </div>
-            <!-- /.col-lg-4 -->
+									<div class="card__content">
+										<h3>Time to Launch</h3>
 
-            <div class="col-lg-4">
-              <article class="step">
-                <figure>
-                  <img src="assets/images/temp/service2.jpg" alt="" />
-                </figure>
+										<div class="card__entry">
+											<p>Quickly create synthetic assets with priceless contract templates.</p>
+										</div><!-- /.card__entry -->
+									</div><!-- /.card__content -->
+								</div><!-- /.card -->
+							</div><!-- /.cards__item -->
 
-                <div class="step__content">
-                  <h5>
-                    <strong>2:</strong>
-                    Automatic Enforcement
-                  </h5>
+							<div class="cards__item">
+								<div class="card">
+									<div class="card__image">
+										<img src="assets/images/svg/icon2.svg" alt="">
+									</div><!-- /.card__image -->
 
-                  <p>
-                    Over the next six months the price of apples shifts up and
-                    down (but mostly down). As the price shifts down (as
-                    verified by UMA’s oracle), Bob automatically contributes
-                    money to cover his margin requirement. The more it shifts
-                    down the more he contributes.
-                  </p>
-                </div>
-                <!-- /.step__content -->
-              </article>
-              <!-- /.step -->
-            </div>
-            <!-- /.col-lg-4 -->
+									<div class="card__content">
+										<h3>No Limits on Design</h3>
 
-            <div class="col-lg-4">
-              <article class="step">
-                <figure>
-                  <img src="assets/images/temp/service3.jpg" alt="" />
-                </figure>
+										<div class="card__entry">
+											<p>Create tokens that track the price of <i>anything</i>.</p>
+										</div><!-- /.card__entry -->
+									</div><!-- /.card__content -->
+								</div><!-- /.card -->
+							</div><!-- /.cards__item -->
 
-                <div class="step__content">
-                  <h5>
-                    <strong>3:</strong>
-                    Instant Settlement
-                  </h5>
+							<div class="cards__item">
+								<div class="card">
+									<div class="card__image">
+										<img src="assets/images/svg/icon3.svg" alt="">
+									</div><!-- /.card__image -->
 
-                  <p>
-                    After six months, the price of apples has fallen by 30%.
-                    Alice's bet was right. Because Bob was consistently
-                    contributing funds to re-margin his position and not risk
-                    losing his 10% margin requirement, the contract can be
-                    instantly settled.
-                  </p>
-                </div>
-                <!-- /.step__content -->
-              </article>
-              <!-- /.step -->
-            </div>
-            <!-- /.col-lg-4 -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /.section -->
+									<div class="card__content">
+										<h3>Provably Secure</h3>
 
-      <section class="section--primary">
-        <div class="container">
-          <h2 class="section__title">
-            What will you build with UMA?
-          </h2>
-          <!-- /.section__title -->
+										<div class="card__entry">
+											<p>Economic guarantees ensure your contract cannot be manipulated.</p>
+										</div><!-- /.card__entry -->
+									</div><!-- /.card__content -->
+								</div><!-- /.card -->
+							</div><!-- /.cards__item -->
 
-          <div class="row vertical-gutters">
-            <div class="col-lg-6">
-              <div class="service">
-                <h3>Synthetic Tokens to Track Anything?</h3>
+							<div class="cards__item">
+								<div class="card">
+									<div class="card__image card__image--alt">
+										<img src="assets/images/icon4.svg" alt="">
+									</div><!-- /.card__image -->
 
-                <p>
-                  Use the UMA Synthetic Token Builder to design ERC20 tokens
-                  that can track the price of <b>anything</b>&mdash;you are only
-                  limited by your creativity.
-                </p>
+									<div class="card__content">
+										<h3>Minimize Oracle Usage</h3>
 
-                <a
-                  href="https://medium.com/uma-project/announcing-the-uma-synthetic-token-builder-8bf37c645e94"
-                  target="_blank"
-                  >Learn More</a
-                >
+										<div class="card__entry">
+											<p> Reduce costs with minimal on-chain transactions. </p>
+										</div><!-- /.card__entry -->
+									</div><!-- /.card__content -->
+								</div><!-- /.card -->
+							</div><!-- /.cards__item -->
+						</div><!-- /.cards__items -->
+					</div><!-- /.cards -->
 
-                <a
-                  href="https://medium.com/uma-project/announcing-the-uma-synthetic-token-builder-8bf37c645e94"
-                  target="_blank"
-                  class="service__link link-reset"
-                ></a>
-              </div>
-            </div>
-            <!-- /.col-lg-6 -->
+					<div class="section__actions">
+						<a href="https://docs.umaproject.org/tutorials/setup" class="btn btn--red">Get Started</a>
+					</div><!-- /.section__actions -->
+				</div><!-- /.section__inner -->
+			</div><!-- /.shell -->
+		</section><!-- /.section-updates -->
 
-            <div class="col-lg-6">
-              <div class="service">
-                <h3>Decentralized Crypto Futures?</h3>
+		<section class="section-info">
+			<div class="shell">
+				<div class="section__inner">
+					<h5>Key Metrics</h5>
 
-                <p>
-                  Write contracts representing levered crypto exposure&mdash;or
-                  anything else that can be expressed with decentralized
-                  futures, CfDs, or total return swap contracts.
-                </p>
+					<div class="stats">
+						<div class="grid section__grid">
+							<div class="grid__col grid__col--1of3 section__col">
+								<div class="stat">
+									<strong>$51</strong>
 
-                <a
-                  href="https://twitter.com/hal2001/status/1070468249786179584"
-                  target="_blank"
-                  >Learn More</a
-                >
+									<div class="stat__content">
+										<h3>Million</h3>
 
-                <a
-                  href="https://twitter.com/hal2001/status/1070468249786179584"
-                  target="_blank"
-                  class="service__link link-reset"
-                ></a>
-              </div>
-            </div>
-            <!-- /.col-lg-6 -->
+										<p>Total value stored in UMA-based contracts</p>
+									</div><!-- /.stat__content -->
+								</div><!-- /.stat -->
+							</div><!-- /.grid__col grid__col-/-1of3 section__col -->
 
-            <div class="col-lg-6">
-              <div class="service">
-                <h3>Yield Curves on Ethereum?</h3>
+							<div class="grid__col grid__col--1of3 section__col">
+								<div class="stat">
+									<strong>6</strong>
 
-                <p>
-                  Create your own interest paying synthetic tokens and construct
-                  a yield curve on the blockchain.
-                  <!-- Create your own interest paying, price-stable, money market token. -->
-                </p>
+									<div class="stat__content">
+										<h3>Projects</h3>
 
-                <a
-                  href="https://twitter.com/hal2001/status/1171837711038197760"
-                  target="_blank"
-                  class="service__link link-reset"
-                ></a>
+										<p>Number of projects on mainnet using UMA.</p>
+									</div><!-- /.stat__content -->
+								</div><!-- /.stat -->
+							</div><!-- /.grid__col grid__col-/-1of3 section__col -->
 
-                <a
-                  href="https://twitter.com/hal2001/status/1171837711038197760"
-                  target="_blank"
-                  >Learn More</a
-                >
-              </div>
-            </div>
-            <!-- /.col-lg-6 -->
+							<div class="grid__col grid__col--1of3 section__col">
+								<div class="stat">
+									<strong>3</strong>
 
-            <div class="col-lg-6">
-              <div class="service">
-                <h3>Something Else?</h3>
+									<div class="stat__content">
+										<h3>Oracle Calls</h3>
 
-                <p>
-                  Do you have another idea? We want to help make it happen.
-                </p>
+										<p>Only  3 price requests were needed to secure $51 million.</p>
+									</div><!-- /.stat__content -->
+								</div><!-- /.stat -->
+							</div><!-- /.grid__col grid__col-/-1of3 section__col -->
+						</div><!-- /.grid section__grid -->
+					</div><!-- /.stats -->
+				</div><!-- /.section__inner -->
+			</div><!-- /.shell -->
+		</section><!-- /.section-info -->
 
-                <a href="#">Contact Us</a>
+		<section class="section-projects">
+			<div class="shell">
+				<div class="section__inner">
+					<h5>Projects using UMA</h5>
 
-                <a
-                  href="mailto:hello@umaproject.org"
-                  class="service__link link-reset"
-                ></a>
-              </div>
-            </div>
-            <!-- /.col-lg-6 -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /.section-/-primary -->
+					<div class="projects">
+						<div class="project project--alt">
+							<a href="/projects.html#potion">
+								<div class="project__inner">
+									<div class="project__content">
+										<div class="project__icon">
+											<img src="assets/images/svg/logo1.svg" alt="">
+										</div><!-- /.project__icon -->
 
-      <section class="section--hiring medium-spacing">
-        <div class="container">
-          <h2 class="section__title">
-            <span class="is-scratched">Regulating</span> Decentralized Finance
-          </h2>
-          <!-- /.section__title -->
+										<div class="project__entry">
+											<h3>Potion</h3>
 
-          <p>
-            We believe deeply that financial markets should be universally
-            accessible and open, a vision we know is shared by financial
-            regulators globally. The potential of decentralized finance is truly
-            exciting&mdash;provided that regional laws and regulations
-            protecting consumers are respected. UMA is an open-source,
-            permissionless, and censorship-resistant protocol built to power
-            safe and responsible financial innovation.
-          </p>
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- /.section-/-hiring -->
+											<p>Protect your assets with put potions.</p>
 
-      <include src="footer.html"></include>
-    </div>
-    <!-- /.wrapper -->
+											<div class="project__actions">
+												<span>View Project</span>
 
-    <include src="scripts.html"></include>
-  </body>
+												<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+													<path fill="#fff" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+												</svg>
+											</div><!-- /.project__actions -->
+										</div><!-- /.project__entry -->
+									</div><!-- /.project__content -->
+
+									<div class="project__image">
+										<img src="assets/images/temp/image1.png" alt="">
+									</div><!-- /.project__image -->
+								</div><!-- /.project__inner -->
+							</a>
+						</div><!-- /.project -->
+
+						<div class="project">
+							<a href="/projects.html#perlinx">
+								<div class="project__inner">
+									<div class="project__content">
+										<div class="project__icon">
+											<img src="assets/images/temp/logo2.png" alt="">
+										</div><!-- /.project__icon -->
+
+										<div class="project__entry">
+											<h3>Perlinx</h3>
+
+											<p>Decentralized liquidity pools and synthetic asset generation.</p>
+
+											<div class="project__actions">
+												<span>View Project</span>
+
+												<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+													<path fill="#fff" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+												</svg>
+											</div><!-- /.project__actions -->
+										</div><!-- /.project__entry -->
+									</div><!-- /.project__content -->
+
+									<div class="project__image">
+										<img src="assets/images/temp/image2.png" alt="">
+									</div><!-- /.project__image -->
+								</div><!-- /.project__inner -->
+							</a>
+						</div><!-- /.project -->
+
+						<div class="project">
+							<a href="/projects.html#uusd">
+								<div class="project__inner">
+									<div class="project__content">
+										<div class="project__icon">
+											<img src="assets/images/temp/ulabs.png" alt="" width="220" height="220">
+										</div><!-- /.project__icon -->
+
+										<div class="project__entry">
+											<h3>uUSD</h3>
+
+											<p>A BTC or ETH backed Yield Dollar.</p>
+
+											<div class="project__actions">
+												<span>View Project</span>
+
+												<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+													<path fill="#fff" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+												</svg>
+											</div><!-- /.project__actions -->
+										</div><!-- /.project__entry -->
+									</div><!-- /.project__content -->
+
+									<div class="project__image">
+										<img src="assets/images/RenBTC.png" alt="">
+									</div><!-- /.project__image -->
+								</div><!-- /.project__inner -->
+							</a>
+						</div><!-- /.project -->
+					</div><!-- /.projects -->
+
+					<div class="section__actions">
+						<a href="projects.html" class="btn btn--black">View All Projects</a>
+					</div><!-- /.section__actions -->
+				</div><!-- /.section__inner -->
+			</div><!-- /.shell -->
+		</section><!-- /.section-projects -->
+
+		<div class="callout">
+			<div class="shell">
+				<div class="callout__inner">
+					<div class="callout__background" style="background-image: url('assets/images/temp/pattern1.png');"></div><!-- /.callout__background -->
+
+					<div class="callout__content">
+						<h5>Start building with UMA</h5>
+
+						<h2>Are you ready to build your first synthetic asset?</h2>
+
+						<div class="section__actions">
+							<a href="https://docs.umaproject.org/tutorials/setup" class="btn btn--white">Get Started</a>
+						</div><!-- /.section__actions -->
+					</div><!-- /.callout__content -->
+				</div><!-- /.callout__inner -->
+			</div><!-- /.shell -->
+		</div><!-- /.callout -->
+
+		<include src="footer.html"></include>
+	</div><!-- /.wrapper -->
+
+	<include src="scripts.html"></include>
+</body>
 </html>

@@ -1,0 +1,75 @@
+/* ------------------------------------------------------------ *\
+	Select
+\* ------------------------------------------------------------ */
+
+.select {
+		position: relative;
+
+	select::-ms-expand {
+		display: none;
+	}
+
+	select {
+		appearance: none;
+		width: 207px;
+	}
+
+	.select2-selection {
+		height: 50px;
+		padding: 0;
+	}
+
+	.select2-container--default .select2-selection--single .select2-selection__rendered {
+		color: rgba(0, 0, 0, .5);
+		font-size: 14px;
+		line-height: 1;
+		height: 50px;
+		padding: 18px 35px 18px 18px;
+	}
+
+	.select2-selection__arrow {
+		display: none;
+	}
+}
+
+.select2-results__option {
+	font-size: 14px;
+	padding: 15px;
+	color: rgba(0, 0, 0, .5);
+}
+
+.select2-search--dropdown {
+	display: none;
+
+	&:after {
+		display: none;
+	}
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background-color: $c-red;
+}
+
+.select2 {
+
+	&:after {
+		content: '';
+		background-image: url('../images/svg/down.svg');
+		width: 10px;
+		height: 6px;
+		display: block;
+		background-size: cover;
+		position: absolute;
+		right: 18px;
+		top: 50%;
+		transform: translateY(-50%);
+		transition: transform .3s;
+	}
+}
+
+.select2-container--open {
+
+	&:after {
+		transform: rotate(180deg);
+	}
+}

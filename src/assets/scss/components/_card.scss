@@ -1,0 +1,61 @@
+/* ------------------------------------------------------------ *\
+	card
+\* ------------------------------------------------------------ */
+
+.card {
+
+	.card__image {
+		margin-bottom: 38px;
+
+		@include breakpoint-down(tablet) {
+			width: 90px;
+			margin-bottom: 36px;
+		}
+
+		@include breakpoint-down(mobile) {
+			width: 76px;
+			margin-bottom: 31px;
+		}
+	}
+
+	h3 {
+		margin-bottom: 4px;
+
+		@include breakpoint-down(tablet) {
+			font-size: 32px;
+			margin-bottom: 7px;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 30px;
+			line-height: 0.87;
+			margin-bottom: 19px;
+		}
+	}
+
+	.card__entry {
+		max-width: 355px;
+
+		@include breakpoint-down(tablet) {
+			font-size: 16px;
+			line-height: 1.5;
+			max-width: 255px;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 300px;
+		}
+	}
+
+	.card__image--alt {
+		margin-bottom: 24px;
+
+		@include breakpoint-down(tablet) {
+			width: 105px;
+		}
+
+		@include breakpoint-down(mobile) {
+			width: 90px;
+		}
+	}
+}

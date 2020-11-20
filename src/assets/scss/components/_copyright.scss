@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	copyright
+\* ------------------------------------------------------------ */
+
+.copyright {
+	color: rgba(0, 0, 0, .75);
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0 25px;
+
+	@include breakpoint-down(tablet) {
+		margin: 0;
+	}
+
+	@include breakpoint-down(mobile) {
+		margin-bottom: 25px;
+	}
+}

@@ -1,0 +1,71 @@
+/* ------------------------------------------------------------ *\
+	mobile-nav
+\* ------------------------------------------------------------ */
+
+.mobile-nav {
+	margin-top: 10px;
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+	height: 20px;
+	width: 25px;
+
+	@include breakpoint-down(tablet) {
+		cursor: pointer;
+		pointer-events: all;
+		opacity: 1;
+		position: relative;
+	}
+
+	span {
+		display: block;
+		height: 3px;
+		width: 30px;
+		background-color: $c-black;
+		border: none;
+
+		@include breakpoint-down(tablet) {
+			position: absolute;
+			transition: top .2s .25s, opacity .2s .25s, transform .2s 0s;
+		}
+
+		@include breakpoint-down(mobile) {
+			height: 2px;
+			width: 25px;
+		}
+	}
+
+	span:nth-child(1) {
+		top: 0;
+	}
+
+	span:nth-child(2) {
+		top: 8px;
+	}
+
+	span:nth-child(3) {
+		top: 17px;
+	}
+}
+
+.mobile-nav--active span {
+	transition: background .2s, top .2s, opacity .2s, transform .2s .25s;
+	background: #828282;
+}
+
+.mobile-nav--active span:nth-child(3),
+.mobile-nav--active span:nth-child(1) {
+	top: 9px;
+}
+
+.mobile-nav--active span:nth-child(2) {
+	opacity: 0;
+}
+
+.mobile-nav--active span:nth-child(1) {
+	transform: rotate(45deg);
+}
+
+.mobile-nav--active span:nth-child(3) {
+	transform: rotate(-45deg);
+}

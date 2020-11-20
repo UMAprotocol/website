@@ -1,0 +1,49 @@
+@mixin clearfix {
+	content: '';
+	line-height: 0;
+	display: table;
+	clear: both;
+}
+
+@mixin breakpoint-up($name, $breakpoints: $breakpoints) {
+	$min: breakpoint-min($name, $breakpoints);
+
+	@media (min-width: $min) {
+		@content;
+	}
+}
+
+@mixin breakpoint-down($name, $breakpoints: $breakpoints) {
+	$max: breakpoint-max($name, $breakpoints);
+
+	@if $max == 767px {
+		@media (max-width: $max), screen and (max-width: $responsive-ios) and (orientation: landscape) {
+			@content;
+		}
+	} @else {
+		@media (max-width: $max) {
+			@content;
+		}
+	}
+}
+
+@mixin breakpoint-between($lower, $upper, $breakpoints: $breakpoints) {
+	$min: breakpoint-min($lower, $breakpoints);
+	$max: breakpoint-max($upper, $breakpoints);
+
+	@media (min-width: $min) and (max-width: $max) {
+		@content;
+	}
+}
+
+/* example usage*/
+
+// @include breakpoint-down(mobile) {
+//	@content
+// }
+// @include breakpoint-down(mobile) {
+//	@content
+// }
+// // @include breakpoint-between(mobile,tablet) {
+//	@content
+// }

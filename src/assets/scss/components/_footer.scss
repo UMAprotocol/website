@@ -1,0 +1,140 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	padding: 72px 0;
+
+	@include breakpoint-down(tablet) {
+		padding: 52px 0;
+	}
+
+	.footer__inner {
+		@include breakpoint-down(tablet) {
+			padding: 0 8px;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 0;
+		}
+	}
+
+	.footer__logo {
+		margin: 0 26px 21px;
+
+		@include breakpoint-down(tablet) {
+			margin: 0 0 21px;
+		}
+	}
+
+	.footer__logo img {
+		width: 100px;
+		height: 25px;
+	}
+
+	.footer__grid {
+		margin: 0 -30px;
+
+		@include breakpoint-down(tablet) {
+			margin: 0 -10px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: 0;
+		}
+	}
+
+	.footer__col {
+		padding: 0 30px;
+
+		@include breakpoint-down(tablet) {
+			padding: 0 10px;
+		}
+	}
+
+	.footer-nav__grid {
+
+		@include breakpoint-down(mobile) {
+			margin: 0 -23px;
+		}
+	}
+
+	.footer__nav {
+		padding-left: 98px;
+
+		@include breakpoint-down(tablet) {
+			padding-left: 32px;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 0 23px;
+			margin: 0 0 21px;
+		}
+	}
+
+	.footer__col + .footer__col {
+		position: relative;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			height: 185px;
+			width: 1px;
+			background-color: rgba(0, 0, 0, .15);
+
+			@include breakpoint-down(tablet) {
+				display: none;
+			}
+		}
+	}
+
+	.footer__content {
+		padding-left: 100px;
+
+		@include breakpoint-down(tablet) {
+			padding: 0;
+		}
+	}
+
+	.footer__entry {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.57;
+		max-width: 230px;
+		margin-bottom: 16px;
+	}
+
+	.footer__entry h6 {
+		color: #FF4A4A;
+		font-size: 16px;
+		font-weight: 600;
+		margin: 5px 0 9px;
+	}
+
+	.footer__subscribe {
+		max-width: 290px;
+		margin-bottom: 25px;
+	}
+
+	.footer__socials ul {
+		padding: 0 3px;
+
+		@include breakpoint-down(tablet) {
+			margin: 0;
+		}
+
+		@include breakpoint-down(mobile) {
+			justify-content: flex-start;
+		}
+	}
+
+	.footer__socials img {
+		width: 20px;
+	}
+
+	.footer__socials li + li {
+		margin-left: 21px;
+	}
+}

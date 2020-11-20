@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav {
+
+	ul {
+		display: flex;
+		margin: 4px 50px;
+
+		@include breakpoint-down(tablet) {
+			display: block;
+			margin: 6px 80px 42px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: -5px 30px 31px;
+		}
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 600;
+		transition: color .3s;
+
+		@include breakpoint-down(tablet) {
+			font-size: 16px;
+		}
+	}
+
+	li + li {
+		margin-left: 48px;
+
+		@include breakpoint-down(tablet) {
+			margin-left: 0;
+			margin-top: 22px;
+		}
+	}
+
+	a:hover {
+		color: $c-red;
+	}
+}

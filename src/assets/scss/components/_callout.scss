@@ -1,0 +1,110 @@
+/* ------------------------------------------------------------ *\
+	callout
+\* ------------------------------------------------------------ */
+
+.callout {
+	padding-bottom: 100px;
+	position: relative;
+
+	@include breakpoint-down(tablet) {
+		padding-bottom: 79px;
+	}
+
+	.callout__background {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		width: 52%;
+		background-size: 145px 115px;
+	}
+
+	.callout__inner {
+		background-color: $c-red;
+		position: relative;
+		color: $c-white;
+		border-radius: 10px;
+		padding: 81px;
+		overflow: hidden;
+
+		@include breakpoint-down(tablet) {
+			border-radius: 4px;
+			padding: 60px;
+		}
+
+		@include breakpoint-down(mobile) {
+		    padding: 49px 36px 60px;
+		}
+	}
+
+	.callout__inner:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 15%;
+		right: 0;
+		z-index: 1;
+		background: linear-gradient(89.75deg, #FF4A4A 20%, rgba(255, 74, 74, 0) 280%);
+	}
+
+	h5 {
+		margin-bottom: 26px;
+
+		@include breakpoint-down(tablet) {
+			font-size: 18px;
+			line-height: 2.06;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 16px;
+			line-height: 2.31;
+			margin-bottom: 23px;
+		}
+	}
+
+	h2 {
+		max-width: 655px;
+		line-height: 1.19;
+		margin-bottom: 41px;
+
+		@include breakpoint-down(tablet) {
+			font-size: 42px;
+			line-height: 1.14;
+			max-width: 380px;
+			margin-bottom: 46px;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 32px;
+			line-height: 1.22;
+			margin-bottom: 39px;
+		}
+	}
+
+	.callout__content {
+		position: relative;
+		z-index: 10;
+	}
+}
+
+.callout--gray {
+	background-color: #F5F5F5;
+	padding-bottom: 120px;
+
+	@include breakpoint-down(tablet) {
+		padding-bottom: 100px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding-bottom: 80px;
+	}
+
+	h2 {
+		max-width: 700px;
+
+		@include breakpoint-down(tablet) {
+			max-width: 400px;
+		}
+	}
+}

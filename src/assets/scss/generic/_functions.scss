@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------ *\
+  SCSS Functions
+\* ------------------------------------------------------------ */
+
+@function breakpoint-next($name, $breakpoints: $breakpoints, $breakpoint-names: map-keys($breakpoints)) {
+	$n: index($breakpoint-names, $name);
+	@return if($n != null and $n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);
+}
+
+@function breakpoint-min($name, $breakpoints: $breakpoints) {
+	$min: map-get($breakpoints, $name);
+	@return if($min != 0, $min + .02, null);
+}
+
+
+@function breakpoint-max($name, $breakpoints: $breakpoints) {
+	$max: map-get($breakpoints, $name);
+	@return if($max != 0, $max, null);
+}
+

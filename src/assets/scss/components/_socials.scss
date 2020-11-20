@@ -1,0 +1,37 @@
+/* ------------------------------------------------------------ *\
+	socials
+\* ------------------------------------------------------------ */
+
+.socials {
+
+	ul {
+		display: flex;
+
+		@include breakpoint-down(tablet) {
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			margin: 20px 80px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: 0 30px 20px;
+		}
+	}
+
+	li {
+		list-style: none;
+		width: 25px;
+	}
+
+	li + li {
+		margin-left: 34px;
+	}
+
+	a {
+		transition: opacity .3s;
+	}
+
+	a:hover {
+		opacity: .5;
+	}
+}

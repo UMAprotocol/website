@@ -1,0 +1,93 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	padding: 48px 0 51px;
+	border-bottom: 1px solid #E5E5E5;
+	position: relative;
+	z-index: 11;
+
+	@include breakpoint-down(tablet) {
+		padding: 34px 0;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 22px 0 34px;
+	}
+
+	.header__inner {
+		padding: 0 13px 0 17px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@include breakpoint-down(tablet) {
+			padding: 0 ;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 0;
+		}
+	}
+
+	.header__content {
+		display: flex;
+		margin-top: 3px;
+
+		@include breakpoint-down(tablet) {
+			display: block;
+			text-align: center;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			z-index: 1;
+			margin-top: -1px;
+			text-align: left;
+			background: rgba(255, 255, 255, 1);
+			transform: translateY(-20px);
+			opacity: 0;
+			pointer-events: none;
+			transition: transform .3s, opacity .3s;
+		}
+
+		&:after {
+			@include breakpoint-down(tablet) {
+				content: '';
+				position: absolute;
+				top: 100%;
+				left: 0;
+				right: 0;
+				height: 99999px;
+				background: #000;
+				z-index: 1;
+				opacity: 0;
+				pointer-events: none;
+			}
+		}
+
+		&.is-active {
+			opacity: 1;
+			pointer-events: all;
+			transform: translateY(0);
+		}
+
+
+		&.is-active:after {
+			opacity: .5;
+		}
+	}
+
+	.header__logo {
+		position: relative;
+		z-index: 2;
+		font-size: 0;
+		width: 137px;
+
+		@include breakpoint-down(tablet) {
+			width: 93px;
+		}
+	}
+}
+

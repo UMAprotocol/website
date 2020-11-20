@@ -1,0 +1,67 @@
+/* ------------------------------------------------------------ *\
+	section
+\* ------------------------------------------------------------ */
+
+.section {
+	padding: 141px 0 78px;
+	color: $c-white;
+	background-color: $c-red;
+
+	@include breakpoint-down(mobile) {
+		padding: 60px 0 40px;
+	}
+
+	.section__grid {
+		margin: 0 -110px;
+
+		@include breakpoint-down(tablet) {
+			margin: 0;
+		}
+	}
+
+	.section__col {
+		padding: 0 75px 0 102px;
+
+		@include breakpoint-down(tablet) {
+			padding: 0;
+			display: block;
+			max-width: 100%;
+			flex: 0 0 100%;
+		}
+	}
+
+	.section__content {
+		padding: 60px 0;
+
+		@include breakpoint-down(mobile) {
+			padding: 40px 0 0;
+		}
+	}
+
+	h5 {
+		line-height: 1.68;
+		padding: 0 26px;
+		border-left: 1px solid $c-white;
+		margin-bottom: 50px;
+
+		@include breakpoint-down(mobile) {
+			padding: 0 20px;
+			margin-bottom: 37px;
+		}
+	}
+
+	h2 {
+		max-width: 380px;
+		line-height: 1.2;
+
+		@include breakpoint-down(tablet) {
+			max-width: none;
+			margin-bottom: 64px;
+		}
+
+		@include breakpoint-down(mobile) {
+			line-height: 1.31;
+			margin-bottom: 0;
+		}
+	}
+}

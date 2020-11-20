@@ -1,0 +1,59 @@
+/* ------------------------------------------------------------ *\
+	stat
+\* ------------------------------------------------------------ */
+
+.stat {
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+	padding-bottom: 52px;
+
+	@include breakpoint-down(tablet) {
+		margin-bottom: 95px;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding-bottom: 38px;
+		margin-bottom: 50px;
+	}
+
+	strong {
+		font-size: 122px;
+		line-height: 0.62;
+
+		@include breakpoint-down(tablet) {
+			font-size: 102px;
+			line-height: 0.75;
+		}
+
+		@include breakpoint-down(mobile) {
+			font-size: 72px;
+			line-height: 1.06;
+		}
+	}
+
+	h3 {
+		margin: 13px 0 37px;
+
+		@include breakpoint-down(tablet) {
+			margin: 13px 0 33px;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: 0 0 20px;
+		}
+	}
+
+	.stat__content {
+		max-width: 220px;
+		color: rgba(255, 255, 255, .75);
+
+		@include breakpoint-down(tablet) {
+			font-size: 16px;
+			line-height: 1.5;
+			max-width: 260px;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 320px;
+		}
+	}
+}
