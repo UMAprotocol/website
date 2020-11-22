@@ -131,7 +131,7 @@
 							</li>
 
 							<li>
-								<a href="#category3">Data Verification Mechanism (DVM)</a>
+								<a href="#category3">Optimistic Oracle</a>
 							</li>
 						</ul><!-- /.list-category -->
 					</div><!-- /.section__nav -->
@@ -144,7 +144,7 @@
 								<div class="category__content">
 									<h6>What does UMA stand for?</h6>
 
-									<p>UMA stands for universal market access.</p>
+									<p>Universal Market Access</p>
 								</div><!-- /.category__content -->
 
 								<div class="category__content">
@@ -157,7 +157,7 @@
 								<div class="category__content">
 									<h6>What is a synthetic asset?</h6>
 
-									<p>Synthetic assets are collateral-backed tokens whose value fluctuates depending on the tokens’ reference index. They are created by depositing collateral into a smart contract and minting tokens backed by that collateral. One example of a synthetic token is Defi TVL, an ERC-20 token that tracks the total value locked in Defi.</p>
+									<p>Synthetic assets are collateral-backed tokens whose value fluctuates depending on the tokens’ reference index.</p>
 								</div><!-- /.category__content -->
 							</div><!-- /.category -->
 
@@ -180,24 +180,24 @@
 							</div><!-- category --> 
 
 							<div class="category" id="category3">
-								<h4>Data Verification Mechanism</h4>
+								<h4>UMA's Optimistic Oracle</h4>
 
 								<div class="category__content">
-									<h6>What is UMA’s Data Verification Mechanism (DVM)?</h6>
+									<h6>What is UMA’s Optimistic Oracle?</h6>
 
-									<p>UMA’s priceless financial contracts are written optimistically, that is, oracles are not needed unless there is a dispute. This differs from other oracle solutions that constantly push prices on-chain even when all participants are acting honestly. 
+									<p>UMA’s priceless contracts leverage an optimistic oracle known as the Data Verification Mechanism (DVM). The DVM provides the price of an asset at a requested timestamp <b>only</b> when network participants dispute the value of collateral backing a synthetic token. This differs from non-optimistic oracle solutions which constantly write prices on-chain to ensure contracts are properly collateralized. 
 										Minimizing oracle usage increases the security and scalability of decentralized financial contracts.</p>
 
-									<p>The DVM is a decentralized oracle service used to resolve disputes of liquidations and to settle synthetic token contracts upon expiration. UMA token holders are incentivized to respond to price disputes by referencing the index price off-chain and reporting the price to the DVM. This price is used as an input by the DVM to determine the final price of the asset.</p>
+									<p>When a dispute occurs, the DVM aggregates price data submitted by UMA token holders. UMA token holders respond to price requests by referencing the asset's price off-chain and reporting the price to the DVM. This price is used as an input by the DVM to determine the final price of the asset.</p>
 
 									<p>If the price returned by the DVM determines the disputer was correct, the disputer is rewarded with a penalty charged to the liquidator; conversely if the disputer was incorrect, the disputer forfeits a bond to the liquidator.</p>
+
+									<p> UMA's DVM is backed by economic guarantees to ensure it price feeds cannot be corrupted. Learn more <a href="https://medium.com/uma-project/umas-data-verification-mechanism-3c5342759eb8" target="_blank"> here</a>! </p>
 
 								</div><!-- /.category__content -->
 
 								<div class="category__content">
-									<h6>Why use UMA's DVM?</h6>
 
-									<p> UMA's DVM is backed by economic guarantees to ensure it price feeds cannot be corrupted. Learn more <a href="https://medium.com/uma-project/umas-data-verification-mechanism-3c5342759eb8" target="_blank"> here</a>! </p>
 								
 								</div><!-- /.category__content -->
 							</div><!-- /.category -->
