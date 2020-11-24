@@ -5,6 +5,10 @@
 .subscribe {
 	position: relative;
 
+	form {
+		position: relative;
+	}
+
 	.subscribe__field {
 		border-bottom: 1px solid rgba(0, 0, 0, .3);
 		border-top: none;
