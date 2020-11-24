@@ -2,7 +2,7 @@
   "name": "UMA",
   "logoURI": "https://umaproject.org/assets/images/UMA_square_red_logo_circle.png",
   "keywords": ["defi", "uma", "yield"],
-  "timestamp": "2020-08-25T01:40:34.305Z",
+  "timestamp": "2020-11-23T01:40:34.305Z",
   "tokens": [
     {
       "chainId": 1,
@@ -28,22 +28,29 @@
     {
       "chainId": 1,
       "address": "0x208d174775dc39fe18b1b374972f77ddec6c0f73",
-      "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
+      "name": "uUSDrBTC Synthetic Expiring 1 Oct 2020",
       "symbol": "uUSDrBTC-OCT",
       "decimals": 18
     },
     {
       "chainId": 1,
       "address": "0xf06ddacf71e2992e2122a1a0168c6967afdf63ce",
-      "name": "uUSDrBTC Synthetic Token Expiring 31 December 2020",
+      "name": "uUSDrBTC Synthetic Expiring 31 Dec 2020",
       "symbol": "uUSDrBTC-DEC",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0xd16c79c8a39d44b2f3eb45d2019cd6a42b03e2a9",
+      "name": "uUSDwETH Synthetic Expiring 31 Dec 2020",
+      "symbol": "uUSDwETH-DEC",
       "decimals": 18
     },
      {
       "chainId": 1,
-      "address": "0xd16c79c8a39d44b2f3eb45d2019cd6a42b03e2a9",
-      "name": "uUSDwETH Synthetic Token Expiring 31 December 2020",
-      "symbol": " uUSDwETH-DEC",
+      "address": "0x3d995510f8d82c2ea341845932b5ddde0bead9a3",
+      "name": "uGAS-JAN21 Token Expiring 31 Jan 2021",
+      "symbol": "uGAS-JAN21",
       "decimals": 18
     }
   ],
