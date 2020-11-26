@@ -9,7 +9,6 @@ const formsubmit = () => {
 	$subscribeForm.on('submit', function(event) {
 		event.preventDefault();
 
-
 		const $this = $(this);
 		const value = $this.find('.subscribe__field').val();
 
@@ -21,13 +20,15 @@ const formsubmit = () => {
 		setTimeout(function() {
 			$this.closest('.subscribe').addClass('has-submitted');
 
-			if ($embedError.is(':visible')) {
+			if ($embedError.css('display') !== 'none') {
 				$msgContainer.text($embedError.text());
+				$this.find('.subscribe__field').val('');
 			}
 
-			if ($embedSuccess.is(':visible')) {
+			if ($embedSuccess.css('display') !== 'none') {
 				const text = 'Thanks! ' + value + ' is on our mailing list.';
 				$msgContainer.text(text);
+				$this.find('.subscribe__field').val('');
 			}
 		}, 300);
 	});
