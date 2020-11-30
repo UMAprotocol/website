@@ -12,3 +12,7 @@ import './modules/handle-scroll';
 import './modules/handle-select-box';
 import './modules/handle-filter';
 import './modules/handle-scroll-other-page';
+
+import handleFormSubmit from './modules/handle-form-submit.js';
+
+handleFormSubmit()

@@ -5,6 +5,10 @@
 .subscribe {
 	position: relative;
 
+	form {
+		position: relative;
+	}
+
 	.subscribe__field {
 		border-bottom: 1px solid rgba(0, 0, 0, .3);
 		border-top: none;
@@ -26,5 +30,10 @@
 		transform: translateY(-50%);
 		border: none;
 		background: none;
+	}
+
+	.subscribe__message {
+		margin-top: 15px;
+		font-size: 16px;
 	}
 }
