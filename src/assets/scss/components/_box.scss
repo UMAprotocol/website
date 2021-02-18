@@ -172,7 +172,15 @@
       ),
       #26c8db;
   }
-
+  .box__icon--light:after {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)
+      ),
+      #ffffff;
+      left: 6px;
+  }
   .box__icon--dark:after {
     background: linear-gradient(
         0deg,
