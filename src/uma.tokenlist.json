@@ -66,6 +66,13 @@
       "name": "YD-BTC-MAR21 Token Expiring 31 Mar 2021",
       "symbol": "YD-BTC-MAR21",
       "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x1062ad0e59fa67fa0b27369113098cc941dd0d5f",
+      "name": "UMA 35 Call [30 Apr 2021]",
+      "symbol": "UMAc35-0421",
+      "decimals": 18
     }
   ],
   "version": { "major": 0, "minor": 0, "patch": 0 }
