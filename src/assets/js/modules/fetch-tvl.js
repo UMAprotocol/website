@@ -2,6 +2,7 @@ const tvlUrl = "https://api.umaproject.org/uma-tvl";
 const format = Intl.NumberFormat("en-US", {
   currency: "USD",
   style: "currency",
+  minimumFractionDigits: 0,
   maximumFractionDigits: 0,
 }).format;
 

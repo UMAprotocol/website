@@ -17,5 +17,6 @@ import handleFormSubmit from "./modules/handle-form-submit.js";
 import fetchTvl from "./modules/fetch-tvl";
 
 handleFormSubmit();
-const fiveMinutesInMilliseconds = 1000 * 60 * 5;
+fetchTvl();
+const fiveMinutesInMilliseconds = 1000 * 5 * 60;
 setInterval(() => fetchTvl(), fiveMinutesInMilliseconds);
