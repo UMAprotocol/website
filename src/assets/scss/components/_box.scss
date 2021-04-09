@@ -179,7 +179,7 @@
         rgba(255, 255, 255, 0.9)
       ),
       #ffffff;
-      left: 6px;
+    left: 6px;
   }
   .box__icon--dark:after {
     background: linear-gradient(
@@ -199,7 +199,7 @@
   .box__image--large--domfinance {
     width: 56px;
     height: 56px;
-    position: absolute;
+    position: relative;
     top: -14px;
     left: 7px;
   }
