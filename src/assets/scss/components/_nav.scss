@@ -3,46 +3,108 @@
 \* ------------------------------------------------------------ */
 
 .nav {
+  ul {
+    display: flex;
+    margin: 4px 50px;
 
-	ul {
-		display: flex;
-		margin: 4px 50px;
+    @include breakpoint-down(tablet) {
+      display: block;
+      margin: 6px 80px 42px;
+    }
 
-		@include breakpoint-down(tablet) {
-			display: block;
-			margin: 6px 80px 42px;
-		}
+    @include breakpoint-down(mobile) {
+      margin: -5px 30px 31px;
+    }
+  }
 
-		@include breakpoint-down(mobile) {
-			margin: -5px 30px 31px;
-		}
-	}
+  li {
+    list-style: none;
+  }
 
-	li {
-		list-style: none;
-	}
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s;
 
-	a {
-		text-decoration: none;
-		font-size: 16px;
-		font-weight: 600;
-		transition: color .3s;
+    @include breakpoint-down(tablet) {
+      font-size: 16px;
+    }
+  }
 
-		@include breakpoint-down(tablet) {
-			font-size: 16px;
-		}
-	}
+  li + li {
+    margin-left: 48px;
 
-	li + li {
-		margin-left: 48px;
+    @include breakpoint-down(tablet) {
+      margin-left: 0;
+      margin-top: 22px;
+    }
+  }
 
-		@include breakpoint-down(tablet) {
-			margin-left: 0;
-			margin-top: 22px;
-		}
-	}
+  a:hover {
+    color: $c-red;
+  }
 
-	a:hover {
-		color: $c-red;
-	}
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* Dropdown button */
+  .dropdown .drop-btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    border-bottom: 2px solid transparent;
+  }
+
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover,
+  .dropdown:hover .drop-btn {
+    // background-color: red;
+    text-decoration: underline;
+    text-decoration-color: #ff4a4a;
+    text-underline-offset: 4px;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    &.dropdown-open {
+      display: block;
+    }
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f5f5f5;
+    color: #ff4a4a;
+  }
+
+  // /* Show the dropdown menu on hover */
+  // .dropdown:hover .dropdown-content {
+  //   display: block;
+  // }
 }
