@@ -49,6 +49,10 @@
   .dropdown {
     float: left;
     overflow: hidden;
+    @include breakpoint-down(tablet) {
+      display: none;
+      float: none;
+    }
   }
 
   /* Dropdown button */
@@ -62,6 +66,11 @@
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
     border-bottom: 2px solid transparent;
+    width: 100px;
+    @include breakpoint-down(tablet) {
+      display: block;
+      width: 100%;
+    }
   }
 
   /* Add a red background color to navbar links on hover */
@@ -85,11 +94,22 @@
     margin-top: 8px;
     &.dropdown-open {
       display: block;
+      @include breakpoint-down(tablet) {
+        display: block;
+        width: 100%;
+      }
+    }
+    @include breakpoint-down(tablet) {
+      display: inline-block;
+      width: 100%;
+      // transform: translateX(-30px);
+      position: relative;
     }
   }
 
   /* Links inside the dropdown */
-  .dropdown-content a {
+  .dropdown-content a,
+  .dropdown-content-mobile a {
     float: none;
     color: #000;
     padding: 12px 16px;
@@ -100,13 +120,50 @@
   }
 
   /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
+  .dropdown-content a:hover,
+  .dropdown-content-mobile a:hover {
     background-color: #f5f5f5;
     color: #ff4a4a;
   }
 
-  // /* Show the dropdown menu on hover */
-  // .dropdown:hover .dropdown-content {
-  //   display: block;
-  // }
+  .drop-btn-mobile {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    border-bottom: 2px solid transparent;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-item-mobile {
+    display: none;
+    @include breakpoint-down(tablet) {
+      display: block;
+      width: 100%;
+      // margin-right: 12px;
+    }
+  }
+
+  .dropdown-content-mobile {
+    display: none;
+    &.dropdown-open {
+      display: block;
+      margin-right: 12px;
+    }
+  }
+
+  .dropdown-mobile {
+    margin-right: -12px;
+  }
+
+  .angle-down-mobile {
+    margin-right: 12px;
+    float: right;
+    opacity: 0.5;
+  }
 }

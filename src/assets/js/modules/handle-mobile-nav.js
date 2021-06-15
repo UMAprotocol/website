@@ -16,13 +16,3 @@ $document.on("click", function (e) {
     $(".header .header__content").removeClass("is-active");
   }
 });
-
-$(".drop-btn").on("click", function (event) {
-  $(".dropdown-content").toggleClass("dropdown-open");
-});
-
-$(document).click(function (event) {
-  if (!$(event.target).is(".drop-btn, .dropdown-content")) {
-    $(".dropdown-content").removeClass("dropdown-open");
-  }
-});
