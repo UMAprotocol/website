@@ -20,6 +20,15 @@
     .products-sm-logo {
       height: 25px;
     }
+    @include breakpoint-down(tablet) {
+      position: relative;
+      transform: translate(0);
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+      margin-top: -1rem;
+    }
   }
 
   h1 {
@@ -76,7 +85,11 @@
     font-size: 1.2rem;
     line-height: 20px;
     @include breakpoint-down(tablet) {
-      padding: 4px 16px;
+      padding: 4px 2rem;
+    }
+
+    @include breakpoint-down(mobile) {
+      text-align: center;
     }
     &::before {
       content: "";
@@ -98,6 +111,8 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .products-btn-wrapper {
     @include breakpoint-down(tablet) {
       text-align: center;
     }
