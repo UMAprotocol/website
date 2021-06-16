@@ -64,6 +64,9 @@
     line-height: 50px;
     margin-bottom: 1rem;
     margin-top: 2rem;
+    @include breakpoint-down(tablet) {
+      text-align: center;
+    }
   }
   .products-body-info {
     padding: 0rem 1rem;
@@ -72,6 +75,9 @@
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 20px;
+    @include breakpoint-down(tablet) {
+      padding: 4px 16px;
+    }
     &::before {
       content: "";
       position: absolute;
@@ -81,6 +87,9 @@
       height: 1.5rem;
       margin-right: 8px;
       transform: translateX(-16px);
+      @include breakpoint-down(tablet) {
+        display: none;
+      }
     }
   }
   .products-body-info,
@@ -89,6 +98,9 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    @include breakpoint-down(tablet) {
+      text-align: center;
+    }
   }
 
   .products-btn-link {
@@ -102,6 +114,7 @@
     font-size: 1.1rem;
     margin-top: 1rem;
     border-width: 0;
+
     &:hover {
       opacity: 0.7;
       transition: opacity 0.33s ease-in;
