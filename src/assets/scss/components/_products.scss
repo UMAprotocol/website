@@ -10,6 +10,18 @@
     padding: 56px 0 80px;
   }
 
+  .products-uma-blurb {
+    color: #000;
+    position: absolute;
+    right: 0;
+    transform: translateY(-40px);
+    margin-right: 2rem;
+    font-size: 1.25rem;
+    .products-sm-logo {
+      height: 25px;
+    }
+  }
+
   h1 {
     line-height: 1.08;
     font-weight: 600;
@@ -29,7 +41,7 @@
   h4 {
     color: #fff;
     font-family: "Halyard Display";
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     font-weight: 300;
     max-width: 900px;
   }
@@ -38,5 +50,57 @@
     @include breakpoint-down(mobile) {
       margin-top: -10px;
     }
+  }
+}
+
+.products-body {
+  padding: 80px 0 140px;
+
+  .products-body-title {
+    font-family: "Halyard Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  .products-body-info {
+    padding: 0rem 1rem;
+    font-family: "Halyard Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 20px;
+    &::before {
+      content: "";
+      position: absolute;
+      border-color: #ff4a4a;
+      border-style: solid;
+      border-width: 2px;
+      height: 1.5rem;
+      margin-right: 8px;
+      transform: translateX(-16px);
+    }
+  }
+  .products-body-info,
+  .products-body-title,
+  .products-btn-wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .products-btn-link {
+    width: 325px;
+    height: 55px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff4a4a;
+    font-weight: 600;
+    font-family: "Halyard Display";
+    font-size: 1.1rem;
+    // padding: 12px 8px;
+    margin-top: 1rem;
   }
 }
