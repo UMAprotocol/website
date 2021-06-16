@@ -19,7 +19,9 @@
 
   li {
     list-style: none;
-    border-bottom: 1px solid #e5e5e5;
+    @include breakpoint-down(tablet) {
+      border-bottom: 1px solid #e5e5e5;
+    }
   }
 
   a {
