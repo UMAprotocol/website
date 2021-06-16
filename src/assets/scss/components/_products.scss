@@ -106,5 +106,8 @@
       opacity: 0.7;
       transition: opacity 0.33s ease-in;
     }
+    &.oo-btn {
+      width: 350px;
+    }
   }
 }
