@@ -19,6 +19,7 @@
 
   li {
     list-style: none;
+    border-bottom: 1px solid #e5e5e5;
   }
 
   a {
@@ -73,6 +74,12 @@
     }
   }
 
+  .dropdown-item {
+    @include breakpoint-down(tablet) {
+      display: none;
+    }
+  }
+
   /* Add a red background color to navbar links on hover */
   .navbar a:hover,
   .dropdown:hover .drop-btn {
@@ -117,6 +124,10 @@
     display: block;
     text-align: left;
     font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+    &:last-of-type {
+      border-bottom: none;
+    }
   }
 
   /* Add a grey background color to dropdown links on hover */
