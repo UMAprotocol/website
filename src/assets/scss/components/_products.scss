@@ -100,7 +100,11 @@
     font-weight: 600;
     font-family: "Halyard Display";
     font-size: 1.1rem;
-    // padding: 12px 8px;
     margin-top: 1rem;
+    border-width: 0;
+    &:hover {
+      opacity: 0.7;
+      transition: opacity 0.33s ease-in;
+    }
   }
 }
