@@ -31,13 +31,6 @@ function toggleDropdownMobile() {
 
 function toggleDropdownDesktop() {
   $(".dropdown-content").toggleClass("dropdown-open");
-  if ($(".angle-down").hasClass("fa-angle-down")) {
-    $(".angle-down").addClass("fa-angle-up");
-    $(".angle-down").removeClass("fa-angle-down");
-  } else {
-    $(".angle-down").removeClass("fa-angle-up");
-    $(".angle-down").addClass("fa-angle-down");
-  }
 }
 
 $document.click(function (event) {
