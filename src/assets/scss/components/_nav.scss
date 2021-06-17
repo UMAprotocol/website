@@ -85,7 +85,6 @@
   /* Add a red background color to navbar links on hover */
   .navbar a:hover,
   .dropdown:hover .drop-btn {
-    // background-color: red;
     text-decoration: underline;
     text-decoration-color: #ff4a4a;
     text-underline-offset: 4px;
@@ -111,7 +110,6 @@
     @include breakpoint-down(tablet) {
       display: inline-block;
       width: 100%;
-      // transform: translateX(-30px);
       position: relative;
     }
   }
@@ -158,7 +156,6 @@
     @include breakpoint-down(tablet) {
       display: block;
       width: 100%;
-      // margin-right: 12px;
     }
   }
 
