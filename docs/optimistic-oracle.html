@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>UMA&mdash;Universal Market Access</title>
+
+	<meta name="description" content="A decentralized financial contracts platform built to enable Universal Market Access">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@UMAprotocol">
+	<meta name="twitter:title" content="UMA&mdash;Universal Market Access">
+	<meta name="twitter:image" content="https://umaproject.org/assets/images/UMA_square_red_logo.png">
+	<meta property="twitter:description" content="A decentralized financial contracts platform built to enable Universal Market Access">
+	<meta property="og:title" content="UMA&mdash;Universal Market Access">
+	<meta property="og:image" content="https://umaproject.org/assets/images/UMA_square_red_logo.png">
+	<meta property="og:description" content="A decentralized financial contracts platform built to enable Universal Market Access">
+	<meta property="og:url" content="https://umaproject.org">
+
+	<link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/svg-with-js.min.css" integrity="sha512-W3ZfgmZ5g1rCPFiCbOb+tn7g7sQWOQCB1AkDqrBG1Yp3iDjY9KYFh/k1AWxrt85LX5BRazEAuv+5DV2YZwghag==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" /> -->
+	<link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#FF4A4A">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bundle.css">
+	<!-- <link rel="stylesheet" href="https://use.typekit.net/jll8euv.css" /> -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-130599982-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-130599982-1');
+	</script>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="shell shell--large">
+    <div class="header__inner">
+      <div class="logo header__logo">
+        <a href="/">
+          <img src="assets/images/logo.svg" alt="">
+        </a>
+      </div>
+      <!-- /.logo header__logo -->
+
+      <div class="header__content">
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="https://docs.umaproject.org/getting-started/overview">How UMA Works</a>
+            </li>
+
+            <li>
+              <a href="https://docs.umaproject.org/build-walkthrough/build-process">Getting Started</a>
+            </li>
+
+            <li class="dropdown-item">
+              <div class="dropdown">
+                <button class="drop-btn">
+                  Products
+                  <i class="fas fa-angle-down angle-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="optimistic-oracle.html">Optimistic Oracle</a>
+                  <a href="lsp.html">Long Short Pair (LSP)</a>
+                  <a href="call-put.html">Call/Put Options</a>
+                  <a href="range-tokens.html">Range Tokens</a>
+                  <a href="kpi-options.html">KPI Options</a>
+                </div>
+              </div>
+            </li>
+            <li class="dropdown-item-mobile">
+              <div class="dropdown-mobile">
+                <button class="drop-btn-mobile">
+                  Products
+                  <i class="fas fa-angle-down angle-down-mobile"></i>
+                </button>
+                <div class="dropdown-content-mobile">
+                  <a href="optimistic-oracle.html">Optimistic Oracle</a>
+                  <a href="lsp.html">Long Short Pair (LSP)</a>
+                  <a href="call-put.html">Call/Put Options</a>
+                  <a href="range-tokens.html">Range Tokens</a>
+                  <a href="kpi-options.html">KPI Options</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="https://docs.umaproject.org/">Docs</a>
+            </li>
+
+            <li>
+              <a href="https://vote.umaproject.org/" target="_blank">Vote</a>
+            </li>
+            <li>
+              <a href="https://claim.umaproject.org/" target="_blank">Rewards</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.nav -->
+
+        <div class="socials">
+          <ul>
+            <li>
+              <a href="https://medium.com/uma-project" target="_blank">
+                <img src="assets/images/svg/vector1.svg" alt="">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/umaprotocol" target="_blank">
+                <img src="assets/images/svg/vector2.svg" alt="">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/umaprotocol?lang=en" target="_blank">
+                <img src="assets/images/svg/vector3.svg" alt="">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://discourse.umaproject.org/" target="_blank">
+                <img src="assets/images/discourse5.svg" alt="">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://discord.com/invite/jsb9XQJ" target="_blank">
+                <img src="assets/images/svg/soc3.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.socials -->
+      </div>
+      <!-- /.header__content -->
+
+      <div class="mobile-nav js-mobile-nav">
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+      </div>
+      <!-- /.mobile-nav -->
+    </div>
+    <!-- /.header__inner -->
+  </div>
+  <!-- /.shell shell-/-large -->
+</header>
+<!-- /.header -->
+
+
+      <section class="products-hero">
+        <span class="products-uma-blurb">
+          <img class="products-sm-logo" src="assets/images/powered_by_uma.png" alt="UMA_logo"></span>
+        <div class="products-shell">
+          <div class="hero__inner">
+            <h1>Optimistic Oracle</h1>
+
+            <h4>
+              UMA's Optimistic Oracle allows contracts to quickly request and
+              receive price information. The Optimistic Oracle acts as a
+              generalized escalation game between contracts that initiate a
+              price request and UMA's dispute resolution system known as the
+              Data Verification Mechanism (DVM). <br>
+              <br>
+              Prices proposed by the Optimistic Oracle will not be sent to the
+              DVM unless it is disputed. This enables contracts to obtain price
+              information within any predefined length of time without the need
+              to have the price of an asset written on-chain.
+            </h4>
+            <!-- /.hero__actions -->
+          </div>
+          <!-- /.hero__inner -->
+        </div>
+        <!-- /.shell -->
+      </section>
+      <!-- /.hero -->
+
+      <section class="products-body">
+        <h2 class="products-body-title">Who is it for?</h2>
+        <p class="products-body-info">
+          DeFi projects whose users demand the highest level of financial
+          security and recourse against exploits and errors.
+        </p>
+        <p class="products-body-info">
+          Markets on Layer 2 that L1 security with minimal calls to L1.
+        </p>
+        <p class="products-body-info">
+          Prediction markets, option platforms, and other market types that need
+          precise information to resolve.
+        </p>
+        <p class="products-body-info">
+          dApps which require accurate data for long-tail assets
+        </p>
+
+        <h2 class="products-body-title">How is it better?</h2>
+        <p class="products-body-info">
+          Resolves requests accurately and quickly for various types of data
+          (e.g., price information, outcomes of real-world events, long-tail
+          assets, performance outcomes)
+        </p>
+        <p class="products-body-info">
+          Constructed with a priceless contract design to minimize reliance on
+          oracles, making contracts on UMA more secure, gas efficient and less
+          prone to manipulation
+        </p>
+        <p class="products-body-info">
+          Leverages UMA’s Data Verification Mechanism (DVM) as a backstop to
+          resolve disputes; any attempt to manipulate the oracle triggers a
+          dispute
+        </p>
+        <p class="products-body-info">
+          Backed by economic guarantees around the cost of corrupting the DVM to
+          ensure it will cost more to corrupt the oracle (i.e., obtain 51% or
+          more UMA tokens) than the amount someone could profit from corrupting
+          the oracle (i.e. stealing funds within contracts on UMA).
+        </p>
+        <p class="products-body-info">
+          For L2 solutions, a cross-chain bridge can ensure efficient settlement
+          and security for L2 products.
+        </p>
+
+        <h2 class="products-body-title">Examples</h2>
+        <p class="products-body-info">
+          A prediction market creates bespoke markets based on real-world
+          information and uses the OO to resolve its markets.
+        </p>
+        <p class="products-body-info">
+          A developer creates a financial product based on real-world data such
+          as stock prices and benefits from the OO’s design that does not
+          require a secured price feed.
+        </p>
+        <p class="products-body-info">
+          An insurance provider wants to offer insurance on a space launch and
+          uses the OO to report the outcome of the launch.
+        </p>
+
+        <h2 class="products-body-title">How do I get started?</h2>
+        <div class="products-btn-wrapper">
+          <a href="https://docs.umaproject.org/getting-started/oracle" target="_blank" rel="noreferrer">
+            <button class="products-btn-link oo-btn">
+              Read the Optimistic Oracle documentation
+            </button>
+          </a>
+        </div>
+      </section>
+      <footer class="footer">
+	<div class="shell shell--large">
+		<div class="footer__inner">
+			<div class="grid footer__grid">
+				<div class="grid__col grid__col--size1 footer__col">
+					<div class="logo footer__logo">
+						<a href="/">
+							<img src="assets/images/logo.svg" alt="">
+						</a>
+					</div><!-- /.logo footer__logo -->
+
+					<div class="copyright">
+						<p>Risk Labs © 2020</p>
+					</div><!-- /.copyright -->
+				</div><!-- /.grid__col grid__col-/-size1 footer__col -->
+
+				<div class="grid__col grid__col--size2 footer__col">
+					<div class="grid footer-nav__grid">
+						<div class="footer-nav footer__nav">
+							<ul>
+								<li>
+									<a href="https://docs.umaproject.org/getting-started/overview">How UMA Works</a>
+								</li>
+
+								<li>
+									<a href="https://docs.umaproject.org/">Docs</a>
+								</li>
+
+								<li>
+									<a href="faq.html">FAQS</a>
+								</li>
+
+								<li>
+									<a href="mailto:hello@umaproject.org" target="_blank">Contact</a>
+								</li>
+							</ul>
+						</div><!-- /.footer-nav  footer__nav-->
+
+						<div class="footer-nav footer__nav">
+							<ul>
+								<li>
+									<a href="https://docs.umaproject.org/build-walkthrough/build-process">Getting Started</a>
+								</li>
+
+								<li>
+									<a href="https://vote.umaproject.org/" target="_blank">Vote</a>
+								</li>
+
+								<li>
+									<a href="https://angel.co/risk-labs/jobs" target="_blank">Careers</a>
+								</li>
+							</ul>
+						</div><!-- /.footer-nav  footer__nav-->
+					</div><!-- /.grid footer-nav__grid-->
+				</div><!-- /.grid__col grid__col-/-size2 footer__col -->
+
+				<div class="grid__col grid__col--size3 footer__col">
+					<div class="footer__content">
+						<div class="footer__entry">
+							<h6>Get UMA Updates</h6>
+
+							<p>Sign up for our newsletter to stay updated about the UMA project.</p>
+						</div><!-- /.footer__entry -->
+
+						<div class="subscribe footer__subscribe">
+							<form action="?" method="post">
+								<input type="email" id="mail" name="mail" value="" placeholder="Email Address" class="subscribe__field">
+
+								<button type="submit" class="subscribe__btn">
+									<img src="assets/images/svg/ico-arrow.svg" alt="">
+								</button>
+							</form>
+
+							<p class="subscribe__message"></p>
+						</div><!-- /.subscribe footer__subscribe -->
+
+						<div class="subscribe-global hidden">
+							<div id="mc_embed_signup">
+								<form action="https://umaproject.us19.list-manage.com/subscribe/post?u=b2e789cb476a06f1261e79e05&amp;id=85dfd6c316" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+								<div id="mc_embed_signup_scroll">
+									<h2>Subscribe to our mailing list</h2>
+									<div class="indicates-required">
+										<span class="asterisk">*</span> indicates required
+									</div>
+									<div class="mc-field-group">
+										<label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+									</label>
+									<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+								</div>
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display: none;"></div>
+									<div class="response" id="mce-success-response" style="display: none;"></div>
+								</div>
+								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								<div style="position: absolute; left: -5000px;" aria-hidden="true">
+								<input type="text" name="b_b2e789cb476a06f1261e79e05_85dfd6c316" tabindex="-1" value="">
+							</div>
+							<div class="clear">
+								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+				<script type="text/javascript">
+					(function ($) {
+						window.fnames = new Array();
+						window.ftypes = new Array();
+						fnames[0] = "EMAIL";
+						ftypes[0] = "email";
+						fnames[1] = "FNAME";
+						ftypes[1] = "text";
+						fnames[2] = "LNAME";
+						ftypes[2] = "text";
+						fnames[3] = "ADDRESS";
+						ftypes[3] = "address";
+						fnames[4] = "PHONE";
+						ftypes[4] = "phone";
+						fnames[5] = "BIRTHDAY";
+						ftypes[5] = "birthday";
+					})(jQuery);
+					var $mcj = jQuery.noConflict(true);
+				</script>
+				<!--End mc_embed_signup-->
+
+				<div class="socials footer__socials">
+					<ul>
+						<li>
+							<a href="https://medium.com/uma-project" target="_blank">
+								<img src="assets/images/svg/vector1.svg" alt="">
+							</a>
+						</li>
+
+						<li>
+							<a href="https://github.com/umaprotocol" target="_blank">
+								<img src="assets/images/svg/vector2.svg" alt="">
+							</a>
+						</li>
+
+						<li>
+							<a href="https://twitter.com/umaprotocol?lang=en" target="_blank">
+								<img src="assets/images/svg/vector3.svg" alt="">
+							</a>
+						</li>
+
+						<li>
+							<a href="https://discord.com/invite/jsb9XQJ" target="_blank">
+								<img src="assets/images/svg/soc3.svg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div><!-- /.socials footer__socials -->
+			</div><!-- /.footer__content -->
+		</div><!-- /.grid__col grid__col-/-size3 footer__col -->
+	</div><!-- /.grid footer__grid -->
+</div><!-- /.footer__inner -->
+</div><!-- /.shell shell-/-large -->
+</div></footer><!-- /.footer -->
+
+    </div>
+    <!-- /.wrapper -->
+
+    <script src="assets/vendor/jquery-3.1.1.min.js"></script>
+<script src="assets/js/bundle.js"></script>
+
+  </body>
+</html>
