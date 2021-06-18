@@ -154,11 +154,14 @@
     }
   }
   h4 {
-    margin: 0 auto;
+    margin: 1rem auto 0;
     max-width: 850px;
     padding-left: 27px;
     @include breakpoint-down(tablet) {
       padding: 0.5rem 1rem;
     }
+  }
+  br {
+    margin: 0.5rem 0;
   }
 }
