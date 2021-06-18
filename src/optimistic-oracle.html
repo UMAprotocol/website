@@ -17,9 +17,15 @@
             <h1>Optimistic Oracle</h1>
 
             <h4>
-              The Optimistic Oracle is used to retrieve prices or other data and
-              put them on-chain. It has an inbuilt resolution system in case of
-              a dispute.
+              UMA's Optimistic Oracle allows contracts to quickly request and
+              receive price information. The Optimistic Oracle acts as a
+              generalized escalation game between contracts that initiate a
+              price request and UMA's dispute resolution system known as the
+              Data Verification Mechanism (DVM). <br />
+              Prices proposed by the Optimistic Oracle will not be sent to the
+              DVM unless it is disputed. This enables contracts to obtain price
+              information within any predefined length of time without the need
+              to have the price of an asset written on-chain.
             </h4>
             <!-- /.hero__actions -->
           </div>
@@ -36,25 +42,41 @@
           security and recourse against exploits and errors.
         </p>
         <p class="products-body-info">
-          L2 markets to ensure accurate resolution with very few calls to L1.
+          Markets on Layer 2 that L1 security with minimal calls to L1.
         </p>
         <p class="products-body-info">
-          Prediction markets, options platforms, and other market types that
-          need precise information to resolve.
+          Prediction markets, option platforms, and other market types that need
+          precise information to resolve.
+        </p>
+        <p class="products-body-info">
+          dApps which require accurate data for long-tail assets
         </p>
 
         <h2 class="products-body-title">How is it better?</h2>
         <p class="products-body-info">
-          The OO has an inbuilt dispute resolution system, so any attempt to
-          manipulate the oracle would trigger a dispute.
+          Resolves requests accurately and quickly for various types of data
+          (e.g., price information, outcomes of real-world events, long-tail
+          assets, performance outcomes)
+        </p>
+        <p class="products-body-info">
+          Constructed with a priceless contract design to minimize reliance on
+          oracles, making contracts on UMA more secure, gas efficient and less
+          prone to manipulation
+        </p>
+        <p class="products-body-info">
+          Leverages UMA’s Data Verification Mechanism (DVM) as a backstop to
+          resolve disputes; any attempt to manipulate the oracle triggers a
+          dispute
+        </p>
+        <p class="products-body-info">
+          Backed by economic guarantees around the cost of corrupting the DVM to
+          ensure it will cost more to corrupt the oracle (i.e., obtain 51% or
+          more UMA tokens) than the amount someone could profit from corrupting
+          the oracle (i.e. stealing funds within contracts on UMA).
         </p>
         <p class="products-body-info">
           For L2 solutions, a cross-chain bridge can ensure efficient settlement
           and security for L2 products.
-        </p>
-        <p class="products-body-info">
-          The OO resolves quickly in the vast majority of cases, and does so in
-          a gas efficient manner.
         </p>
 
         <h2 class="products-body-title">Examples</h2>
@@ -66,6 +88,10 @@
           A developer creates a financial product based on real-world data such
           as stock prices and benefits from the OO’s design that does not
           require a secured price feed.
+        </p>
+        <p class="products-body-info">
+          An insurance provider wants to offer insurance on a space launch and
+          uses the OO to report the outcome of the launch.
         </p>
 
         <h2 class="products-body-title">How do I get started?</h2>
