@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <include src="head.html"></include>
+  <body>
+    <div class="wrapper">
+      <include src="header.html"></include>
+
+      <section class="products-hero">
+        <span class="products-uma-blurb">
+          <img
+            class="products-sm-logo"
+            src="assets/images/powered_by_uma.png"
+            alt="UMA_logo"
+        /></span>
+        <div class="products-shell">
+          <div class="hero__inner">
+            <h1>Optimistic Oracle</h1>
+
+            <h4>
+              UMA's Optimistic Oracle allows contracts to quickly request and
+              receive price information. The Optimistic Oracle acts as a
+              generalized escalation game between contracts that initiate a
+              price request and UMA's dispute resolution system known as the
+              Data Verification Mechanism (DVM). <br />
+              <br />
+              Prices proposed by the Optimistic Oracle will not be sent to the
+              DVM unless it is disputed. This enables contracts to obtain price
+              information within any predefined length of time without the need
+              to have the price of an asset written on-chain.
+            </h4>
+            <!-- /.hero__actions -->
+          </div>
+          <!-- /.hero__inner -->
+        </div>
+        <!-- /.shell -->
+      </section>
+      <!-- /.hero -->
+
+      <section class="products-body">
+        <h2 class="products-body-title">Who is it for?</h2>
+        <p class="products-body-info">
+          DeFi projects whose users demand the highest level of financial
+          security and recourse against exploits and errors.
+        </p>
+        <p class="products-body-info">
+          Markets on Layer 2 that L1 security with minimal calls to L1.
+        </p>
+        <p class="products-body-info">
+          Prediction markets, option platforms, and other market types that need
+          precise information to resolve.
+        </p>
+        <p class="products-body-info">
+          dApps which require accurate data for long-tail assets
+        </p>
+
+        <h2 class="products-body-title">How is it better?</h2>
+        <p class="products-body-info">
+          Resolves requests accurately and quickly for various types of data
+          (e.g., price information, outcomes of real-world events, long-tail
+          assets, performance outcomes)
+        </p>
+        <p class="products-body-info">
+          Constructed with a priceless contract design to minimize reliance on
+          oracles, making contracts on UMA more secure, gas efficient and less
+          prone to manipulation
+        </p>
+        <p class="products-body-info">
+          Leverages UMA’s Data Verification Mechanism (DVM) as a backstop to
+          resolve disputes; any attempt to manipulate the oracle triggers a
+          dispute
+        </p>
+        <p class="products-body-info">
+          Backed by economic guarantees around the cost of corrupting the DVM to
+          ensure it will cost more to corrupt the oracle (i.e., obtain 51% or
+          more UMA tokens) than the amount someone could profit from corrupting
+          the oracle (i.e. stealing funds within contracts on UMA).
+        </p>
+        <p class="products-body-info">
+          For L2 solutions, a cross-chain bridge can ensure efficient settlement
+          and security for L2 products.
+        </p>
+
+        <h2 class="products-body-title">Examples</h2>
+        <p class="products-body-info">
+          A prediction market creates bespoke markets based on real-world
+          information and uses the OO to resolve its markets.
+        </p>
+        <p class="products-body-info">
+          A developer creates a financial product based on real-world data such
+          as stock prices and benefits from the OO’s design that does not
+          require a secured price feed.
+        </p>
+        <p class="products-body-info">
+          An insurance provider wants to offer insurance on a space launch and
+          uses the OO to report the outcome of the launch.
+        </p>
+
+        <h2 class="products-body-title">How do I get started?</h2>
+        <div class="products-btn-wrapper">
+          <a
+            href="https://docs.umaproject.org/getting-started/oracle"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button class="products-btn-link oo-btn">
+              Read the Optimistic Oracle documentation
+            </button>
+          </a>
+        </div>
+      </section>
+      <include src="footer.html"></include>
+    </div>
+    <!-- /.wrapper -->
+
+    <include src="scripts.html"></include>
+  </body>
+</html>

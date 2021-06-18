@@ -23,8 +23,6 @@ Thumbs.db
 # Settings
 drone.json
 
-# Lock files
-package-lock.json
 
 # Sprite Icons
 src/assets/images/sprite*.*
