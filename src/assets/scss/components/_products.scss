@@ -84,6 +84,10 @@
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 20px;
+    margin-bottom: 1.5rem;
+    .products-body-info-bold {
+      font-weight: 600;
+    }
     @include breakpoint-down(tablet) {
       padding: 4px 2rem;
       text-align: left;
@@ -164,4 +168,8 @@
   br {
     margin: 0.5rem 0;
   }
+}
+
+.range-formula {
+  text-align: center;
 }
