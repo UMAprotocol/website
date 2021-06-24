@@ -84,7 +84,7 @@
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 20px;
-    margin-bottom: 32px;
+    margin-bottom: 1.5rem;
     .products-body-info-bold {
       font-weight: 600;
     }
@@ -158,7 +158,7 @@
     }
   }
   h4 {
-    margin: 3rem auto 0;
+    margin: 1rem auto 0;
     max-width: 850px;
     padding-left: 27px;
     @include breakpoint-down(tablet) {
