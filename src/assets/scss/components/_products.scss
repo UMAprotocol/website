@@ -85,6 +85,37 @@
   }
 }
 
+.kpi-benefits-section {
+  background-color: #f4f4f5;
+  width: 100%;
+  padding: 3rem 1.5rem;
+  .kpi-benefits-wrapper {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: 0 auto;
+    .kpi-benefits-item {
+      padding: 1rem 1.25rem;
+      text-align: center;
+      background-color: #fff;
+      flex-basis: 22.5%;
+      h4 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: hsla(280, 4%, 15%, 1);
+      }
+      h5 {
+        color: hsla(280, 4%, 15%, 1);
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+    .kpi-svg {
+      height: 105px;
+    }
+  }
+}
+
 .products-body {
   padding: 80px 0 140px;
 
