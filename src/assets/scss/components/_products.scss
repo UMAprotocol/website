@@ -92,13 +92,13 @@
   .kpi-benefits-wrapper {
     display: flex;
     justify-content: space-around;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
     .kpi-benefits-item {
-      padding: 1rem 1.25rem;
+      padding: 1.5rem 1.25rem;
       text-align: center;
       background-color: #fff;
-      flex-basis: 22.5%;
+      flex-basis: 20%;
       h4 {
         font-size: 1.25rem;
         font-weight: 600;
@@ -112,6 +112,62 @@
     }
     .kpi-svg {
       height: 105px;
+    }
+  }
+}
+
+.kpi-what-is-it-section {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  .kpi-what-is-it-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    .ui-example-text {
+      text-align: center;
+      font-size: 0.75rem;
+      color: hsla(0, 0%, 54%, 1);
+      font-weight: 400;
+      width: 625px;
+    }
+    .ui-example-img {
+      height: 360px;
+    }
+    h6 {
+      color: hsla(0, 0%, 66%, 1);
+      font-size: 0.875rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    h3 {
+      color: hsla(280, 4%, 15%, 1);
+      font-size: 2.25rem;
+      font-weight: 600;
+      margin-top: -1rem;
+    }
+    h4 {
+      margin-top: -1rem;
+      margin-left: 4px;
+      font-size: 1rem;
+      font-weight: 400;
+      max-width: 450px;
+      color: hsla(280, 4%, 15%, 1);
+    }
+    .kpi-what-is-it-btn {
+      height: 55px;
+      color: #fff;
+      background-color: #ff4a4a;
+      width: 215px;
+      font-size: 1.25rem;
+      border: 0;
+      border-radius: 9px;
+      margin-top: 1rem;
+      margin-left: 4px;
+    }
+    .kpi-what-is-it-item {
+      flex-basis: 40%;
+      &.kpi-ui-example {
+        flex-basis: 50%;
+      }
     }
   }
 }
