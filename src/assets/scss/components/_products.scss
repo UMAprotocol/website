@@ -1,4 +1,27 @@
 .products-hero {
+  // For new KPI page.
+  &.kpi {
+    padding-bottom: 80px;
+
+    .products-shell {
+      max-width: 90vw;
+    }
+    h1 {
+      // margin-left: 4rem;
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 4.5rem;
+    }
+    h3 {
+      color: #fff;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-top: 1rem;
+      .kpi-hero-cta {
+        color: hsla(280, 4%, 15%, 1);
+      }
+    }
+  }
   padding: 80px 0 140px;
 
   background: linear-gradient(to left, #ff4a4a 66%, #272528);
