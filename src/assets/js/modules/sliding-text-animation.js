@@ -46,5 +46,5 @@ $document.ready(() => {
       }
     }, 3000);
   }
-  // slide();
+  slide();
 });

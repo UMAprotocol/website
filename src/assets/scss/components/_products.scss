@@ -18,6 +18,7 @@
       font-weight: 600;
       font-size: 2rem;
       margin-top: 1rem;
+      display: flex;
     }
   }
   padding: 80px 0 140px;
@@ -407,11 +408,11 @@
 }
 
 #kpi-cta-container {
-  display: flex;
+  display: inline-block;
   // width: 100px;
   overflow-y: hidden;
-  height: 40px;
-  flex-direction: column;
+  height: 50px;
+  margin-left: 6px;
   .kpi-hero-cta {
     transition-timing-function: ease-in;
 
