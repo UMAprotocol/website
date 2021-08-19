@@ -176,7 +176,7 @@
             txtWrapper.innerHTML = txtWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, `<span class='letter'>$&</span>`);
 
             count++;
-            if (count === textArray.length - 1) count = 0;
+            if (count === textArray.length - 1) count = -1;
         } ,
         
       })
