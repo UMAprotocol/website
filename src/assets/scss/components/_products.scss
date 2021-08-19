@@ -4,7 +4,8 @@
     padding-bottom: 80px;
 
     .products-shell {
-      max-width: 90vw;
+      max-width: 1200px;
+      margin: 0 auto;
     }
     h1 {
       // margin-left: 4rem;
@@ -92,7 +93,7 @@
   .kpi-benefits-wrapper {
     display: flex;
     justify-content: space-evenly;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
     .kpi-benefits-item {
       padding: 1.5rem 1.25rem;
@@ -194,6 +195,8 @@
   .kpi-what-is-it-wrapper {
     display: flex;
     justify-content: flex-end;
+    max-width: 1400px;
+    margin: 0 auto;
     .ui-example-text {
       text-align: center;
       font-size: 0.75rem;
