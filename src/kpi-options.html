@@ -170,14 +170,14 @@
         anime.timeline(
         { 
           loop: true,
-        //   loopComplete: function(anim) {
-        //     let txtWrapper = document.querySelector('.ml11 .letters');
-        //     txtWrapper.innerHTML = (textArray[count+1]);
-        //     txtWrapper.innerHTML = txtWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, `<span class='letter'>$&</span>`);
+          loopComplete: function(anim) {
+            let txtWrapper = document.querySelector('.ml11 .letters');
+            txtWrapper.innerHTML = (textArray[count+1]);
+            txtWrapper.innerHTML = txtWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, `<span class='letter'>$&</span>`);
 
-        //     count++;
-        //     if (count === textArray.length - 1) count = 0;
-        // } 
+            count++;
+            if (count === textArray.length - 1) count = 0;
+        } 
       })
         .add({
           targets: '.ml11 .line',
@@ -207,7 +207,6 @@
           easing: "easeOutExpo",
           delay: 1000,
         })
-        .innerHTML = 1;
 
     </script>
   </body>
