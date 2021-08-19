@@ -1,5 +1,4 @@
 import { $document, $window } from "../utils/globals";
-
 $(".js-mobile-nav").on("click", function (event) {
   $(this).toggleClass("mobile-nav--active");
 

@@ -395,3 +395,16 @@
     margin: 0.5rem 0;
   }
 }
+
+// Sliding animation CSS
+#testimonials {
+  width: 200px;
+  height: 200px;
+  max-height: 200px;
+}
+.testimonial {
+  display: none;
+}
+.testimonial span {
+  color: white;
+}
