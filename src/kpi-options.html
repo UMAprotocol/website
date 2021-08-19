@@ -171,11 +171,9 @@
         { 
           loop: true,
           loopComplete: function(anim) {
-            console.log("anim", anim)
             let txtWrapper = document.querySelector('.ml11 .letters');
             txtWrapper.innerHTML = (textArray[count+1]);
-            // txtWrapper.value = (textArray[count+1]);
-            // txtWrapper.innerHTML = txtWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, `<span class='letter'>$&</span>`);
+            txtWrapper.innerHTML = txtWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, `<span class='letter'>$&</span>`);
 
             count++;
             if (count === textArray.length - 1) count = 0;
