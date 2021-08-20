@@ -1,26 +1,4 @@
 .products-hero {
-  // For new KPI page.
-  &.kpi {
-    padding-bottom: 80px;
-
-    .products-shell {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    h1 {
-      // margin-left: 4rem;
-      margin-left: 0;
-      margin-right: 0;
-      font-size: 4.5rem;
-    }
-    h3 {
-      color: #fff;
-      font-weight: 600;
-      font-size: 2rem;
-      margin-top: 1rem;
-      display: flex;
-    }
-  }
   padding: 80px 0 140px;
 
   background: linear-gradient(to left, #ff4a4a 66%, #272528);
@@ -80,6 +58,56 @@
   .hero__actions {
     @include breakpoint-down(mobile) {
       margin-top: -10px;
+    }
+  }
+  // For new KPI page.
+  &.kpi {
+    padding-bottom: 80px;
+
+    .products-shell {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      // margin-left: 4rem;
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 4.5rem;
+
+      @include breakpoint-down(tablet) {
+        margin-left: 1rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 3rem;
+      }
+    }
+    h3 {
+      color: #fff;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      @include breakpoint-down(tablet) {
+        span:first-of-type {
+          flex-basis: 45%;
+        }
+        .ml11 {
+          position: absolute;
+          margin-left: 16rem;
+          margin-top: 3.33rem;
+        }
+      }
+      @include breakpoint-down(mobile) {
+        .ml11 {
+          position: relative;
+          margin-left: 0;
+          margin-top: 0;
+        }
+
+        flex-direction: column;
+        text-align: center;
+      }
     }
   }
 }
