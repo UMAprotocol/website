@@ -121,24 +121,59 @@
     justify-content: space-evenly;
     max-width: 1200px;
     margin: 0 auto;
+    flex-direction: row;
+    @include breakpoint-down(tablet) {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
     .kpi-benefits-item {
+      margin: 0;
       padding: 1.5rem 1.25rem;
       text-align: center;
       background-color: #fff;
       flex-basis: 20%;
-      h4 {
-        font-size: 1.25rem;
-        font-weight: 600;
-        color: hsla(280, 4%, 15%, 1);
+      // display: block;
+      @include breakpoint-down(tablet) {
+        margin: 1rem 0;
+        text-align: left;
+        display: flex;
       }
-      h5 {
-        color: hsla(280, 4%, 15%, 1);
-        font-size: 1rem;
-        font-weight: 400;
+      @include breakpoint-down(mobile) {
+        flex-direction: column;
+        text-align: center;
+      }
+      .kpi-benefits-item-text {
+        margin-left: 0;
+        @include breakpoint-down(tablet) {
+          margin-left: 1rem;
+        }
+
+        h4 {
+          font-size: 1.25rem;
+          font-weight: 600;
+          color: hsla(280, 4%, 15%, 1);
+          margin-bottom: 0;
+          @include breakpoint-down(tablet) {
+            font-size: 2.25rem;
+          }
+        }
+        h5 {
+          color: hsla(280, 4%, 15%, 1);
+          font-size: 1rem;
+          font-weight: 400;
+          @include breakpoint-down(tablet) {
+            font-size: 1.25rem;
+          }
+        }
       }
     }
     .kpi-svg {
       height: 105px;
+      margin-left: 0;
+
+      @include breakpoint-down(tablet) {
+        margin-left: 1rem;
+      }
     }
   }
 }
