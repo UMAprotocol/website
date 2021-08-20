@@ -166,16 +166,12 @@
 
     <script>
       var count = 0;
-      // const textArray = [`<span style="opacity: 0;" class="letters">establish partnerships</span>`,`<span class="letters">increase adoption</span>`, `<span style="opacity: 0;" class="letters">mitigate liquidity</span>`, `<span style="opacity: 0;" class="letters">recruit friends</span>`, `<span style="opacity: 0;" class="letters">create content</span>`, `<span style="opacity: 0;" class="letters">proselytize relentlessly</span>`];
-
-      // var textWrapper = document.querySelector('.ml11 .letters');
       var textWrappers = document.querySelectorAll('.ml11 .letters');
+      var translateDistance = [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10];
 
       textWrappers.forEach(el => {
         el.innerHTML = el.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
       })
-
-      // textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
         anime.timeline(
         { 
@@ -196,23 +192,25 @@
               count = 0;
               textWrappers[0].style.display = "inline";
             }
-          }
+          },
         
       })
+      // Temp remove line until we can patch it.
+        // .add({
+        //   targets: '.ml11 .line',
+        //   scaleY: [0,1],
+        //   opacity: [0.5,1],
+        //   easing: "easeOutExpo",
+        //   duration: 700,
+        // })
+        // .add({
+        //   targets: '.ml11 .line',
+        //   translateX: translateDistance,
+        //   easing: "easeOutExpo",
+        //   duration: 500,
+        //   delay: 100
+        // })
         .add({
-          targets: '.ml11 .line',
-          scaleY: [0,1],
-          opacity: [0.5,1],
-          easing: "easeOutExpo",
-          duration: 700,
-        })
-        .add({
-          targets: '.ml11 .line',
-          translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
-          easing: "easeOutExpo",
-          duration: 700,
-          delay: 100
-        }).add({
           targets: `.ml11 .letter`,
           opacity: [0,1],
           easing: "easeOutExpo",
