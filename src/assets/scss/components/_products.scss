@@ -359,7 +359,9 @@
     max-width: 1400px;
     margin: 0 auto;
     flex-direction: row;
-
+    @include breakpoint-down(mobile) {
+      flex-direction: column;
+    }
     .kpi-partner-recommendations-item {
       flex-basis: 40%;
       box-shadow: 0px 12px 20px 0px hsla(0, 0%, 0%, 0.03);
