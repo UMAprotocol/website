@@ -8667,6 +8667,7 @@
     "resolve" "^1.1.7"
 
 "postcss-lazy-rules@github:2createstudio/postcss-lazy-rules":
+  "integrity" "sha512-98f5Uf8u5tnxGT1RZ1VTvBeCgTRi0PkADe25SuilXENd57B0phUcwFl+uzTxywJBOVK9Z2ODJVX3mFJo5RQ0TQ=="
   "resolved" "git+ssh://git@github.com/2createstudio/postcss-lazy-rules.git#1256d2d91286ceaa962a1cba986223a99a0c627e"
   "version" "1.1.0"
   dependencies:
