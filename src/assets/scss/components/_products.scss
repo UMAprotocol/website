@@ -322,8 +322,9 @@
         color: hsla(280, 4%, 15%, 1);
       }
       .kpi-what-is-it-btn-wrapper {
-        display: none;
+        display: block;
         @include breakpoint-down(tablet) {
+          display: none;
           text-align: center;
         }
       }
