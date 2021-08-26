@@ -63,7 +63,14 @@
   // For new KPI page.
   &.kpi {
     padding-bottom: 1.75rem;
-
+    @include breakpoint-down(tablet) {
+      padding-top: 30px;
+    }
+    .products-uma-blurb {
+      margin-right: 20px;
+      float: right;
+      text-align: right;
+    }
     .products-shell {
       max-width: 1200px;
       margin: 0 auto;
@@ -78,9 +85,11 @@
       font-size: 4.5rem;
 
       @include breakpoint-down(tablet) {
-        margin-left: 1rem;
+        margin-left: 2rem;
+        text-align: left;
       }
       @include breakpoint-down(mobile) {
+        margin-left: 0.5rem;
         font-size: 3rem;
       }
     }
@@ -92,16 +101,18 @@
       display: flex;
       flex-direction: row;
       @include breakpoint-down(tablet) {
+        margin-left: 2rem;
         span:first-of-type {
-          flex-basis: 45%;
+          flex-basis: 66%;
         }
         .ml11 {
           position: absolute;
-          margin-left: 16rem;
+          margin-left: 12rem;
           margin-top: 3.33rem;
         }
       }
       @include breakpoint-down(mobile) {
+        margin-left: 0;
         .ml11 {
           position: relative;
           margin-left: 0;
