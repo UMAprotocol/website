@@ -138,6 +138,13 @@
   @include breakpoint-down(tablet) {
     padding: 1rem 2rem;
   }
+  @include breakpoint-down(mobile) {
+    // padding: 0rem 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 0.66rem;
+  }
   .kpi-benefits-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -164,7 +171,14 @@
       @include breakpoint-down(mobile) {
         flex-direction: row;
         text-align: left;
-        padding: 1rem 0rem;
+        padding: 1rem 0.5rem;
+        margin: 0.5rem 0;
+        &:first-of-type {
+          margin-top: 1rem;
+        }
+        &:last-of-type {
+          margin-bottom: 1rem;
+        }
       }
       .kpi-benefits-item-text {
         margin-left: 0;
