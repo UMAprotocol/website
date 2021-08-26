@@ -296,6 +296,9 @@
           margin-top: 0;
           font-size: 2rem;
         }
+        @include breakpoint-down(mobile) {
+          font-size: 1.5rem;
+        }
       }
       h5 {
         font-size: 1rem;
@@ -306,6 +309,11 @@
           margin-top: 0;
           font-size: 1.4rem;
           line-height: 1.5rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 0.875rem;
+          line-height: 1rem;
+          max-width: 90%;
         }
       }
       .kpi-how-does-it-work-item-wrapper {
@@ -334,6 +342,10 @@
         @include breakpoint-down(mobile) {
           margin-right: 16px;
           margin-left: 16px;
+          height: 32px;
+          width: 32px;
+          font-size: 1.2rem;
+          margin-top: 0.5rem;
         }
       }
     }
@@ -360,6 +372,10 @@
         font-size: 1.5rem;
         font-weight: 400;
         width: 250px;
+      }
+      @include breakpoint-down(mobile) {
+        width: 215px;
+        font-size: 1.3rem;
       }
     }
   }
@@ -478,6 +494,9 @@
 .kpi-partner-recommendations-section {
   background-color: #fff;
   padding: 3rem 2rem 5rem;
+  @include breakpoint-down(mobile) {
+    padding: 1rem 1rem 1rem;
+  }
   .kpi-partner-recommendations-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -494,6 +513,10 @@
       padding: 2rem 2rem 3rem;
       border-radius: 20px;
       border: 1px solid hsla(0, 0%, 96%, 1);
+      @include breakpoint-down(mobile) {
+        padding: 1rem 1rem 2rem;
+        margin: 1rem 0;
+      }
       .kpi-rec {
         margin-top: 1.25rem;
       }
@@ -505,6 +528,9 @@
         margin-bottom: 2rem;
         &.badger {
           margin-bottom: 2rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 1rem;
         }
       }
       h5 {
