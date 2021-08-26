@@ -130,6 +130,9 @@
   background-color: #f4f4f5;
   width: 100%;
   padding: 3rem 1.5rem;
+  @include breakpoint-down(tablet) {
+    padding: 1rem 2rem;
+  }
   .kpi-benefits-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -312,11 +315,16 @@
       width: 625px;
       @include breakpoint-down(tablet) {
         width: 100%;
-        text-align: left;
+        text-align: center;
+        font-size: 1rem;
       }
     }
     .ui-example-img {
       height: 360px;
+      @include breakpoint-down(tablet) {
+        // margin: 0 auto;
+        width: 100%;
+      }
     }
     .kpi-what-is-it-item {
       h6 {
@@ -324,12 +332,18 @@
         font-size: 0.875rem;
         font-weight: 400;
         text-transform: uppercase;
+        @include breakpoint-down(tablet) {
+          font-size: 1rem;
+        }
       }
       h3 {
         color: hsla(280, 4%, 15%, 1);
         font-size: 2.25rem;
         font-weight: 600;
         margin-top: -1rem;
+        @include breakpoint-down(tablet) {
+          font-size: 3rem;
+        }
       }
       h4 {
         margin-top: -1rem;
@@ -338,6 +352,10 @@
         font-weight: 400;
         max-width: 450px;
         color: hsla(280, 4%, 15%, 1);
+        @include breakpoint-down(tablet) {
+          font-size: 1.25rem;
+          max-width: 100%;
+        }
       }
       .kpi-what-is-it-btn-wrapper {
         display: block;
