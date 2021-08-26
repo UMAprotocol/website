@@ -162,13 +162,16 @@
         display: flex;
       }
       @include breakpoint-down(mobile) {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
+        text-align: left;
+        padding: 1rem 0.5rem;
       }
       .kpi-benefits-item-text {
         margin-left: 0;
         @include breakpoint-down(tablet) {
           margin-left: 1rem;
+        }
+        @include breakpoint-down(mobile) {
         }
 
         h4 {
@@ -179,6 +182,10 @@
           @include breakpoint-down(tablet) {
             font-size: 2.25rem;
           }
+          @include breakpoint-down(mobile) {
+            font-size: 1rem;
+            text-align: left;
+          }
         }
         h5 {
           color: hsla(280, 4%, 15%, 1);
@@ -186,6 +193,11 @@
           font-weight: 400;
           @include breakpoint-down(tablet) {
             font-size: 1.25rem;
+          }
+          @include breakpoint-down(mobile) {
+            font-size: 0.75rem;
+            text-align: left;
+            line-height: 0.75rem;
           }
         }
       }
@@ -196,6 +208,9 @@
 
       @include breakpoint-down(tablet) {
         margin-left: 1rem;
+      }
+      @include breakpoint-down(mobile) {
+        height: 40px;
       }
     }
   }
