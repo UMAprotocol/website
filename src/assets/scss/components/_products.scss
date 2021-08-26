@@ -164,7 +164,7 @@
       @include breakpoint-down(mobile) {
         flex-direction: row;
         text-align: left;
-        padding: 1rem 0.5rem;
+        padding: 1rem 0rem;
       }
       .kpi-benefits-item-text {
         margin-left: 0;
@@ -219,6 +219,12 @@
 .kpi-how-does-it-work {
   background-color: #ff4a4a;
   padding: 1.5rem 3rem 4rem;
+  @include breakpoint-down(tablet) {
+    padding: 1.5rem 3rem 1rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 1rem 1.25rem 2rem;
+  }
   h6,
   h2 {
     max-width: 1400px;
@@ -232,11 +238,19 @@
     font-weight: 600;
     margin-top: -1rem;
     margin-bottom: 2rem;
+    @include breakpoint-down(tablet) {
+      padding-left: 0.25rem;
+      font-size: 2rem;
+    }
   }
   h6 {
     font-size: 0.875rem;
     font-weight: 400;
     text-transform: uppercase;
+    @include breakpoint-down(tablet) {
+      padding-left: 0.25rem;
+      font-size: 1.25rem;
+    }
   }
   .kpi-how-does-it-work-wrapper {
     display: flex;
@@ -244,7 +258,7 @@
     max-width: 1400px;
     margin: 0 auto;
     flex-direction: row;
-    @include breakpoint-down(mobile) {
+    @include breakpoint-down(tablet) {
       flex-direction: column;
     }
     .kpi-how-does-it-work-item {
@@ -254,9 +268,9 @@
       background-color: #fff;
       flex-basis: 27%;
       border-radius: 5px;
-      @include breakpoint-down(mobile) {
+      @include breakpoint-down(tablet) {
         display: flex;
-        padding: 1.5rem 1.25rem;
+        padding: 1rem 0rem 1.25rem;
         margin: 0.5rem 0;
       }
       h4 {
@@ -264,8 +278,9 @@
         font-weight: 600;
         margin-top: 1rem;
         margin-bottom: 0.25rem;
-        @include breakpoint-down(mobile) {
+        @include breakpoint-down(tablet) {
           margin-top: 0;
+          font-size: 2rem;
         }
       }
       h5 {
@@ -273,10 +288,15 @@
         font-weight: 400;
         margin-top: 0rem;
         line-height: 1.1rem;
+        @include breakpoint-down(tablet) {
+          margin-top: 0;
+          font-size: 1.4rem;
+          line-height: 1.5rem;
+        }
       }
       .kpi-how-does-it-work-item-wrapper {
         display: block;
-        @include breakpoint-down(mobile) {
+        @include breakpoint-down(tablet) {
           text-align: left;
           flex-basis: 85%;
         }
@@ -290,8 +310,16 @@
         font-weight: 600;
         font-size: 1.2rem;
         @include breakpoint-down(tablet) {
-          margin-top: 0.5rem;
-          height: 32px;
+          margin-top: 1rem;
+          height: 40px;
+          width: 40px;
+          border-radius: 32px;
+          font-size: 1.5rem;
+          margin-right: 32px;
+        }
+        @include breakpoint-down(mobile) {
+          margin-right: 16px;
+          margin-left: 16px;
         }
       }
     }
@@ -299,6 +327,9 @@
   .kpi-how-does-it-work-btn-wrapper {
     text-align: center;
     margin-top: 3rem;
+    @include breakpoint-down(tablet) {
+      margin: 2rem;
+    }
     button {
       width: 215px;
       height: 55px;
@@ -310,6 +341,11 @@
       font-size: 1.2rem;
       &:hover {
         background-color: #f5f5f5;
+      }
+      @include breakpoint-down(tablet) {
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: 250px;
       }
     }
   }
@@ -435,7 +471,7 @@
     max-width: 1400px;
     margin: 0 auto;
     flex-direction: row;
-    @include breakpoint-down(mobile) {
+    @include breakpoint-down(tablet) {
       flex-direction: column;
     }
     .kpi-partner-recommendations-item {
