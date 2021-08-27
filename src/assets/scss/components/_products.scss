@@ -408,6 +408,7 @@
         width: 100%;
         text-align: center;
         font-size: 1rem;
+        max-width: 710px;
       }
       @include breakpoint-down(mobile) {
         font-size: 0.66rem;
@@ -417,7 +418,7 @@
       height: 360px;
       max-width: 575px;
       @include breakpoint-down(tablet) {
-        // margin: 0 auto;
+        max-width: 710px;
         width: 100%;
       }
       @include breakpoint-down(mobile) {
