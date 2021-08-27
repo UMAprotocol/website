@@ -417,6 +417,9 @@
         // margin: 0 auto;
         width: 100%;
       }
+      @include breakpoint-down(mobile) {
+        height: 180px;
+      }
     }
     .kpi-what-is-it-item {
       h6 {
