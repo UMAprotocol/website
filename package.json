@@ -3,7 +3,7 @@
     "version": "3.0.0",
     "description": "Starter for HTML projects.",
     "engines": {
-        "node": ">=6.9.1"
+        "node": "^14.0.0"
     },
     "scripts": {
         "start": "gulp --gulpfile config/gulp.js",
