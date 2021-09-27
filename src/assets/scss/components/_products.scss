@@ -417,6 +417,11 @@
     .ui-example-img {
       height: 360px;
       max-width: 575px;
+      &.success-img {
+        height: 518px;
+        margin-top: 5rem;
+        max-width: 100%;
+      }
       @include breakpoint-down(tablet) {
         max-width: 710px;
         width: 100%;
