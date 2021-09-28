@@ -545,6 +545,7 @@
     @include breakpoint-down(tablet) {
       padding-left: 0.25rem;
       font-size: 2rem;
+      text-align: center;
     }
   }
   .kpi-partner-recommendations-wrapper {
