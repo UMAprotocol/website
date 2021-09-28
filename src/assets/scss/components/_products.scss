@@ -163,6 +163,9 @@
       flex-basis: 21.5%;
       // display: block;
       border-radius: 5px;
+      &.success {
+        flex-basis: 27%;
+      }
       @include breakpoint-down(tablet) {
         margin: 1rem 0;
         text-align: left;
