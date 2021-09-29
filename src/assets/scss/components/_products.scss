@@ -129,6 +129,34 @@
       }
     }
   }
+  &.kpi.success {
+    h3 {
+      font-size: 1.8rem;
+      @include breakpoint-down(tablet) {
+        // margin-left: 1rem;
+        span:first-of-type {
+          flex-basis: 66%;
+        }
+        .ml11 {
+          position: absolute;
+          margin-left: 1.8rem;
+          margin-top: 3.02rem;
+        }
+      }
+      @include breakpoint-down(mobile) {
+        margin-left: 0.66rem;
+        text-align: left;
+        font-size: 1.1rem;
+        span:first-of-type {
+          flex-basis: 80%;
+        }
+        .ml11 {
+          margin-left: 3.2rem;
+          margin-top: 1.82rem;
+        }
+      }
+    }
+  }
 }
 
 .kpi-benefits-section {
