@@ -161,7 +161,6 @@
       text-align: center;
       background-color: #fff;
       flex-basis: 21.5%;
-      // display: block;
       border-radius: 5px;
       &.success {
         flex-basis: 27%;
@@ -406,7 +405,7 @@
     }
     p {
       flex-basis: 75%;
-      font-family: "Halyard Display";
+      font-family: inherit;
       font-weight: 400;
       margin: 1rem 0;
     }
