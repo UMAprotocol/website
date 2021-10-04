@@ -129,6 +129,34 @@
       }
     }
   }
+  &.kpi.success {
+    h3 {
+      font-size: 1.8rem;
+      @include breakpoint-down(tablet) {
+        // margin-left: 1rem;
+        span:first-of-type {
+          flex-basis: 66%;
+        }
+        .ml11 {
+          position: absolute;
+          margin-left: 1.8rem;
+          margin-top: 3.02rem;
+        }
+      }
+      @include breakpoint-down(mobile) {
+        margin-left: 0.66rem;
+        text-align: left;
+        font-size: 1.1rem;
+        span:first-of-type {
+          flex-basis: 80%;
+        }
+        .ml11 {
+          margin-left: 3.2rem;
+          margin-top: 1.82rem;
+        }
+      }
+    }
+  }
 }
 
 .kpi-benefits-section {
@@ -151,6 +179,9 @@
     max-width: 1200px;
     margin: 0 auto;
     flex-direction: row;
+    &.success {
+      max-width: 1235px;
+    }
     @include breakpoint-down(tablet) {
       flex-direction: column;
       justify-content: flex-start;
@@ -161,8 +192,10 @@
       text-align: center;
       background-color: #fff;
       flex-basis: 21.5%;
-      // display: block;
       border-radius: 5px;
+      &.success {
+        flex-basis: 27%;
+      }
       @include breakpoint-down(tablet) {
         margin: 1rem 0;
         text-align: left;
@@ -387,6 +420,44 @@
   @include breakpoint-down(mobile) {
     padding: 1rem 1.25rem 2rem;
   }
+  &.success {
+    .kpi-what-is-it-wrapper {
+      .kpi-what-is-it-item {
+        h4 {
+          font-size: 1rem;
+          max-width: 500px;
+        }
+      }
+    }
+  }
+  .success-tldr-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1112px;
+    margin: 4rem auto 0;
+    background-color: #f5f5f5;
+    div {
+      flex-basis: 20%;
+      @include breakpoint-down(tablet) {
+        display: none;
+      }
+    }
+    img {
+      // height: 100px;
+      margin-left: 3rem;
+      margin-top: -1rem;
+    }
+    p {
+      flex-basis: 75%;
+      font-family: inherit;
+      font-weight: 400;
+      margin: 1rem 0;
+      @include breakpoint-down(tablet) {
+        flex-basis: 75%;
+        margin: 1rem auto;
+      }
+    }
+  }
   .kpi-what-is-it-wrapper {
     display: flex;
     justify-content: flex-end;
@@ -416,7 +487,20 @@
     }
     .ui-example-img {
       height: 360px;
-      max-width: 575px;
+      max-width: 590px;
+      &.success-img {
+        height: 390px;
+        margin-top: 6rem;
+        max-width: 560px;
+        @include breakpoint-down(tablet) {
+          max-width: 100%;
+          height: 400px;
+          margin-top: 2rem;
+        }
+        @include breakpoint-down(mobile) {
+          height: 250px;
+        }
+      }
       @include breakpoint-down(tablet) {
         max-width: 710px;
         width: 100%;
@@ -505,6 +589,26 @@
   @include breakpoint-down(mobile) {
     padding: 1rem 1rem 1rem;
   }
+  &.success {
+    h2 {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    max-width: 1075px;
+    margin-left: auto;
+    margin-right: auto;
+    @include breakpoint-down(tablet) {
+      padding-left: 0.25rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
   .kpi-partner-recommendations-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -519,12 +623,19 @@
       flex-basis: 40%;
       box-shadow: 0px 12px 20px 0px hsla(0, 0%, 0%, 0.03);
       padding: 2rem 2rem 3rem;
-      border-radius: 20px;
+      border-radius: 5px;
       border: 1px solid hsla(0, 0%, 96%, 1);
+      &.success {
+        flex-basis: 25%;
+        img {
+          height: 55px;
+        }
+      }
       @include breakpoint-down(mobile) {
         padding: 1rem 1rem 2rem;
         margin: 1rem 0;
       }
+
       .kpi-rec {
         margin-top: 1.25rem;
       }
@@ -553,6 +664,9 @@
         border-radius: 5px;
         height: 40px;
         width: 120px;
+        &:hover {
+          opacity: 0.7;
+        }
       }
     }
   }
