@@ -420,6 +420,16 @@
   @include breakpoint-down(mobile) {
     padding: 1rem 1.25rem 2rem;
   }
+  &.success {
+    .kpi-what-is-it-wrapper {
+      .kpi-what-is-it-item {
+        h4 {
+          font-size: 1rem;
+          max-width: 500px;
+        }
+      }
+    }
+  }
   .success-tldr-wrapper {
     display: flex;
     flex-direction: row;
@@ -480,7 +490,7 @@
       max-width: 590px;
       &.success-img {
         height: 390px;
-        margin-top: 5rem;
+        margin-top: 6rem;
         max-width: 560px;
         @include breakpoint-down(tablet) {
           max-width: 100%;
