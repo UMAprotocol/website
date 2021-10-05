@@ -173,6 +173,7 @@
     padding-left: 1rem;
     padding-right: 0.66rem;
   }
+
   .kpi-benefits-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -181,6 +182,11 @@
     flex-direction: row;
     &.success {
       max-width: 1235px;
+    }
+    &.oo-page {
+      .kpi-benefits-item.success {
+        flex-basis: 29%;
+      }
     }
     @include breakpoint-down(tablet) {
       flex-direction: column;
@@ -488,6 +494,10 @@
     .ui-example-img {
       height: 360px;
       max-width: 590px;
+      &.oo-img {
+        margin-top: 6rem;
+        margin-left: auto;
+      }
       &.success-img {
         height: 390px;
         margin-top: 6rem;
@@ -510,6 +520,20 @@
       }
     }
     .kpi-what-is-it-item {
+      &.oo-what-is-it-item {
+        &:first-of-type {
+          flex-basis: 54%;
+        }
+        &:nth-of-type(2) {
+          flex-basis: 37%;
+        }
+        h6,
+        h4,
+        h3 {
+          max-width: 700px;
+        }
+      }
+
       h6 {
         color: hsla(0, 0%, 66%, 1);
         font-size: 0.875rem;
