@@ -157,6 +157,34 @@
       }
     }
   }
+  &.kpi.oo-page {
+    h3 {
+      font-size: 1.8rem;
+      @include breakpoint-down(tablet) {
+        // margin-left: 1rem;
+        span:first-of-type {
+          flex-basis: 66%;
+        }
+        .ml11 {
+          position: absolute;
+          margin-left: 7rem;
+          margin-top: 3.03rem;
+        }
+      }
+      @include breakpoint-down(mobile) {
+        margin-left: 0.66rem;
+        text-align: left;
+        font-size: 1.1rem;
+        span:first-of-type {
+          flex-basis: 80%;
+        }
+        .ml11 {
+          margin-left: 3.8rem;
+          margin-top: 1.85rem;
+        }
+      }
+    }
+  }
 }
 
 .kpi-benefits-section {
@@ -497,6 +525,14 @@
       &.oo-img {
         margin-top: 6rem;
         margin-left: auto;
+        @include breakpoint-down(tablet) {
+          max-width: 100%;
+          height: 600px;
+          margin-top: 2rem;
+        }
+        @include breakpoint-down(mobile) {
+          height: 250px;
+        }
       }
       &.success-img {
         height: 390px;
