@@ -1,4 +1,4 @@
-const tvlUrl = "https://api.umaproject.org/uma-tvl";
+const tvlUrl = "https://api.llama.fi/tvl/uma-protocol";
 const format = Intl.NumberFormat("en-US", {
   currency: "USD",
   style: "currency",
@@ -9,7 +9,6 @@ const format = Intl.NumberFormat("en-US", {
 function fetchTvl() {
   fetch(tvlUrl)
     .then((res) => res.json())
-    .then((res) => res.currentTvl)
     .then((tvl) => format(tvl / 10 ** 6))
     .then((formattedTvl) => {
       console.log({ formattedTvl });
