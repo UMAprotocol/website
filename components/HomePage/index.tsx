@@ -1,17 +1,19 @@
 import { features } from "process";
 import React, { useMemo } from "react";
 import { useMediaQuery } from "../../hooks";
+import { DefaultLayout } from "../../layouts/Default";
 import { LINKS, PROJECTS, QUERIES } from "../../utils";
 import { Footer } from "../Footer";
 import { Header } from '../Header';
 import { KpiOptionIcon, SuccessTokenIcon } from "../Icons";
 import { PrimaryLink, SecondaryLink } from "../Link";
+import SeoHead from "../SeoHead";
 import { Container, Content, Title, HomeSectionContainer, HomeSectionContent, HomeSectionHeadline, OODescription, OOBoxes, OOBox, BoxTitle, BoxDescription, BoxImgContainer, BoxImg, ProjectsList, ProjectIcon, ProjectName, ProjectContainer, ProjectLink, OOBoxTextContainer, ProjectNameIcon, UmaFeatures, UmaFeature, UmaFeatureContainer, UmaFeatureImgContainer, UmaFeatureImg, OOBoxContainer, ProductsContainer, ProductContainer, Product, ProductCategoryContainer, ProductName, ProductFeaturesList, ProductFeatureItem, ProductLearnMoreButton, ProductsExploreButton, GetStartedContainer, GetStartedContent, GetStartedTitle, GetStartedLink } from "./components";
 
 export const HomePage: React.FunctionComponent = () => {
   return (
-    <>
-      <Header />
+    <DefaultLayout>
+      <SeoHead />
       <Container>
         <Content>
           <Title>UMA is an <span>Optimistic Oracle</span> built for web3</Title>
@@ -23,8 +25,7 @@ export const HomePage: React.FunctionComponent = () => {
       <WhyUseUMA />
       <Products />
       <GetStarted />
-      <Footer />
-    </>
+    </DefaultLayout>
   )
 }
 
@@ -91,8 +92,8 @@ const WhyUseUMA: React.FunctionComponent = () => {
         <HomeSectionHeadline>Why use uma?</HomeSectionHeadline>
         <UmaFeatures>
           {UMA_FEATURES.map((feature, idx) => (
-            <UmaFeatureContainer>
-              <UmaFeature key={idx}>
+            <UmaFeatureContainer key={idx}>
+              <UmaFeature>
                 <UmaFeatureImgContainer>
                   <UmaFeatureImg src={feature.icon}></UmaFeatureImg>
                 </UmaFeatureImgContainer>
