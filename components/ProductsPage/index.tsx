@@ -1,3 +1,4 @@
+import React from "react";
 import { DefaultLayout } from "../../layouts/Default";
 import { LINKS } from "../../utils";
 import { Product, ProductCategoryContainer, ProductContainer, ProductFeatureItem, ProductFeaturesList, ProductLearnMoreButton, ProductName, ProductsContainer } from "../HomePage/components";

@@ -1,7 +1,22 @@
 {
-  "extends": ["next", "prettier"],
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "next",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
   "rules": {
-    "react/jsx-key": ["off"],
-    "no-unused-vars": "warn"
+    "react/jsx-key": [
+      "off"
+    ]
   }
 }
