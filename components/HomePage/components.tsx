@@ -37,8 +37,8 @@ export const Title = styled.h1`
   max-width: 320px;
   margin: 0 auto 50px;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 38px;
+  font-size: clamp(2.5rem, 5.7vw + 0.2rem, 5rem);
+  line-height: 1;
   text-align: center;
   color: var(--white);
 
@@ -49,7 +49,6 @@ export const Title = styled.h1`
   @media ${QUERIES.tabletAndUp} {
     max-width: unset;
     margin: 0 auto 80px;
-    font-size: clamp(2.5rem, 5.7vw + 0.2rem, 5rem);
     line-height: 1.05;
   }
 `;
