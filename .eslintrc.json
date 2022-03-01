@@ -1,6 +1,7 @@
 {
-  "extends": "next",
+  "extends": ["next", "prettier"],
   "rules": {
-    "react/jsx-key": ["off"]
+    "react/jsx-key": ["off"],
+    "no-unused-vars": "warn"
   }
 }

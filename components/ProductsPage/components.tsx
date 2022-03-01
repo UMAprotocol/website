@@ -3,7 +3,6 @@ import { keyframes } from "@emotion/react";
 import { QUERIES } from "../../utils";
 import { OOLogoIcon } from "../Icons";
 import { PrimaryLink } from "../Link";
-import { GridRow } from "../HomePage/components";
 
 const PulseRingAnimation1 = keyframes`
   0% {

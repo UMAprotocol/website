@@ -1,11 +1,9 @@
 import { DefaultLayout } from "../../layouts/Default";
 import { LINKS } from "../../utils";
-import { Footer } from "../Footer";
-import { Header } from "../Header";
 import { Product, ProductCategoryContainer, ProductContainer, ProductFeatureItem, ProductFeaturesList, ProductLearnMoreButton, ProductName, ProductsContainer } from "../HomePage/components";
 import { CallPutOptionsIcon, CheckmarkFilledIcon, KpiOptionIcon, LspIcon, OOLogoIcon, RangeTokenIcon, SuccessTokenIcon } from "../Icons";
 import SeoHead from "../SeoHead";
-import { AspectRatioContainer, Container, Content, CoverContainer, CoverContent, DesktopLogoContainer, CoverLink, CoverParagraph, CoverText, CoverTitle, LogoHeadline, OOContent, OOFeature, OOFeatures, ProductsContent, PulseLogoContainer, PulseLogoIcon, PulseRing, MobileLogoContainer } from "./components";
+import { AspectRatioContainer, Container, CoverContainer, CoverContent, DesktopLogoContainer, CoverLink, CoverParagraph, CoverText, CoverTitle, LogoHeadline, OOContent, OOFeature, OOFeatures, ProductsContent, PulseLogoContainer, PulseLogoIcon, PulseRing, MobileLogoContainer } from "./components";
 
 const OO_FEATURES = ["Fully decentralized", "Dispute resolution", "Battle tested", "Incredibly flexible"];
 
