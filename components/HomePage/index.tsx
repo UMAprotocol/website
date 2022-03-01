@@ -49,7 +49,7 @@ const WhatIsOO: React.FunctionComponent = () => {
             </OOBoxContainer>
           ))}
         </OOBoxes>
-        <SecondaryLink href={LINKS.docs}>Learn more</SecondaryLink>
+        <SecondaryLink href={LINKS.oo}>Learn more</SecondaryLink>
       </HomeSectionContent>
     </HomeSectionContainer>
   );
@@ -126,7 +126,7 @@ const Products: React.FunctionComponent = () => {
                     <ProductFeatureItem key={idx}>{feature}</ProductFeatureItem>
                   ))}
                 </ProductFeaturesList>
-                <ProductLearnMoreButton href={LINKS.docs}>Learn more</ProductLearnMoreButton>
+                <ProductLearnMoreButton href={product.href}>Learn more</ProductLearnMoreButton>
               </Product>
             </ProductContainer>
           ))}
@@ -142,7 +142,7 @@ const GetStarted: React.FunctionComponent = () => {
     <GetStartedContainer>
       <GetStartedContent>
           <GetStartedTitle>{`Are you ready to integrate Web3's most versatile oracle?`}</GetStartedTitle>
-          <GetStartedLink href={LINKS.docs}>Get started</GetStartedLink>
+          <GetStartedLink href={LINKS.getStarted}>Get started</GetStartedLink>
       </GetStartedContent>
     </GetStartedContainer>
   );
@@ -185,9 +185,11 @@ const PRODUCTS = [{
   categoryIcon: <KpiOptionIcon />,
   name: "Incentive Tokens",
   features: ["Airdrops that build armies", "Incentive-aligned liquidity mining", "Only pay if you win"],
+  href: LINKS.kpiOptions,
 }, {
   categoryName: "Success Tokens",
   categoryIcon: <SuccessTokenIcon />,
   name: "DAO Fundraising",
   features: ["DeFi native fundraising", "Community approved, no discounted sales", "Aligned strategic partnership"],
+  href: LINKS.successTokens,
 }]

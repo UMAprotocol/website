@@ -142,3 +142,13 @@ export const Input = styled.input`
 export const SubmitButton = styled(BaseButton)`
   padding-left: 10px;
 `
+
+export const FormMessage = styled.div`
+  margin: 10px 0 0;
+  font-size: ${14 / 16}rem;
+  color: var(--gray-700);
+
+  & > a {
+    color: currentColor;
+  }
+`;

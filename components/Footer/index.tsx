@@ -1,22 +1,22 @@
 import React, { SyntheticEvent, useState } from "react";
-import styled from "@emotion/styled";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { Link } from "../Link";
 import { ArrowRightTailIcon, UmaLogoIcon } from "../Icons";
-import { Container, Content, ContentItem, FooterHeading, NavContainer, NavLink, NavLinks, NewsletterFormContainer, NewsletterText, NewsletterForm, NewsletterInputContainer, Input, SubmitButton } from "./components";
+import { Container, Content, ContentItem, FooterHeading, NavContainer, NavLink, NavLinks, NewsletterFormContainer, NewsletterText, NewsletterForm, NewsletterInputContainer, Input, SubmitButton, FormMessage } from "./components";
+import { LINKS } from "../../utils";
 
-const LINKS = [
+const LINKS_LIST = [
   {
     name: "Docs",
-    href: "https://docs.umaproject.org",
+    href: LINKS.docs,
   },
-  { name: "FAQS", href: "https://umaproject.org/faq.html" },
+  { name: "FAQS", href: LINKS.faq },
   { name: "Contact", href: "mailto:hello@umaproject.org" },
   {
     name: "Getting Started",
-    href: "https://docs.umaproject.org/build-walkthrough/build-process",
+    href: LINKS.getStarted,
   },
-  { name: "Vote", href: "https://vote.umaproject.org/" },
+  { name: "Vote", href: LINKS.vote },
   { name: "Careers", href: "https://angel.co/company/uma-project/jobs" },
 ];
 
@@ -35,14 +35,14 @@ export const Footer: React.FC = () => (
       <ContentItem>
         <NavContainer>
           <NavLinks>
-            {LINKS.slice(0, LINKS.length / 2).map((link, idx) => (
+            {LINKS_LIST.slice(0, LINKS_LIST.length / 2).map((link, idx) => (
               <li key={idx}>
                 <NavLink href={link.href}>{link.name}</NavLink>
               </li>
             ))}
           </NavLinks>
           <NavLinks>
-            {LINKS.slice(LINKS.length / 2).map((link, idx) => (
+            {LINKS_LIST.slice(LINKS_LIST.length / 2).map((link, idx) => (
               <li key={idx}>
               <NavLink href={link.href}>{link.name}</NavLink>
             </li>
@@ -110,40 +110,3 @@ const NewsletterFormComponent: React.FunctionComponent = () => {
     </NewsletterFormContainer>
   );
 }
-
-const ListItem = styled.li`
-  font-weight: bold;
-  width: fit-content;
-  transition: all ease-in 0.1s;
-
-  &:hover {
-    box-shadow: 0px 3px 0px 0px var(--primary);
-  }
-`;
-
-const List = styled.ol`
-  display: flex;
-  flex-wrap: wrap;
-  max-height: 160px;
-  & > ol:first-of-type {
-    padding-right: 90px;
-  }
-`;
-
-const Form = styled.form`
-  max-width: 320px;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-`;
-
-const FormMessage = styled.div`
-  margin: 10px 0 0;
-  font-size: ${14 / 16}rem;
-  color: var(--gray-700);
-
-  & > a {
-    color: currentColor;
-  }
-`;
-
