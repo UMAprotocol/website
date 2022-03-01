@@ -88,12 +88,15 @@ export const NavLink = styled(Link)<{ active?: boolean }>`
 `
 
 export const DropdownValuesContainer = styled.div`
+  position: relative;
   display: none;
   padding: 20px 0 0;
   width: 260px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
+  animation: ${RevealDropdownAnimation} .2s ease-out forwards;
 `
 
 export const CommunityDropdownContainer = styled.div`
@@ -115,7 +118,6 @@ export const CommunityLinks = styled.div`
   border-radius: 5px;
   box-shadow: 0px 0px 20px rgba(39, 37, 40, 0.1);
   overflow: hidden;
-  animation: ${RevealDropdownAnimation} .2s ease-out forwards;
 `
 
 export const CommunityLink = styled(Link)`

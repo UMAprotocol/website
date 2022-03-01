@@ -321,11 +321,11 @@ export const ProductsContainer = styled(GridRow)`
 
   @media ${QUERIES.tabletAndUp} {
     flex-direction: row;
-    margin: 30px -10px 60px;
+    margin: 30px -10px 40px;
   }
 
   @media ${QUERIES.laptopAndUp} {
-    margin: 30px -20px 60px;
+    margin: 30px -20px 40px;
   }
 `
 
@@ -336,12 +336,12 @@ export const ProductContainer = styled(GridColumn)`
 
   @media ${QUERIES.tabletAndUp} {
     width: 50%;
-    padding: 0 10px;
+    padding: 10px;
     margin: 0;
   }
 
   @media ${QUERIES.laptopAndUp} {
-    padding: 0 20px;
+    padding: 20px;
   }
 `
 
