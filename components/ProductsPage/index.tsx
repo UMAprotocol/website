@@ -61,9 +61,9 @@ const CoverSection: React.FC = () => {
               <PulseLogo />
             </MobileLogoContainer>
             <CoverParagraph>
-              UMA's optimistic oracle allows contracts to quickly request and receive any kind of data.
+              {`UMA's optimistic oracle allows contracts to quickly request and receive any kind of data.`}
               <br /><br />
-              The optimistic oracle can provide arbitrary, "long tail" data to Web3 protocols.
+              {`The optimistic oracle can provide arbitrary, "long tail" data to Web3 protocols.`}
             </CoverParagraph>
             <CoverLink href={LINKS.docs}>Learn more</CoverLink>
           </CoverText>
