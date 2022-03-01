@@ -28,4 +28,4 @@ drone.json
 # Sprite Icons
 src/assets/images/sprite*.*
 
-.next/*
+.next/
