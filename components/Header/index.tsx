@@ -1,7 +1,7 @@
 
 import { useRouter } from "next/router";
 import { COMMUNITY_LINKS } from "../../utils";
-import { BaseButton } from "../Button/BaseButton";
+import { BaseButton } from "../Button";
 import { DownIcon, UmaLogoIcon } from "../Icons"
 import { Link } from "../Link";
 import { CommunityLink, Container, Content, LinkList, LinkListItem, LogoLink, NavContainer, NavLink, CommunityDropdownContainer, CommunityLinks, DropdownButton, DropdownValuesContainer } from "./components"

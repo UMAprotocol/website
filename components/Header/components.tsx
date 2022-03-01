@@ -1,7 +1,7 @@
 import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 import { QUERIES } from "../../utils";
-import { BaseButton } from "../Button/BaseButton";
+import { BaseButton } from "../Button";
 import { Link } from "../Link";
 
 const RevealDropdownAnimation = keyframes`

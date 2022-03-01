@@ -3,7 +3,6 @@ import NextLink, { LinkProps } from "next/link";
 import { StyledLink } from "./components";
 import styled from "@emotion/styled";
 import { QUERIES } from "../../utils";
-import { BaseButton } from "../Button/BaseButton";
 
 type Props = React.PropsWithChildren<LinkProps> & {
   className?: string;

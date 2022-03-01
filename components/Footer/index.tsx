@@ -1,11 +1,8 @@
 import React, { SyntheticEvent, useState } from "react";
 import styled from "@emotion/styled";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import Image from "next/image";
 import { Link } from "../Link";
 import { ArrowRightTailIcon, UmaLogoIcon } from "../Icons";
-import { BaseButton } from "../Button/BaseButton";
-import { QUERIES } from "../../utils";
 import { Container, Content, ContentItem, FooterHeading, NavContainer, NavLink, NavLinks, NewsletterFormContainer, NewsletterText, NewsletterForm, NewsletterInputContainer, Input, SubmitButton } from "./components";
 
 const LINKS = [

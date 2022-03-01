@@ -1,10 +1,7 @@
-import { features } from "process";
 import React, { useMemo } from "react";
 import { useMediaQuery } from "../../hooks";
 import { DefaultLayout } from "../../layouts/Default";
 import { LINKS, PROJECTS, QUERIES } from "../../utils";
-import { Footer } from "../Footer";
-import { Header } from '../Header';
 import { KpiOptionIcon, SuccessTokenIcon } from "../Icons";
 import { PrimaryLink, SecondaryLink } from "../Link";
 import SeoHead from "../SeoHead";
@@ -144,7 +141,7 @@ const GetStarted: React.FunctionComponent = () => {
   return (
     <GetStartedContainer>
       <GetStartedContent>
-          <GetStartedTitle>Are you ready to integrate Web3's most versatile oracle?</GetStartedTitle>
+          <GetStartedTitle>{`Are you ready to integrate Web3's most versatile oracle?`}</GetStartedTitle>
           <GetStartedLink href={LINKS.docs}>Get started</GetStartedLink>
       </GetStartedContent>
     </GetStartedContainer>
