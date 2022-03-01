@@ -17,6 +17,13 @@ export const COLORS = {
 export const LINKS = {
   docs: "https://docs.umaproject.org/",
   projects: "https://projects.umaproject.org/",
+  oo: "https://docs.umaproject.org/getting-started/oracle",
+  kpiOptions: "https://docs.umaproject.org/kpi-options/summary",
+  successTokens: "https://docs.umaproject.org/success-tokens/summary",
+  rangeTokens: "https://docs.umaproject.org/range-tokens/summary",
+  getStarted: "https://docs.umaproject.org/build-walkthrough/build-process",
+  faq: "https://umaproject.org/faq.html",
+  vote: "https://vote.umaproject.org/",
 };
 
 export const BREAKPOINTS = {
