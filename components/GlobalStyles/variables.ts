@@ -18,16 +18,7 @@ export const variables = css`
   --primary-transparent: hsla(${COLORS.primary} / 0.4);
   --gray-transparent-dark: hsla(${COLORS.black} / 0.75);
 
-  /* base spacing */
-  --base-space: 5px;
-  --space-2: calc(var(--base-space) * 2);
-  --space-3: calc(var(--base-space) * 3);
-  --space-4: calc(var(--base-space) * 4);
-  --space-5: calc(var(--base-space) * 5);
-
-  /*
-  Silence the warning about missing Reach Dialog styles
-*/
+  /* Silence the warning about missing Reach Dialog styles */
   --reach-dialog: 1;
 }
 `;

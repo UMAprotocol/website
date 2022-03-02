@@ -1,0 +1,261 @@
+{
+  "name": "UMA",
+  "logoURI": "https://umaproject.org/assets/images/UMA_square_red_logo_circle.png",
+  "keywords": ["defi", "uma", "yield"],
+  "timestamp": "2020-11-23T01:40:34.305Z",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+      "name": "UMA",
+      "symbol": "UMA",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
+      "name": "yUSD Synthetic Expiring 1 September 2020",
+      "symbol": "yUSDSEP20",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
+      "name": "yUSD Synthetic Expiring 1 October 2020",
+      "symbol": "yUSDOCT20",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x208d174775dc39fe18b1b374972f77ddec6c0f73",
+      "name": "uUSDrBTC Synthetic Expiring 1 Oct 2020",
+      "symbol": "uUSDrBTC-OCT",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0xf06ddacf71e2992e2122a1a0168c6967afdf63ce",
+      "name": "uUSDrBTC Synthetic Expiring 31 Dec 2020",
+      "symbol": "uUSDrBTC-DEC",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0xd16c79c8a39d44b2f3eb45d2019cd6a42b03e2a9",
+      "name": "uUSDwETH Synthetic Expiring 31 Dec 2020",
+      "symbol": "uUSDwETH-DEC",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x3d995510f8d82c2ea341845932b5ddde0bead9a3",
+      "name": "uGAS-JAN21 Token Expiring 31 Jan 2021",
+      "symbol": "uGAS-JAN21",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x90f802c7e8fb5d40b0de583e34c065a3bd2020d8",
+      "name": "YD-ETH-MAR21 Token Expiring 31 Mar 2021",
+      "symbol": "YD-ETH-MAR21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x002f0b1a71c5730cf2f4da1970a889207bdb6d0d",
+      "name": "YD-BTC-MAR21 Token Expiring 31 Mar 2021",
+      "symbol": "YD-BTC-MAR21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x1062ad0e59fa67fa0b27369113098cc941dd0d5f",
+      "name": "UMA 35 Call Expirying 30 Apr 2021",
+      "symbol": "UMAc35-0421",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0xf93340b1a3adf7eedcaec25fae8171d4b736e89f",
+      "name": "pxUSD Synthetic USD Expiring 1 April 2021",
+      "symbol": "pxUSD_MAR2021",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x84bd083b1c8bf929f39c98bc17cf518f40154f58",
+      "name": "Mario Cash Synthetic Token Expiring 15 January 2021",
+      "symbol": "Mario Cash-JAN-2021",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x81fab276aec924fbde190cf379783526d413cf70",
+      "name": "uGAS-FEB21 Token Expiring 28 Feb 2021",
+      "symbol": "uGAS-FEB21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x4e110603e70b0b5f1c403ee543b37e1f1244cf28",
+      "name": "uGAS-MAR21 Token Expiring 31 Mar 2021",
+      "symbol": "uGAS-MAR21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0xcf55a7f92d5e0c6683debbc1fc20c0a6e056df13",
+      "name": "Zelda Elastic Cash",
+      "symbol": "Zelda Elastic Cash",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x654eebac62240e6c56bab5f6adf7cfa74a894510",
+      "name": "Zelda Spring Nuts Cash",
+      "symbol": "Zelda Spring Nuts Cash",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0xa48920cc1ad85d8ea13af5d7be180c0338c306dd",
+      "name": "Zelda Summer Nuts Cash",
+      "symbol": "Zelda Summer Nuts Cash",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x249a198d59b57fda5dda90630febc86fd8c7594c",
+      "name": "Zelda Whirlwind Cash",
+      "symbol": "Zelda Whirlwind Cash",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x5ed1406873c9eb91f6f9a67ac4e152387c1132e7",
+      "name": "Zelda Reinforced Cash",
+      "symbol": "Zelda Reinforced Cash",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x8104c9f13118320eefe5fbea8a44d600b85981ef",
+      "name": "Mini Mario Summer Cash",
+      "symbol": "Mini Mario Summer Cash",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x69746c719e59674b147df25f50e7cfa0673cb625",
+      "name": "Mini Mario Spring Cash",
+      "symbol": "Mini Mario Spring Cash",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x6b1257641d18791141f025eab36fb567c4b564ff",
+      "name": "Bitcoin Dominance Token 31 March 2021",
+      "symbol": "BTCDOM-MAR2021",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x4e83b6287588a96321b2661c5e041845ff7814af",
+      "name": "Altcoin Dominance Token 31 March 2021",
+      "symbol": "ALTDOM-MAR2021",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x59fec83ec709c893aedd1a144cf1828eb04127cd",
+      "name": "pxGOLD Synthetic GOLD Expiring 31 May 2021",
+      "symbol": "pxGOLD_MAY2021",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x89337BFb7938804c3776C9FB921EccAf5ab76758",
+      "name": "Compound Annualized Rate Future Expiring 28 March 2021",
+      "symbol": "CAR-USDC-MAR21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0xec58d3aefc9aaa2e0036fa65f70d569f49d9d1ed",
+      "name": "uSTONKS Index Token April 2021",
+      "symbol": "uSTONKS_APR21",
+      "decimals": 6
+    },
+     {
+      "chainId": 1,
+      "address": "0xa6B9d7E3d76cF23549293Fb22c488E0Ea591A44e",
+      "name": "uGAS-JUN21 Token Expiring 30 Jun 2021",
+      "symbol": "uGAS-JUN21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0xe813b65da6c38a04591aed3f082d32db7d53c382",
+      "name": "Yield Dollar [WETH Dec 2021]",
+      "symbol": "YD-ETH-DEC21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x4b606e9eb2228c70f44453afe5a73e1fea258ce1",
+      "name": "pxUSD Synthetic USD Expiring 31 Mar 2022",
+      "symbol": "pxUSD_MAR2022",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x5247c0db4044fb6f97f32c7e1b48758019a5a912",
+      "name": "pxGOLD Synthetic Gold Expiring 31 Mar 2022",
+      "symbol": "pxGOLD_MAR2022",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x56fb1acaff95c0b6ebcd17c8361a63d98b1a5a11",
+      "name": "uForex CNYUSD Synthetic Token April 2021",
+      "symbol": "uCNYUSD-APR",
+      "decimals": 6
+    },
+     {
+      "chainId": 1,
+      "address": "0xd49fa405dce086c65d66ca1ca41f8e98583812b4",
+      "name": "uForex EURUSD Synthetic Token April 2021",
+      "symbol": "uEURUSD-APR",
+      "decimals": 6
+    },
+     {
+      "chainId": 1,
+      "address": "0x29dddacba3b231ee8d673dd0f0fa759ea145561b",
+      "name": "DEFI_PULSE_TOTAL_TVL Synthetic Token Expiring 15 April 2021",
+      "symbol": "TVL_ALL_APRIL15",
+      "decimals": 6
+    },
+     {
+      "chainId": 1,
+      "address": "0xcbe430927370e95b4b10cfc702c6017ec7abefc3",
+      "name": "Yield Dollar [WETH Jun 2021]",
+      "symbol": "YD-ETH-JUN21",
+      "decimals": 18
+    },
+     {
+      "chainId": 1,
+      "address": "0x4b7fb448df91c8ed973494f8c8c4f12daf3a8521",
+      "name": "Yield Dollar [renBTC Jun 2021]",
+      "symbol": "YD-BTC-JUN21",
+      "decimals": 8
+    },
+     {
+      "chainId": 1,
+      "address": "0x3108c33b6fb38efedaefd8b5f7ca01d5f5c7372d",
+      "name": "Yield Dollar UMA 21",
+      "symbol": "yUMA21",
+      "decimals": 18
+    }
+  ],
+  "version": { "major": 0, "minor": 0, "patch": 0 }
+}
