@@ -2,6 +2,10 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## UMA Press Kit Assets
+
+If you are looking for UMA `press-kit` assets, please see [`documents/press-kit`](https://github.com/UMAprotocol/website/tree/master/documents/press-kit).
+
 ## Getting Started
 
 First, run the development server:
