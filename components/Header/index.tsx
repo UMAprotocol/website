@@ -29,7 +29,7 @@ export const Header: React.FunctionComponent = () => {
     <UI.Container>
       <UI.Content>
         <UI.LogoLink href="/">
-          <UmaLogoIcon />
+          <UI.LogoLinkIcon />
         </UI.LogoLink>
         <UI.NavContainer>
           <NavLinks />

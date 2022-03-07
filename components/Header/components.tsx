@@ -2,6 +2,7 @@ import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 import { QUERIES } from "../../utils";
 import { BaseButton } from "../Button";
+import { UmaLogoIcon } from "../Icons";
 import { Link } from "../Link";
 
 const RevealDropdownAnimation = keyframes`
@@ -47,19 +48,17 @@ export const Content = styled.div`
 `;
 
 export const LogoLink = styled(Link)`
-  color: var(--primary);
   display: flex;
+  color: var(--primary);
+`
 
-  svg {
-    height: 20px !important;
-    width: 78px !important;
-  }
+export const LogoLinkIcon = styled(UmaLogoIcon)`
+  height: 20px;
+  width: 78px;
 
   @media ${QUERIES.laptopAndUp} {
-    svg {
-      height: 35px !important;
-      width: 137px !important;
-    }
+    height: 35px;
+    width: 137px;
   }
 `
 
