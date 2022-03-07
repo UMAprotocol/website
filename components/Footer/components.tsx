@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
-import { QUERIES } from "../../utils";
+import { COLORS, QUERIES } from "../../utils";
 import { BaseButton } from "../Button";
 import { Link } from "../Link";
 
 export const Container = styled.footer`
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid hsla(${COLORS.black} / 0.15);
 `
 
 export const Content = styled.div`
@@ -120,7 +120,7 @@ export const NewsletterInputContainer = styled.div<{ highlighted: boolean }>`
   transition: border-color .2s ease-out;
 
   svg {
-    color: rgba(0, 0, 0, 0.5);
+    color: hsla(${COLORS.black} / 0.5);
   }
 `
 
