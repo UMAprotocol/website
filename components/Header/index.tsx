@@ -1,10 +1,12 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { COMMUNITY_LINKS } from "../../utils";
-import { DownIcon, UmaLogoIcon } from "../Icons"
+import { constants } from "../../utils";
+import { DownIcon } from "../Icons"
 import * as UI from "./components"
 import Image from 'next/image'
 import { useState } from "react";
+
+const { COMMUNITY_LINKS } = constants;
 
 const NavLinks = () => {
   const router = useRouter();
