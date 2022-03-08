@@ -1,7 +1,6 @@
 export const COLORS = {
   gray: {
     100: "0deg 0% 99%",
-    // #f5f5f5
     200: "hsl(120, 100%, 100%)",
     300: "0deg 0% 96%",
     500: "0deg 0% 90%",
@@ -39,35 +38,97 @@ export const LINKS = {
   vote: "https://vote.umaproject.org/",
 };
 
+export const PROJECTS = [{
+  icon: "images/projects/polymarket.png",
+  name: "Polymarket",
+  url: "https://polymarket.com/",
+}, {
+  icon: "images/projects/across.png",
+  name: "Across Protocol",
+  url: "https://across.to/",
+}, {
+  icon: "images/projects/boba.svg",
+  name: "Boba Network",
+  url: "https://boba.network/",
+}, {
+  icon: "images/projects/sherlock.png",
+  name: "Sherlock",
+  url: "https://google.com",
+}, {
+  icon: "images/projects/bankless.png",
+  name: "Bankless DAO",
+  url: "https://www.bankless.community/",
+}, {
+  icon: "images/projects/shapeshift.svg",
+  name: "Shapeshift",
+  url: "https://shapeshift.com/",
+}, {
+  icon: "images/projects/barnbridge.png",
+  name: "BarnBridge",
+  url: "https://barnbridge.com/",
+}, {
+  icon: "images/projects/perp.png",
+  name: "Perpetual Protocol",
+  url: "https://perp.com/",
+}, {
+  icon: "images/projects/opendao.png",
+  name: "Open DAO",
+  url: "https://opendao.io/",
+}, {
+  icon: "images/projects/badger.png",
+  name: "Badger DAO",
+  url: "https://badger.com/",
+}, {
+  icon: "images/projects/sushiswap.png",
+  name: "Sushi Swap",
+  url: "https://www.sushi.com/",
+}, {
+  icon: "images/projects/balancer.png",
+  name: "Balancer",
+  url: "https://balancer.fi/",
+}, {
+  icon: "images/projects/hats.webp",
+  name: "Hats Finance",
+  url: "https://hats.finance/",
+}, {
+  icon: "images/projects/aragon.png",
+  name: "Aragon",
+  url: "https://aragon.org/",
+}, {
+  icon: "images/projects/dfx.png",
+  name: "DFX",
+  url: "https://dfx.finance/",
+}]
+
 export const COMMUNITY_LINKS = [
   {
     name: "Medium",
     href: "https://medium.com/uma-project",
-    iconSrc: "/icons/social//medium.svg",
+    iconSrc: "/images/social//medium.svg",
     alt: "medium",
   },
   {
     name: "Github",
     href: "https://github.com/umaprotocol",
-    iconSrc: "/icons/social//github.svg",
+    iconSrc: "/images/social//github.svg",
     alt: "github",
   },
   {
     name: "Twitter",
     href: "https://twitter.com/umaprotocol",
-    iconSrc: "/icons/social//twitter.svg",
+    iconSrc: "/images/social//twitter.svg",
     alt: "twitter",
   },
   {
     name: "Discord",
     href: "https://discord.com/invite/jsb9XQJ",
-    iconSrc: "/icons/social//discord.svg",
+    iconSrc: "/images/social//discord.svg",
     alt: "discord",
   },
   {
     name: "Discourse",
     href: "https://discourse.umaproject.org/",
-    iconSrc: "/icons/social//discourse.svg",
+    iconSrc: "/images/social//discourse.svg",
     alt: "discourse",
   },
 ];
