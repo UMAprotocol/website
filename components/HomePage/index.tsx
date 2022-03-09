@@ -1,13 +1,15 @@
 import React, { useMemo } from "react";
 import { DefaultLayout } from "../../layouts/Default";
-import { KpiOptionIcon, SuccessTokenIcon } from "../Icons";
 import { PrimaryLink, SecondaryLink } from "../Link";
 import SeoHead from "../SeoHead";
 import * as UI from "./components";
 import { constants } from "../../utils";
 import { useHomePage } from "./useHomePage";
+import { UMA_FEATURES } from "./features";
+import { PRODUCTS } from "./products";
+import { OOBoxesData } from "./oo";
 
-const { LINKS, PROJECTS, QUERIES } = constants;
+const { LINKS, PROJECTS } = constants;
 
 export const HomePage: React.FunctionComponent = () => {
   return (
@@ -149,49 +151,3 @@ const GetStarted: React.FunctionComponent = () => {
     </UI.GetStartedContainer>
   );
 }
-
-const OOBoxesData = [{
-  title: "Flexible Identifiers",
-  description: "Get any kind of data from any public source. No limit to what you can build.",
-  icon: "images/oo/oo-network.svg",
-}, {
-  title: "Dispute Resolution",
-  description: "Full recourse for inaccurate or manipulated data. Don't get burned by a bad feed.",
-  icon: "images/oo/oo-balance.svg",
-}, {
-  title: "Economic Guarantees",
-  description: "All identifiers, large and small, share the full security of UMA's dispute resolution system.",
-  icon: "images/oo/oo-vote.svg",
-}];
-
-const UMA_FEATURES = [{
-  title: "Community friendly",
-  description: "UMA is a Web3 native protocol with a community-first focus",
-  icon: "images/home/uma-community.svg",
-}, {
-  title: "No limits on design",
-  description: "Request any arbitrary data to power your protocol",
-  icon: "images/home/uma-doc.svg",
-}, {
-  title: "Provably secure",
-  description: "UMA's oracle is the only one that offers economic guarantees",
-  icon: "images/home/uma-lock.svg",
-}, {
-  title: "Minimize Oracle usage",
-  description: "Fewer calls means a smaller attack vector and lower fees",
-  icon: "images/home/uma-oo.svg",
-}];
-
-const PRODUCTS = [{
-  categoryName: "KPI Options",
-  categoryIcon: <KpiOptionIcon />,
-  name: "Incentive Tokens",
-  features: ["Airdrops that build armies", "Incentive-aligned liquidity mining", "Only pay if you win"],
-  href: LINKS.kpiOptions,
-}, {
-  categoryName: "Success Tokens",
-  categoryIcon: <SuccessTokenIcon />,
-  name: "DAO Fundraising",
-  features: ["DeFi native fundraising", "Community approved, no discounted sales", "Aligned strategic partnership"],
-  href: LINKS.successTokens,
-}]
