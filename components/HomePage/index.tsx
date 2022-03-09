@@ -4,10 +4,10 @@ import { KpiOptionIcon, SuccessTokenIcon } from "../Icons";
 import { PrimaryLink, SecondaryLink } from "../Link";
 import SeoHead from "../SeoHead";
 import * as UI from "./components";
-import { hooks, constants } from "../../utils";
+import { constants } from "../../utils";
+import { useHomePage } from "./useHomePage";
 
 const { LINKS, PROJECTS, QUERIES } = constants;
-const { useMediaQuery } = hooks;
 
 export const HomePage: React.FunctionComponent = () => {
   return (
@@ -58,7 +58,7 @@ const WhatIsOO: React.FunctionComponent = () => {
 }
 
 const Projects: React.FunctionComponent = () => {
-  const isTablet = useMediaQuery(QUERIES.laptopAndUp);
+  const { isTablet } = useHomePage();
   const projects = useMemo(() => isTablet ? PROJECTS : PROJECTS.slice(0, 6), [isTablet]);
 
   return (
