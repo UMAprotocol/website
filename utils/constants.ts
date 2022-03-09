@@ -33,6 +33,7 @@ export const LINKS = {
   kpiOptions: "https://docs.umaproject.org/kpi-options/summary",
   successTokens: "https://docs.umaproject.org/success-tokens/summary",
   rangeTokens: "https://docs.umaproject.org/range-tokens/summary",
+  lsp: "https://docs.umaproject.org/synthetic-tokens/long-short-pair",
   getStarted: "https://docs.umaproject.org/build-walkthrough/build-process",
   faq: "https://umaproject.org/faq.html",
   vote: "https://vote.umaproject.org/",

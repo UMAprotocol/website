@@ -14,26 +14,31 @@ const PRODUCTS = [{
   categoryIcon: <KpiOptionIcon />,
   name: "Incentive Tokens",
   features: ["Airdrops that build armies", "Incentive-aligned liquidity mining", "Only pay if you win"],
+  href: LINKS.kpiOptions,
 }, {
   categoryName: "Success Tokens",
   categoryIcon: <SuccessTokenIcon />,
   name: "DAO Fundraising",
   features: ["DeFi native fundraising", "Community approved, no discounted sales", "Aligned strategic partnership"],
+  href: LINKS.successTokens,
 }, {
   categoryName: "Range Tokens",
   categoryIcon: <RangeTokenIcon />,
   name: "Treasury Diversification",
   features: ["Access funds without sale pressure", "Pay a yield to investors with limited upside and downside", "Function like corporate bonds for DAOs"],
+  href: LINKS.rangeTokens,
 }, {
   categoryName: "Call/Put Options",
   categoryIcon: <CallPutOptionsIcon />,
   name: "Traditional Options",
   features: ["DAOs can provide liquidity with idle assets", "Offer aligned incentives to community members", "Offer yield opportunities to tokenholders"],
+  href: LINKS.docs,
 }, {
   categoryName: "Long Short Pair (LSP)",
   categoryIcon: <LspIcon />,
   name: "Flexible Pair Contract",
   features: ["Build customized finance products", "Fully collateralized / unliquidatable", "Long/Short token pair have inverse values"],
+  href: LINKS.lsp,
 }]
 
 export const ProductsPage: React.FunctionComponent = () => {
@@ -102,7 +107,7 @@ const ProductsSection: React.FC = () => {
                     <ProductFeatureItem key={idx}>{feature}</ProductFeatureItem>
                   ))}
                 </ProductFeaturesList>
-                <ProductLearnMoreButton href={LINKS.docs}>Learn more</ProductLearnMoreButton>
+                <ProductLearnMoreButton href={product.href}>Learn more</ProductLearnMoreButton>
               </Product>
             </ProductContainer>
           ))}
