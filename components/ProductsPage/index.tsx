@@ -19,20 +19,20 @@ const PRODUCTS = [{
   categoryName: "Success Tokens",
   categoryIcon: <SuccessTokenIcon />,
   name: "DAO Fundraising",
-  features: ["DeFi native fundraising", "Community approved, no discounted sales", "Aligned strategic partnership"],
+  features: ["DeFi native fundraising", "Community approved, no discounted sales", "Aligned strategic partnerships"],
   href: LINKS.successTokens,
 }, {
   categoryName: "Range Tokens",
   categoryIcon: <RangeTokenIcon />,
   name: "Treasury Diversification",
-  features: ["Access funds without sale pressure", "Pay a yield to investors with limited upside and downside", "Function like corporate bonds for DAOs"],
+  features: ["Access funds without sale pressure", "Pay a yield to investors with limited upside and downside", "Functions like corporate bonds for DAOs"],
   href: LINKS.rangeTokens,
 }, {
   categoryName: "Call/Put Options",
   categoryIcon: <CallPutOptionsIcon />,
   name: "Traditional Options",
   features: ["DAOs can provide liquidity with idle assets", "Offer aligned incentives to community members", "Offer yield opportunities to tokenholders"],
-  href: LINKS.docs,
+  href: LINKS.callPutOption,
 }, {
   categoryName: "Long Short Pair (LSP)",
   categoryIcon: <LspIcon />,

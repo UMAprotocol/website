@@ -17,7 +17,7 @@ export const HomePage: React.FunctionComponent = () => {
       <SeoHead />
       <UI.Container>
         <UI.Content>
-          <UI.Title>UMA is an <span>Optimistic Oracle</span> built for web3</UI.Title>
+          <UI.Title>UMA is an <span>Optimistic Oracle</span> built for Web3</UI.Title>
           <PrimaryLink href={LINKS.docs}>Get started</PrimaryLink>
         </UI.Content>
       </UI.Container>

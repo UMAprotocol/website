@@ -154,12 +154,13 @@ export const LogoHeadline = styled.div`
 `;
 
 export const CoverTitle = styled.h1`
-  font-size: 44px;
-  line-height: 44px;
+  font-size: (48 / 16)rem;
+  line-height: (48 / 16)rem;
+  text-decoration: dotted;
 
   @media ${QUERIES.tabletAndUp} {
-    font-size: 68px;
-    line-height: 68px;
+    font-size: (68 / 16)rem;
+    line-height: (68 / 16)rem;
   }
 `
 

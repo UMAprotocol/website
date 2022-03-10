@@ -33,6 +33,7 @@ export const LINKS = {
   kpiOptions: "https://docs.umaproject.org/kpi-options/summary",
   successTokens: "https://docs.umaproject.org/success-tokens/summary",
   rangeTokens: "https://docs.umaproject.org/range-tokens/summary",
+  callPutOption: "https://docs.umaproject.org/products/calloption",
   lsp: "https://docs.umaproject.org/synthetic-tokens/long-short-pair",
   getStarted: "https://docs.umaproject.org/build-walkthrough/build-process",
   faq: "https://umaproject.org/faq.html",
@@ -54,7 +55,7 @@ export const PROJECTS = [{
 }, {
   icon: "images/projects/sherlock.png",
   name: "Sherlock",
-  url: "https://google.com",
+  url: "https://www.sherlock.xyz/",
 }, {
   icon: "images/projects/bankless.png",
   name: "Bankless DAO",
