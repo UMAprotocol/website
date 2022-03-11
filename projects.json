@@ -20,7 +20,7 @@
   "url": "https://www.bankless.community/"
 }, {
   "icon": "images/projects/shapeshift.svg",
-  "name": "Shapeshift",
+  "name": "ShapeShift",
   "url": "https://shapeshift.com/"
 }, {
   "icon": "images/projects/barnbridge.png",
@@ -32,7 +32,7 @@
   "url": "https://perp.com/"
 }, {
   "icon": "images/projects/yam.png",
-  "name": "Yam",
+  "name": "Yam Synths",
   "url": "https://synths.yam.xyz/"
 }, {
   "icon": "images/projects/badger.png",
@@ -40,11 +40,11 @@
   "url": "https://badger.com/"
 }, {
   "icon": "images/projects/piedao.png",
-  "name": "Pie-DAO",
+  "name": "PieDAO",
   "url": "https://www.piedao.org/"
 }, {
   "icon": "images/projects/domination-fin.jpg",
-  "name": "Domfinance",
+  "name": "Domination Finance",
   "url": "https://domination.finance/"
 }, {
   "icon": "images/projects/jarvis.png",
