@@ -1,0 +1,61 @@
+[{
+  "icon": "images/projects/polymarket.png",
+  "name": "Polymarket",
+  "url": "https://polymarket.com/"
+}, {
+  "icon": "images/projects/across.png",
+  "name": "Across Protocol",
+  "url": "https://across.to/"
+}, {
+  "icon": "images/projects/boba.svg",
+  "name": "Boba Network",
+  "url": "https://boba.network/"
+}, {
+  "icon": "images/projects/sherlock.png",
+  "name": "Sherlock",
+  "url": "https://www.sherlock.xyz/"
+}, {
+  "icon": "images/projects/bankless.png",
+  "name": "Bankless DAO",
+  "url": "https://www.bankless.community/"
+}, {
+  "icon": "images/projects/shapeshift.svg",
+  "name": "ShapeShift",
+  "url": "https://shapeshift.com/"
+}, {
+  "icon": "images/projects/barnbridge.png",
+  "name": "BarnBridge",
+  "url": "https://barnbridge.com/"
+}, {
+  "icon": "images/projects/perp.png",
+  "name": "Perpetual Protocol",
+  "url": "https://perp.com/"
+}, {
+  "icon": "images/projects/yam.png",
+  "name": "Yam Synths",
+  "url": "https://synths.yam.xyz/"
+}, {
+  "icon": "images/projects/badger.png",
+  "name": "Badger DAO",
+  "url": "https://badger.com/"
+}, {
+  "icon": "images/projects/piedao.png",
+  "name": "PieDAO",
+  "url": "https://www.piedao.org/"
+}, {
+  "icon": "images/projects/domination-fin.jpg",
+  "name": "Domination Finance",
+  "url": "https://domination.finance/"
+}, {
+  "icon": "images/projects/jarvis.png",
+  "name": "Jarvis",
+  "url": "https://jarvis.network/"
+}, {
+  "icon": "images/projects/aragon.png",
+  "name": "Aragon",
+  "url": "https://aragon.org/"
+}, {
+  "icon": "images/projects/dfx.png",
+  "name": "DFX",
+  "url": "https://dfx.finance/"
+}]
