@@ -25,6 +25,9 @@ const globalStyles = css`
   #__next {
     isolation: isolate;
   }
+  main {
+    overflow: hidden;
+  }
   ${typography}
   ${variables}
 `;
