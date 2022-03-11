@@ -9,7 +9,7 @@ import { UMA_FEATURES } from "./features";
 import { PRODUCTS } from "./products";
 import { OOBoxesData } from "./oo";
 
-const { LINKS, PROJECTS } = constants;
+const { LINKS } = constants;
 
 export const HomePage: React.FunctionComponent = () => {
   return (
@@ -60,8 +60,7 @@ const WhatIsOO: React.FunctionComponent = () => {
 }
 
 const Projects: React.FunctionComponent = () => {
-  const { isTablet } = useHomePage();
-  const projects = useMemo(() => isTablet ? PROJECTS : PROJECTS.slice(0, 6), [isTablet]);
+  const { projects } = useHomePage();
 
   return (
     <UI.HomeSectionContainer>
