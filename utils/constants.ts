@@ -1,7 +1,6 @@
 export const COLORS = {
   gray: {
     100: "0deg 0% 99%",
-    // #f5f5f5
     200: "hsl(120, 100%, 100%)",
     300: "0deg 0% 96%",
     500: "0deg 0% 90%",
@@ -34,6 +33,8 @@ export const LINKS = {
   kpiOptions: "https://docs.umaproject.org/kpi-options/summary",
   successTokens: "https://docs.umaproject.org/success-tokens/summary",
   rangeTokens: "https://docs.umaproject.org/range-tokens/summary",
+  callPutOption: "https://docs.umaproject.org/products/calloption",
+  lsp: "https://docs.umaproject.org/synthetic-tokens/long-short-pair",
   getStarted: "https://docs.umaproject.org/build-walkthrough/build-process",
   faq: "https://umaproject.org/faq.html",
   vote: "https://vote.umaproject.org/",
@@ -43,31 +44,31 @@ export const COMMUNITY_LINKS = [
   {
     name: "Medium",
     href: "https://medium.com/uma-project",
-    iconSrc: "/icons/social//medium.svg",
+    iconSrc: "/images/social//medium.svg",
     alt: "medium",
   },
   {
     name: "Github",
     href: "https://github.com/umaprotocol",
-    iconSrc: "/icons/social//github.svg",
+    iconSrc: "/images/social//github.svg",
     alt: "github",
   },
   {
     name: "Twitter",
     href: "https://twitter.com/umaprotocol",
-    iconSrc: "/icons/social//twitter.svg",
+    iconSrc: "/images/social//twitter.svg",
     alt: "twitter",
   },
   {
     name: "Discord",
     href: "https://discord.com/invite/jsb9XQJ",
-    iconSrc: "/icons/social//discord.svg",
+    iconSrc: "/images/social//discord.svg",
     alt: "discord",
   },
   {
     name: "Discourse",
     href: "https://discourse.umaproject.org/",
-    iconSrc: "/icons/social//discourse.svg",
+    iconSrc: "/images/social//discourse.svg",
     alt: "discourse",
   },
 ];

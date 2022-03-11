@@ -1,0 +1,61 @@
+[{
+  "icon": "images/projects/polymarket.png",
+  "name": "Polymarket",
+  "url": "https://polymarket.com/"
+}, {
+  "icon": "images/projects/across.png",
+  "name": "Across Protocol",
+  "url": "https://across.to/"
+}, {
+  "icon": "images/projects/boba.svg",
+  "name": "Boba Network",
+  "url": "https://boba.network/"
+}, {
+  "icon": "images/projects/sherlock.png",
+  "name": "Sherlock",
+  "url": "https://www.sherlock.xyz/"
+}, {
+  "icon": "images/projects/bankless.png",
+  "name": "Bankless DAO",
+  "url": "https://www.bankless.community/"
+}, {
+  "icon": "images/projects/shapeshift.svg",
+  "name": "Shapeshift",
+  "url": "https://shapeshift.com/"
+}, {
+  "icon": "images/projects/barnbridge.png",
+  "name": "BarnBridge",
+  "url": "https://barnbridge.com/"
+}, {
+  "icon": "images/projects/perp.png",
+  "name": "Perpetual Protocol",
+  "url": "https://perp.com/"
+}, {
+  "icon": "images/projects/opendao.png",
+  "name": "Open DAO",
+  "url": "https://opendao.io/"
+}, {
+  "icon": "images/projects/badger.png",
+  "name": "Badger DAO",
+  "url": "https://badger.com/"
+}, {
+  "icon": "images/projects/sushiswap.png",
+  "name": "Sushi Swap",
+  "url": "https://www.sushi.com/"
+}, {
+  "icon": "images/projects/balancer.png",
+  "name": "Balancer",
+  "url": "https://balancer.fi/"
+}, {
+  "icon": "images/projects/hats.webp",
+  "name": "Hats Finance",
+  "url": "https://hats.finance/"
+}, {
+  "icon": "images/projects/aragon.png",
+  "name": "Aragon",
+  "url": "https://aragon.org/"
+}, {
+  "icon": "images/projects/dfx.png",
+  "name": "DFX",
+  "url": "https://dfx.finance/"
+}]

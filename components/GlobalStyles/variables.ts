@@ -1,5 +1,7 @@
 import { css } from "@emotion/react";
-import { COLORS } from "../../utils";
+import { constants } from "../../utils";
+
+const { COLORS } = constants;
 
 export const variables = css`
 :root {

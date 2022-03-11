@@ -28,4 +28,13 @@ export const typography = css`
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: "Halyard Display";
+    src: url("/fonts/HalyardDisplay-Bold.woff2") format("woff2"),
+      url("/fonts/HalyardDisplay-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
 `;
