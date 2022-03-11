@@ -128,8 +128,8 @@ export const LogoHeadline = styled.div`
 
   span {
     margin-left: 15px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: ${16 / 16}rem;
+    line-height: ${24 / 16}rem;
     font-weight: 600;
   }
 
@@ -147,8 +147,8 @@ export const LogoHeadline = styled.div`
     }
 
     span {
-      font-size: 24px;
-      line-height: 30px;
+      font-size: ${24 / 16}rem;
+      line-height: ${30 / 16}rem;
     }
   }
 `;
@@ -167,14 +167,14 @@ export const CoverTitle = styled.h1`
 export const CoverParagraph = styled.p`
   margin: 15px 0 25px;
   max-width: 480px;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: ${16 / 16}rem;
+  line-height: ${22 / 16}rem;
   font-weight: normal;
 
   @media ${QUERIES.tabletAndUp} {
     margin: 20px 0 70px;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: ${18 / 16}rem;
+    line-height: ${22 / 16}rem;
   }
 `
 
@@ -256,8 +256,8 @@ export const OOFeature = styled.div`
   width: 50%;
   display: flex;
   align-items: center;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: ${14 / 16}rem;
+  line-height: ${22 / 16}rem;
   font-weight: normal;
 
   span {

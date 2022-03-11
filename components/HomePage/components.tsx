@@ -75,8 +75,8 @@ export const HomeSectionContent = styled.div`
 
 export const HomeSectionHeadline = styled.h2`
   font-style: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: ${16 / 16}rem;
+  line-height: ${24 / 16}rem;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--primary);
@@ -85,15 +85,15 @@ export const HomeSectionHeadline = styled.h2`
 export const OODescription = styled.p`
   margin: 15px 0 30px;
   font-style: normal;
-  font-size: 20px;
+  font-size: ${20 / 16}rem;
+  line-height: ${24 / 16}rem;
   font-weight: 500;
-  line-height: 24px;
   color: var(--gray-700);
 
   @media ${QUERIES.tabletAndUp} {
     margin: 25px 0 40px;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: ${32 / 16}rem;
+    line-height: ${38 / 16}rem;
   }
 `
 
@@ -167,15 +167,15 @@ export const BoxTitle = styled.span`
   display: block;
   margin: 0 0 5px;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: ${18 / 16}rem;
+  line-height: ${25 / 16}rem;
   text-align: left;
   color: var(--gray-700);
 
   @media ${QUERIES.tabletAndUp} { 
     margin: 0 0 12px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: ${20 / 16}rem;
+    line-height: ${28 / 16}rem;
     text-align: center;
   }
 `
@@ -184,14 +184,14 @@ export const BoxDescription = styled.span`
   display: block;
   margin: auto;
   max-width: 270px;
-  font-size: 14px;
+  font-size: ${14 / 16}rem;
+  line-height: ${18 / 16}rem;
   font-weight: normal;
-  line-height: 18px;
   text-align: left;
   color: var(--gray-700);
 
   @media ${QUERIES.tabletAndUp} {
-    font-size: 15px;
+    font-size: ${15 / 16}rem;
     text-align: center;
   }
 `
@@ -267,13 +267,13 @@ export const ProjectName = styled.span`
   display: block;
   width: fit-content;
   margin: 5px auto 0;
-  font-size: 14px;
+  font-size: ${14 / 16}rem;
   font-weight: normal;
   text-align: center;
 
   @media ${QUERIES.tabletAndUp} {
     margin: 15px auto 0;
-    font-size: 16px;
+    font-size: ${16 / 16}rem;
   }
 `
 
@@ -363,8 +363,8 @@ export const ProductCategoryContainer = styled.div`
   display: flex;
   align-items: center;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: ${16 / 16}rem;
+  line-height: ${24 / 16}rem;
 
   svg {
     margin-right: 12px;
@@ -375,8 +375,8 @@ export const ProductCategoryContainer = styled.div`
 
   @media ${QUERIES.laptopAndUp} {
     margin: 0 0 20px;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: ${24 / 16}rem;
+    line-height: ${30 / 16}rem;
 
     svg {
       margin-right: 15px;
@@ -388,13 +388,13 @@ export const ProductCategoryContainer = styled.div`
 
 export const ProductName = styled.p`
   margin: 0 0 10px;
-  font-size: 28px;
-  line-height: 36px;
+  font-size: ${28 / 16}rem;
+  line-height: ${36 / 16}rem;
   font-weight: 600;
 
   @media ${QUERIES.laptopAndUp} {
-    font-size: 42px;
-    line-height: 50px;
+    font-size: ${42 / 16}rem;
+    line-height: ${50 / 16}rem;
   }
 `
 
@@ -409,13 +409,13 @@ export const ProductFeaturesList = styled.ul`
 
 export const ProductFeatureItem = styled.li`
   margin: 3px 0;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: ${16 / 16}rem;
+  line-height: ${20 / 16}rem;
   font-weight: normal;
 
   @media ${QUERIES.tabletAndUp} {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: ${18 / 16}rem;
+    line-height: ${22 / 16}rem;
   }
 `
 
@@ -439,14 +439,14 @@ export const GetStartedContent = styled(HomeSectionContent)`
 export const GetStartedTitle = styled.h1`
   margin: 0 0 30px;
   color: var(--white);
-  font-size: 24px;
-  line-height: 32px;
+  font-size: ${24 / 16}rem;
+  line-height: ${32 / 16}rem;
   font-weight: 600;
   text-align: center;
 
   @media ${QUERIES.tabletAndUp} {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: ${36 / 16}rem;
+    line-height: ${50 / 16}rem;
   }
 `
 
