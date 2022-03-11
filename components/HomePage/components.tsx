@@ -309,10 +309,10 @@ export const UmaFeatureImgContainer = styled(BoxImgContainer)`
 `
 
 export const UmaFeatureImg = styled(BoxImg)`
-  width: 50px !important;
+  width: 50px;
 
   @media ${QUERIES.tabletAndUp} {
-    width: unset !important;
+    width: unset;
   }
 `
 
