@@ -107,9 +107,9 @@ export const RangeTokenIcon: (props: React.SVGProps<SVGSVGElement>) => React.Rea
   );
 }
 
-export const OOLogoIcon = ({ style = {}, ...rest }) => {
+export const OOLogoIcon: (props: React.SVGProps<SVGSVGElement>) => React.ReactElement = (props) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 60 60" style={{ width: 60, height: 60, ...style }} {...rest}>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 60 60" {...props}>
       <circle cx="30" cy="30" r="30" fill="#FF4A4A" />
       <rect width="38.1353" height="21.7041" x="10.9309" y="19.1437" fill="#FF4A4A" stroke="#fff" strokeWidth="2.1" rx="10.8521" />
       <circle cx="22.4749" cy="29.8186" r="5.4425" stroke="#fff" strokeWidth="2.14286" />

@@ -368,8 +368,8 @@ export const ProductCategoryContainer = styled.div`
 
   svg {
     margin-right: 12px;
-    width: 40px !important;
-    height: 40px !important;
+    width: 40px;
+    height: 40px;
     flex-shrink: 0;
   }
 
@@ -380,8 +380,8 @@ export const ProductCategoryContainer = styled.div`
 
     svg {
       margin-right: 15px;
-      width: 60px !important;
-      height: 60px !important;
+      width: 60px;
+      height: 60px;
     }
   }
 `

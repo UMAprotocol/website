@@ -134,16 +134,16 @@ export const LogoHeadline = styled.div`
   }
 
   svg {
-    width: 40px !important;
-    height: 40px !important;
+    width: 40px;
+    height: 40px;
   }
 
   @media ${QUERIES.tabletAndUp} {
     margin: 0 0 25px;
 
     svg {
-      width: 60px !important;
-      height: 60px !important;
+      width: 60px;
+      height: 60px;
     }
 
     span {
@@ -200,8 +200,8 @@ export const PulseLogoIcon = styled(OOLogoIcon)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 45% !important;
-  height: 45% !important;
+  width: 45%;
+  height: 45%;
 `;
 
 export const PulseRing = styled.div`
