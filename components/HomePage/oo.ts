@@ -1,6 +1,6 @@
 export const OOBoxesData = [{
-  title: "Flexible Identifiers",
-  description: "Get any kind of data from any public source. No limit to what you can build.",
+  title: "Decentralized Participation",
+  description: "Anyone, anywhere in the world can secure the oracle.",
   icon: "images/oo/oo-network.svg",
 }, {
   title: "Dispute Resolution",

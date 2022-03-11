@@ -36,7 +36,7 @@ const WhatIsOO: React.FunctionComponent = () => {
       <UI.HomeSectionContent>
         <UI.HomeSectionHeadline>What is the optimistic oracle?</UI.HomeSectionHeadline>
         <UI.OODescription>
-          An optimistic oracle services data to smart contracts by assuming it is true unless it is disputed.
+          {`An optimistic oracle serves data to smart contracts using a "true unless disputed" escalation game`}
         </UI.OODescription>
         <UI.OOBoxes>
           {OOBoxesData.map((data, idx) => (
@@ -115,7 +115,7 @@ const Products: React.FunctionComponent = () => {
   return (
     <UI.HomeSectionContainer>
       <UI.HomeSectionContent>
-        <UI.HomeSectionHeadline>Products</UI.HomeSectionHeadline>
+        <UI.HomeSectionHeadline>{`In-house products secured by UMA's Optimistic Oracle`}</UI.HomeSectionHeadline>
         <UI.ProductsContainer>
           {PRODUCTS.map((product, idx) => (
             <UI.ProductContainer key={idx}>
