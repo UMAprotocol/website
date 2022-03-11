@@ -195,6 +195,24 @@ export const PulseLogoContainer = styled.div`
   right: 0;
 `;
 
+const pulseOOLogoAnimation = keyframes`
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  75% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  90% {
+    transform: translate(-50%, -50%) scale(1.03);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+`;
+
 export const PulseLogoIcon = styled(OOLogoIcon)`
   position: absolute;
   top: 50%;
@@ -202,6 +220,7 @@ export const PulseLogoIcon = styled(OOLogoIcon)`
   transform: translate(-50%, -50%);
   width: 45%;
   height: 45%;
+  animation: ${pulseOOLogoAnimation} 3s infinite;
 `;
 
 export const PulseRing = styled.div`

@@ -1,3 +1,9 @@
+export type OOBoxData = {
+  title: string,
+  description: string,
+  icon: string,
+}
+
 export const OOBoxesData = [{
   title: "Decentralized Participation",
   description: "Anyone, anywhere in the world can secure the oracle.",
