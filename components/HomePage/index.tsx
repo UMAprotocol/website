@@ -1,13 +1,14 @@
-import React, { useMemo } from "react";
+import React, { useRef } from "react";
 import { DefaultLayout } from "../../layouts/Default";
 import { PrimaryLink, SecondaryLink } from "../Link";
 import SeoHead from "../SeoHead";
 import * as UI from "./components";
 import { constants } from "../../utils";
 import { useHomePage } from "./useHomePage";
-import { UMA_FEATURES } from "./features";
-import { PRODUCTS } from "./products";
-import { OOBoxesData } from "./oo";
+import { UmaFeature, UMA_FEATURES } from "./features";
+import { Product, PRODUCTS_LIST } from "./products";
+import { OOBoxData, OOBoxesData } from "./oo";
+import { useReveal } from "../../utils/hooks";
 
 const { LINKS } = constants;
 
@@ -41,15 +42,7 @@ const WhatIsOO: React.FunctionComponent = () => {
         <UI.OOBoxes>
           {OOBoxesData.map((data, idx) => (
             <UI.OOBoxContainer key={idx}>
-              <UI.OOBox>
-                <UI.BoxImgContainer>
-                  <UI.BoxImg src={data.icon} alt="Optimisc Oracle service" />
-                </UI.BoxImgContainer>
-                <UI.OOBoxTextContainer>
-                  <UI.BoxTitle>{data.title}</UI.BoxTitle>
-                  <UI.BoxDescription>{data.description}</UI.BoxDescription>
-                </UI.OOBoxTextContainer>
-              </UI.OOBox>
+              <OOBoxComponent data={data} />
             </UI.OOBoxContainer>
           ))}
         </UI.OOBoxes>
@@ -58,6 +51,23 @@ const WhatIsOO: React.FunctionComponent = () => {
     </UI.HomeSectionContainer>
   );
 }
+
+const OOBoxComponent: React.FC<{ data: OOBoxData }> = ({ data }) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const { visible } = useReveal(ref, 0.1);
+
+  return (
+    <UI.OOBox ref={ref} visible={visible}>
+      <UI.BoxImgContainer>
+        <UI.BoxImg src={data.icon} alt="Optimisc Oracle service" />
+      </UI.BoxImgContainer>
+      <UI.OOBoxTextContainer>
+        <UI.BoxTitle>{data.title}</UI.BoxTitle>
+        <UI.BoxDescription>{data.description}</UI.BoxDescription>
+      </UI.OOBoxTextContainer>
+    </UI.OOBox>
+  );
+};
 
 const Projects: React.FunctionComponent = () => {
   const { projects } = useHomePage();
@@ -93,22 +103,33 @@ const WhyUseUMA: React.FunctionComponent = () => {
         <UI.UmaFeatures>
           {UMA_FEATURES.map((feature, idx) => (
             <UI.UmaFeatureContainer key={idx}>
-              <UI.UmaFeature>
-                <UI.UmaFeatureImgContainer>
-                  <UI.UmaFeatureImg src={feature.icon}></UI.UmaFeatureImg>
-                </UI.UmaFeatureImgContainer>
-                <UI.OOBoxTextContainer>
-                  <UI.BoxTitle>{feature.title}</UI.BoxTitle>
-                  <UI.BoxDescription>{feature.description}</UI.BoxDescription>
-                </UI.OOBoxTextContainer>
-              </UI.UmaFeature>
+              <UmaFeatureComponent feature={feature} />
             </UI.UmaFeatureContainer>
           ))}
         </UI.UmaFeatures>
       </UI.HomeSectionContent>
     </UI.HomeSectionContainer>
   );
-}
+};
+
+const UmaFeatureComponent: React.FC<{ feature: UmaFeature }> = ({
+  feature,
+}) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const { visible } = useReveal(ref);
+
+  return (
+    <UI.UmaFeature ref={ref} visible={visible}>
+      <UI.UmaFeatureImgContainer>
+        <UI.UmaFeatureImg src={feature.icon}></UI.UmaFeatureImg>
+      </UI.UmaFeatureImgContainer>
+      <UI.OOBoxTextContainer>
+        <UI.BoxTitle>{feature.title}</UI.BoxTitle>
+        <UI.BoxDescription>{feature.description}</UI.BoxDescription>
+      </UI.OOBoxTextContainer>
+    </UI.UmaFeature>
+  );
+};
 
 const Products: React.FunctionComponent = () => {
   return (
@@ -116,21 +137,9 @@ const Products: React.FunctionComponent = () => {
       <UI.HomeSectionContent>
         <UI.HomeSectionHeadline>{`In-house products secured by UMA's Optimistic Oracle`}</UI.HomeSectionHeadline>
         <UI.ProductsContainer>
-          {PRODUCTS.map((product, idx) => (
+          {PRODUCTS_LIST.map((product, idx) => (
             <UI.ProductContainer key={idx}>
-              <UI.Product>
-                <UI.ProductCategoryContainer>
-                  {product.categoryIcon}
-                  {product.categoryName}
-                </UI.ProductCategoryContainer>
-                <UI.ProductName>{product.name}</UI.ProductName>
-                <UI.ProductFeaturesList>
-                  {product.features.map((feature, idx) => (
-                    <UI.ProductFeatureItem key={idx}>{feature}</UI.ProductFeatureItem>
-                  ))}
-                </UI.ProductFeaturesList>
-                <UI.ProductLearnMoreButton href={product.href}>Learn more</UI.ProductLearnMoreButton>
-              </UI.Product>
+              <ProductComponent product={product} />
             </UI.ProductContainer>
           ))}
         </UI.ProductsContainer>
@@ -139,6 +148,29 @@ const Products: React.FunctionComponent = () => {
     </UI.HomeSectionContainer>
   );
 }
+
+export const ProductComponent: React.FC<{ product: Product }> = ({ product }) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const { visible } = useReveal(ref);
+  
+  return (
+    <UI.Product ref={ref} visible={visible}>
+      <UI.ProductCategoryContainer>
+        {product.categoryIcon}
+        {product.categoryName}
+      </UI.ProductCategoryContainer>
+      <UI.ProductName>{product.name}</UI.ProductName>
+      <UI.ProductFeaturesList>
+        {product.features.map((feature, idx) => (
+          <UI.ProductFeatureItem key={idx}>{feature}</UI.ProductFeatureItem>
+        ))}
+      </UI.ProductFeaturesList>
+      <UI.ProductLearnMoreButton href={product.href}>
+        Learn more
+      </UI.ProductLearnMoreButton>
+    </UI.Product>
+  );
+};
 
 const GetStarted: React.FunctionComponent = () => {
   return (

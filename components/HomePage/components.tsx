@@ -1,3 +1,4 @@
+import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 import { constants } from "../../utils";
 import { DiagonalArrowIcon } from "../Icons";
@@ -132,8 +133,12 @@ export const OOBoxContainer = styled(GridColumn)`
   }
 `
 
-export const OOBox = styled(Box)`
+export const OOBox = styled(Box)<{ visible?: boolean }>`
+  position: relative;
   padding: 15px 20px;
+  opacity: ${({ visible }) => visible ? 1: 0};
+  top: ${({ visible }) =>  visible ? 0 : "40px"};
+  transition: opacity 0.4s ease-out, top 0.4s ease-out;
 
   @media ${QUERIES.tabletAndUp} {
     padding: 30px 25px;
@@ -298,8 +303,11 @@ export const UmaFeatureContainer = styled(GridColumn)`
   }
 `
 
-export const UmaFeature = styled(Box)`
-
+export const UmaFeature = styled(Box)<{ visible?: boolean }>`
+  position: relative;
+  opacity: ${({ visible }) => visible ? 1: 0};
+  top: ${({ visible }) =>  visible ? 0 : "50px"};
+  transition: opacity 0.4s ease-out, top 0.4s ease-out;
 `
 
 export const UmaFeatureImgContainer = styled(BoxImgContainer)`
@@ -346,12 +354,16 @@ export const ProductContainer = styled(GridColumn)`
   }
 `
 
-export const Product = styled.div`
+export const Product = styled.div<{ visible?: boolean }>`
+  position: relative;
   padding: 25px;
+  opacity: ${({ visible }) => visible ? 1: 0};
+  top: ${({ visible }) =>  visible ? 0 : "50px"};
   background: var(--white);
   border: 1px solid var(--gray-300);
   box-shadow: 0px 12px 20px hsla(${COLORS.black} / 0.03);
   border-radius: 5px;
+  transition: opacity 0.4s ease-out, top 0.4s ease-out;
 
   @media ${QUERIES.laptopAndUp} {
     padding: 40px 45px 35px;

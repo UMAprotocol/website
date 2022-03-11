@@ -1,10 +1,11 @@
 import React from "react";
 import { DefaultLayout } from "../../layouts/Default";
 import SeoHead from "../SeoHead";
-import { Product, ProductCategoryContainer, ProductContainer, ProductFeatureItem, ProductFeaturesList, ProductLearnMoreButton, ProductName, ProductsContainer } from "../HomePage/components";
+import { ProductContainer, ProductsContainer } from "../HomePage/components";
 import { CallPutOptionsIcon, CheckmarkFilledIcon, KpiOptionIcon, LspIcon, OOLogoIcon, RangeTokenIcon, SuccessTokenIcon } from "../Icons";
 import * as UI from "./components";
 import { constants } from "../../utils";
+import { ProductComponent } from "../HomePage";
 
 const { LINKS } = constants;
 const OO_FEATURES = ["Fully decentralized", "Dispute resolution", "Battle tested", "Incredibly flexible"];
@@ -96,19 +97,7 @@ const ProductsSection: React.FC = () => {
         <ProductsContainer>
           {PRODUCTS.map((product, idx) => (
             <ProductContainer key={idx}>
-              <Product>
-                <ProductCategoryContainer>
-                  {product.categoryIcon}
-                  {product.categoryName}
-                </ProductCategoryContainer>
-                <ProductName>{product.name}</ProductName>
-                <ProductFeaturesList>
-                  {product.features.map((feature, idx) => (
-                    <ProductFeatureItem key={idx}>{feature}</ProductFeatureItem>
-                  ))}
-                </ProductFeaturesList>
-                <ProductLearnMoreButton href={product.href}>Learn more</ProductLearnMoreButton>
-              </Product>
+              <ProductComponent product={product} />
             </ProductContainer>
           ))}
         </ProductsContainer>
