@@ -2,7 +2,9 @@ import React from "react";
 import NextLink, { LinkProps } from "next/link";
 import { StyledLink } from "./components";
 import styled from "@emotion/styled";
-import { QUERIES } from "../../utils";
+import { constants } from "../../utils";
+
+const { QUERIES } = constants;
 
 type Props = React.PropsWithChildren<LinkProps> & {
   className?: string;

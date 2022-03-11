@@ -1,7 +1,9 @@
 import styled from "@emotion/styled";
-import { COLORS, QUERIES } from "../../utils";
+import { constants } from "../../utils";
 import { BaseButton } from "../Button";
 import { Link } from "../Link";
+
+const { COLORS, QUERIES } = constants;
 
 export const Container = styled.footer`
   border-top: 1px solid hsla(${COLORS.black} / 0.15);
@@ -116,7 +118,7 @@ export const NewsletterForm = styled.form`
 export const NewsletterInputContainer = styled.div<{ highlighted: boolean }>`
   display: flex;
   border-bottom: 1px solid;
-  border-color: ${({ highlighted }) => highlighted ? "var(--primary)" : "rgba(0, 0, 0, 0.3)"};
+  border-color: ${({ highlighted }) => highlighted ? "var(--primary)" : `hsla(${COLORS.black} / 0.3)`};
   transition: border-color .2s ease-out;
 
   svg {
@@ -127,7 +129,7 @@ export const NewsletterInputContainer = styled.div<{ highlighted: boolean }>`
 export const Input = styled.input`
   width: 100%;
   padding: 8px 8px 8px 0;
-  color: rgba(0, 0, 0, 0.5);
+  color: hsla(${COLORS.black} / 0.6);
   font-size: ${14 / 16}rem;
   background-color: transparent;
   border: none;

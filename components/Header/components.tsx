@@ -1,10 +1,11 @@
 import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
-import { QUERIES } from "../../utils";
+import { constants } from "../../utils";
 import { BaseButton } from "../Button";
 import { UmaLogoIcon } from "../Icons";
 import { Link } from "../Link";
 
+const { QUERIES, COLORS } = constants;
 const RevealDropdownAnimation = keyframes`
   from {
     opacity: 0;
@@ -25,7 +26,7 @@ export const Container = styled.header`
     left: 0;
     width: 100%;
     height: 10px;
-    background: linear-gradient(180deg, rgba(238, 238, 238, 0.75) 0%, rgba(245, 245, 245, 0) 100%);
+    background: linear-gradient(180deg, hsla(${COLORS.black} / 0.02) 0%, hsla(${COLORS.black} / 0) 100%);
   }
 `;
 
@@ -124,14 +125,14 @@ export const CommunityDropdownContainer = styled.div`
 
 export const DropdownButton = styled(BaseButton)`
   svg {
-    margin-left: 10px;
+    margin: 0 0 2px 10px;
   }
 `
 
 export const CommunityLinks = styled.div`
   background-color: var(--white);
   border-radius: 5px;
-  box-shadow: 0px 0px 20px rgba(39, 37, 40, 0.1);
+  box-shadow: 0px 0px 20px hsla(${COLORS.black} / 0.1);
   overflow: hidden;
 `
 

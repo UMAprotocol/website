@@ -3,8 +3,9 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { Link } from "../Link";
 import { ArrowRightTailIcon, UmaLogoIcon } from "../Icons";
 import * as UI from "./components";
-import { LINKS } from "../../utils";
+import { constants } from "../../utils";
 
+const { LINKS } = constants;
 const LINKS_LIST = [
   {
     name: "Docs",
