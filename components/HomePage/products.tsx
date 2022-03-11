@@ -3,7 +3,15 @@ import { constants } from "../../utils";
 
 const { LINKS } = constants;
 
-export const PRODUCTS = [{
+export type Product = {
+  categoryName: string,
+  categoryIcon: React.ReactElement,
+  name: string,
+  features: string[],
+  href: string,
+}
+
+export const PRODUCTS_LIST: Product[] = [{
   categoryName: "KPI Options",
   categoryIcon: <KpiOptionIcon />,
   name: "Incentive Tokens",

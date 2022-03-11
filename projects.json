@@ -20,7 +20,7 @@
   "url": "https://www.bankless.community/"
 }, {
   "icon": "images/projects/shapeshift.svg",
-  "name": "Shapeshift",
+  "name": "ShapeShift",
   "url": "https://shapeshift.com/"
 }, {
   "icon": "images/projects/barnbridge.png",
@@ -31,25 +31,25 @@
   "name": "Perpetual Protocol",
   "url": "https://perp.com/"
 }, {
-  "icon": "images/projects/opendao.png",
-  "name": "Open DAO",
-  "url": "https://opendao.io/"
+  "icon": "images/projects/yam.png",
+  "name": "Yam Synths",
+  "url": "https://synths.yam.xyz/"
 }, {
   "icon": "images/projects/badger.png",
   "name": "Badger DAO",
   "url": "https://badger.com/"
 }, {
-  "icon": "images/projects/sushiswap.png",
-  "name": "Sushi Swap",
-  "url": "https://www.sushi.com/"
+  "icon": "images/projects/piedao.png",
+  "name": "PieDAO",
+  "url": "https://www.piedao.org/"
 }, {
-  "icon": "images/projects/balancer.png",
-  "name": "Balancer",
-  "url": "https://balancer.fi/"
+  "icon": "images/projects/domination-fin.jpg",
+  "name": "Domination Finance",
+  "url": "https://domination.finance/"
 }, {
-  "icon": "images/projects/hats.webp",
-  "name": "Hats Finance",
-  "url": "https://hats.finance/"
+  "icon": "images/projects/jarvis.png",
+  "name": "Jarvis",
+  "url": "https://jarvis.network/"
 }, {
   "icon": "images/projects/aragon.png",
   "name": "Aragon",

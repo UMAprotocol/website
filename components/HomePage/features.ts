@@ -1,4 +1,10 @@
-export const UMA_FEATURES = [{
+export type UmaFeature = {
+  title: string,
+  description: string,
+  icon: string,
+}
+
+export const UMA_FEATURES: UmaFeature[] = [{
   title: "Community friendly",
   description: "UMA is a Web3 native protocol with a community-first focus",
   icon: "images/home/uma-community.svg",
