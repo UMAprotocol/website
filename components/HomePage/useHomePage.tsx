@@ -1,8 +1,7 @@
 import { useMemo } from "react";
-import { hooks, constants } from "../../utils";
+import { hooks } from "../../utils";
 import { QUERIES } from "../../utils/constants";
-
-const { LINKS, PROJECTS } = constants;
+import PROJECTS from "../../projects.json";
 
 export const useHomePage = () => {
   const { useMediaQuery } = hooks;

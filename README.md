@@ -2,6 +2,13 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Update the projects list
+
+1. Add the project's logo
+    - compress the image size using an online service like [TinyPNG](https://tinypng.com/). This will save some loading times
+    - place the image file in the [/public/images/projects](https://github.com/UMAprotocol/website/tree/master/src) directory
+2. Add the project's details (name, url and image path) to the [projects.json](https://github.com/UMAprotocol/website/tree/master/projects.json) file
+
 ## UMA Press Kit Assets
 
 If you are looking for UMA `press-kit` assets, please see [`documents/press-kit`](https://github.com/UMAprotocol/website/tree/master/documents/press-kit).
