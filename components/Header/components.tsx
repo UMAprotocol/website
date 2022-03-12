@@ -26,7 +26,7 @@ export const Container = styled.header`
     left: 0;
     width: 100%;
     height: 10px;
-    background: linear-gradient(180deg, hsla(${COLORS.black} / 0.02) 0%, hsla(${COLORS.black} / 0) 100%);
+    background: linear-gradient(180deg, hsla(${COLORS.black} / 0.03) 0%, hsla(${COLORS.black} / 0) 100%);
   }
 `;
 
