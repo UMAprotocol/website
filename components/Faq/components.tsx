@@ -144,7 +144,7 @@ export const QuestionContainer = styled.div`
   }
 
   ul {
-    list-style: outside;
+    list-style: inside;
   }
 
   @media ${QUERIES.tabletAndUp} {
