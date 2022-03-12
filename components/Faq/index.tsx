@@ -5,6 +5,15 @@ import SeoHead from "../SeoHead";
 import * as UI from "./components";
 
 export const FaqPage: React.FunctionComponent = () => {
+  const onClickNavLink = (e: React.SyntheticEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const section = document.querySelector(e.currentTarget.hash);
+    window.scrollTo({
+      top: section.getBoundingClientRect().top - 30, 
+      behavior: 'smooth'
+    });
+  }
+
   return (
     <DefaultLayout>
       <SeoHead title="UMA - FAQs" />
@@ -15,11 +24,11 @@ export const FaqPage: React.FunctionComponent = () => {
             <UI.Title>UMA FAQs</UI.Title>
           </UI.TitleContainer>
           <UI.NavLinks>
-            <UI.NavLink href="#question1" active>
+            <UI.NavLink href="#question1" active onClick={onClickNavLink}>
               About UMA
             </UI.NavLink>
-            <UI.NavLink href="#question2">Priceless contracts</UI.NavLink>
-            <UI.NavLink href="#question3">Optimistic oracle</UI.NavLink>
+            <UI.NavLink href="#question2" onClick={onClickNavLink}>Priceless contracts</UI.NavLink>
+            <UI.NavLink href="#question3" onClick={onClickNavLink}>Optimistic oracle</UI.NavLink>
           </UI.NavLinks>
 
           <UI.Section>

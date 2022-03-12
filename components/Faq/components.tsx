@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { COLORS, QUERIES } from "../../utils/constants";
-import { Link } from "../Link";
 
 export const Container = styled.section`
 
@@ -75,7 +74,7 @@ export const NavLinks = styled.div`
   }
 `
 
-export const NavLink = styled(Link)<{ active?: boolean }>`
+export const NavLink = styled.a<{ active?: boolean }>`
   margin-right: 50px;
   margin-top: 20px;
   font-size: ${14 / 16}rem;
@@ -83,6 +82,8 @@ export const NavLink = styled(Link)<{ active?: boolean }>`
   font-weight: 500;
   transition: color .3s;
   color: ${({ active }) => active ? "var(--gray-700)" : `hsla(${COLORS.gray[700]} / 0.3)`};
+  text-decoration: none;
+  cursor: pointer;
 
   :first-of-type {
     margin-top: 0px;
