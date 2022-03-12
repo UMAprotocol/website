@@ -6,7 +6,7 @@ import { Link } from "../Link";
 const { COLORS, QUERIES } = constants;
 
 export const Container = styled.footer`
-  border-top: 1px solid hsla(${COLORS.black} / 0.15);
+  border-top: 1px solid hsla(${COLORS.black} / 0.1);
 `
 
 export const Content = styled.div`
