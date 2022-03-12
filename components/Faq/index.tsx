@@ -8,10 +8,13 @@ export const FaqPage: React.FunctionComponent = () => {
   const onClickNavLink = (e: React.SyntheticEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const section = document.querySelector(e.currentTarget.hash);
-    window.scrollTo({
-      top: section.getBoundingClientRect().top - 30, 
-      behavior: 'smooth'
-    });
+
+    if (section) {
+      window.scrollTo({
+        top: section.getBoundingClientRect().top - 30, 
+        behavior: 'smooth'
+      });
+    }
   }
 
   return (
