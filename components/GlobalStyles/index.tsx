@@ -21,6 +21,7 @@ const globalStyles = css`
   #__next {
     height: 100%;
     color: var(--gray-700);
+    scroll-behavior: smooth;
   }
   #__next {
     isolation: isolate;

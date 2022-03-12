@@ -172,7 +172,7 @@ export const ProductComponent: React.FC<{ product: Product }> = ({ product }) =>
   );
 };
 
-const GetStarted: React.FunctionComponent = () => {
+export const GetStarted: React.FunctionComponent = () => {
   return (
     <UI.GetStartedContainer>
       <UI.GetStartedContent>
