@@ -14,6 +14,6 @@ export const OOBoxesData = [{
   icon: "images/oo/oo-balance.svg",
 }, {
   title: "Economic Guarantees",
-  description: "All identifiers, large and small, share the full security of UMA's dispute resolution system.",
+  description: "Contracts secured by UMA have economic guarantees equal to the value of the entire UMA ecosystem.",
   icon: "images/oo/oo-vote.svg",
 }];

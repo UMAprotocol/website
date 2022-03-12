@@ -18,7 +18,7 @@ export const HomePage: React.FunctionComponent = () => {
       <SeoHead />
       <UI.Container>
         <UI.Content>
-          <UI.Title>UMA is an <span>Optimistic Oracle</span> built for Web3</UI.Title>
+          <UI.Title>UMA is an <span>optimistic oracle</span> built for Web3</UI.Title>
           <PrimaryLink href={LINKS.docs}>Get started</PrimaryLink>
         </UI.Content>
       </UI.Container>
@@ -35,7 +35,7 @@ const WhatIsOO: React.FunctionComponent = () => {
   return (
     <UI.HomeSectionContainer grayBackground>
       <UI.HomeSectionContent>
-        <UI.HomeSectionHeadline>What is the optimistic oracle?</UI.HomeSectionHeadline>
+        <UI.HomeSectionHeadline>What is an optimistic oracle?</UI.HomeSectionHeadline>
         <UI.OODescription>
           {`An optimistic oracle serves data to smart contracts using a "true unless disputed" escalation game`}
         </UI.OODescription>
@@ -59,7 +59,7 @@ const OOBoxComponent: React.FC<{ data: OOBoxData }> = ({ data }) => {
   return (
     <UI.OOBox ref={ref} visible={visible}>
       <UI.BoxImgContainer>
-        <UI.BoxImg src={data.icon} alt="Optimisc Oracle service" />
+        <UI.BoxImg src={data.icon} alt="Optimisc oracle service" />
       </UI.BoxImgContainer>
       <UI.OOBoxTextContainer>
         <UI.BoxTitle>{data.title}</UI.BoxTitle>
@@ -135,7 +135,7 @@ const Products: React.FunctionComponent = () => {
   return (
     <UI.HomeSectionContainer>
       <UI.HomeSectionContent>
-        <UI.HomeSectionHeadline>{`In-house products secured by UMA's Optimistic Oracle`}</UI.HomeSectionHeadline>
+        <UI.HomeSectionHeadline>{`In-house products secured by UMA's optimistic oracle`}</UI.HomeSectionHeadline>
         <UI.ProductsContainer>
           {PRODUCTS_LIST.map((product, idx) => (
             <UI.ProductContainer key={idx}>

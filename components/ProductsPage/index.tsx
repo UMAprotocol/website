@@ -26,7 +26,7 @@ const PRODUCTS = [{
   categoryName: "Range Tokens",
   categoryIcon: <RangeTokenIcon />,
   name: "Treasury Diversification",
-  features: ["Access funds without sale pressure", "Pay a yield to investors with limited upside and downside", "Functions like corporate bonds for DAOs"],
+  features: ["Access funds without sale pressure", "Pay a yield to investors with limited upside and downside", "Functions like convertible debt/bonds"],
   href: LINKS.rangeTokens,
 }, {
   categoryName: "Call/Put Options",
@@ -37,7 +37,7 @@ const PRODUCTS = [{
 }, {
   categoryName: "Long Short Pair (LSP)",
   categoryIcon: <LspIcon />,
-  name: "Flexible Pair Contract",
+  name: "No Liquidation Synths",
   features: ["Build customized finance products", "Fully collateralized / unliquidatable", "Long/Short token pair have inverse values"],
   href: LINKS.lsp,
 }]
@@ -60,16 +60,16 @@ const CoverSection: React.FC = () => {
           <UI.CoverText>
             <UI.LogoHeadline>
               <OOLogoIcon />
-              <span>Optimistic Oracle</span>
+              <span>Optimistic oracle</span>
             </UI.LogoHeadline>
-            <UI.CoverTitle>The Web3 Oracle</UI.CoverTitle>
+            <UI.CoverTitle>The Web3 oracle</UI.CoverTitle>
             <UI.MobileLogoContainer>
               <PulseLogo />
             </UI.MobileLogoContainer>
             <UI.CoverParagraph>
-              {`UMA's optimistic oracle allows contracts to quickly request and receive any kind of data.`}
+              {`UMA's optimistic oracle allows contracts to ask almost any question and trust the answer.`}
               <br /><br />
-              {`The optimistic oracle can provide arbitrary, "long tail" data to Web3 protocols.`}
+              {`The optimistic oracle can provide arbitrary "long tail" data to Web3 protocols.`}
             </UI.CoverParagraph>
             <UI.CoverLink href={LINKS.docs}>Learn more</UI.CoverLink>
           </UI.CoverText>
