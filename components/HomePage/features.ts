@@ -17,7 +17,7 @@ export const UMA_FEATURES: UmaFeature[] = [{
   description: "UMA's oracle is the only one that offers economic guarantees",
   icon: "images/home/uma-lock.svg",
 }, {
-  title: "Minimize Oracle usage",
+  title: "Minimize oracle usage",
   description: "Fewer calls means a smaller attack vector and lower fees",
   icon: "images/home/uma-oo.svg",
 }];
