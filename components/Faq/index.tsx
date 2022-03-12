@@ -73,7 +73,7 @@ export const FaqPage: React.FunctionComponent = () => {
             <UI.QuestionContainer>
               <h6>{"What is UMA's Optimistic Oracle?"}</h6>
               <p>{"UMA's priceless contracts leverage an optimistic oracle known as the Data Verification Mechanism (DVM). The DVM provides the price of an asset at a requested timestamp only when network participants dispute the value of collateral backing a synthetic token. This differs from non-optimistic oracle solutions which constantly write prices on-chain to ensure contracts are properly collateralized. Minimizing oracle usage increases the security and scalability of decentralized financial contracts."}</p>
-              <p>When a dispute occurs, the DVM aggregates price data submitted by UMA token holders. UMA token holders respond to price requests by referencing the asset's price off-chain and reporting the price to the DVM. This price is used as an input by the DVM to determine the final price of the asset.</p>
+              <p>{"When a dispute occurs, the DVM aggregates price data submitted by UMA token holders. UMA token holders respond to price requests by referencing the asset's price off-chain and reporting the price to the DVM. This price is used as an input by the DVM to determine the final price of the asset."}</p>
               <p>If the price returned by the DVM determines the disputer was correct, the disputer is rewarded with a penalty charged to the liquidator; conversely if the disputer was incorrect, the disputer forfeits a bond to the liquidator.</p>
               <p>{"UMA's DVM is backed by economic guarantees to ensure it price feeds cannot be corrupted. Learn more here!"}</p>
             </UI.QuestionContainer>
