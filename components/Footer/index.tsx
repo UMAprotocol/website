@@ -11,9 +11,7 @@ const LINKS_LIST = [
     name: "Docs",
     href: LINKS.docs,
   },
-
-  { name: "FAQs", href: LINKS.faq },
-
+  { name: "FAQS", href: "/faq" },
   { name: "Contact", href: "mailto:hello@umaproject.org" },
   {
     name: "Getting Started",
