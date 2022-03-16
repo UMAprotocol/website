@@ -29,9 +29,9 @@ export const QUERIES = {
 export const LINKS = {
   docs: "https://docs.umaproject.org/",
   projects: "https://projects.umaproject.org/",
-  oo: "https://docs.umaproject.org/getting-started/oracle",
-  kpiOptions: "https://docs.umaproject.org/kpi-options/summary",
-  successTokens: "https://docs.umaproject.org/success-tokens/summary",
+  oo: "/products/optimistic-oracle",
+  kpiOptions: "/products/kpi-options",
+  successTokens: "/products/success-tokens",
   rangeTokens: "/products/range-tokens",
   callPutOption: "/products/call-put",
   lsp: "/products/lsp",

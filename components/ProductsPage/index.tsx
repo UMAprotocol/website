@@ -71,7 +71,7 @@ const CoverSection: React.FC = () => {
               <br /><br />
               {`The optimistic oracle can provide arbitrary "long tail" data to Web3 protocols.`}
             </UI.CoverParagraph>
-            <UI.CoverLink href={LINKS.docs}>Learn more</UI.CoverLink>
+            <UI.CoverLink href={LINKS.oo}>Learn more</UI.CoverLink>
           </UI.CoverText>
           <UI.DesktopLogoContainer>
             <PulseLogo />
