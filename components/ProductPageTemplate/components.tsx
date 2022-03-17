@@ -26,14 +26,13 @@ export const Typewriter = styled.span`
     ${BlinkCaret} 1s step-end infinite;
 }
 `;
-export const HeroContainer = styled.section`
+export const HeroSection = styled.section`
   padding: 32px 0 16px;
   background: linear-gradient(to left, #ff4a4a 66%, #272528);
   width: 100%;
 `;
 
 export const HeroContent = styled.div`
-  width: 100%;
   padding: 0 16px;
 `;
 
@@ -74,10 +73,15 @@ export const HeroImg = styled.img`
   height: 25px;
 `;
 
-export const HeroCarouselContainer = styled.section`
+export const HeroCarouselSection = styled.section`
   width: 100%;
   padding: 30px 30px;
   background: linear-gradient(to left, #ff4a4a 66%, #272528);
+`;
+
+export const HeroCarouselContainer = styled.div`
+  max-width: 1200px;
+  margin: auto;
 `;
 
 export const HeroCarouselContent = styled.div``;
@@ -177,6 +181,11 @@ export const KeyFeatureSection = styled.section`
   }
 `;
 
+export const KeyFeatureContainer = styled.div`
+  max-width: 1200px;
+  margin: auto;
+`;
+
 export const KeyFeatureRow = styled.div`
   display: flex;
   flex-direction: column;
@@ -235,6 +244,11 @@ export const OverviewSection = styled.section`
 `;
 
 export const OverviewSectionContainer = styled.div`
+  max-width: 1200px;
+  margin: auto;
+`;
+
+export const OverviewSectionBody = styled.div`
   display: flex;
   flex-direction: column;
   @media ${QUERIES.tabletAndUp} {
@@ -291,6 +305,11 @@ export const TldrSection = styled.section`
   padding: 24px;
 `;
 
+export const TldrContainer = styled.div`
+  max-width: 1200px;
+  margin: auto;
+`;
+
 export const TldrImageContainer = styled.div`
   margin-left: 16px;
   margin-top: -16px;
@@ -324,6 +343,11 @@ export const GettingStartedSection = styled.section`
   @media ${QUERIES.tabletAndUp} {
     padding: 32px;
   }
+`;
+
+export const GettingStartedContainer = styled.div`
+  max-width: 1200px;
+  margin: auto;
 `;
 export const GettingStartedSectionHeader = styled.h6`
   font-size: 1rem;
@@ -407,6 +431,11 @@ export const PartnerSection = styled.section`
   }
 `;
 
+export const PartnerContainer = styled.div`
+  max-width: 1200px;
+  margin: auto;
+`;
+
 export const PartnerTitle = styled.h2`
   font-size: 2rem;
   text-align: center;
@@ -466,6 +495,12 @@ export const TestimonialSection = styled.section`
   background-color: var(--white);
   padding: 24px;
 `;
+
+export const TestimonialContainer = styled.div`
+  max-width: 1200px;
+  margin: auto;
+`;
+
 export const TestimonialRow = styled.div`
   display: flex;
   flex-direction: column;

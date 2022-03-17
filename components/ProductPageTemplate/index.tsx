@@ -172,7 +172,7 @@ const ProductTemplate = ({ sections }: ProductTemplateProps) => {
 
 const HeroSection = (props: HeroSectionProps) => {
   return (
-    <UI.HeroContainer>
+    <UI.HeroSection>
       <UI.HeroContent>
         <UI.HeroLogo>
           <UI.HeroImg {...props.image}></UI.HeroImg>
@@ -190,7 +190,7 @@ const HeroSection = (props: HeroSectionProps) => {
           })}
         </UI.HeroDetails>
       </UI.HeroContent>
-    </UI.HeroContainer>
+    </UI.HeroSection>
   );
 };
 const BasicContentSection = (props: BasicContentSectionProps) => {
@@ -223,29 +223,30 @@ const BasicContentSection = (props: BasicContentSectionProps) => {
 };
 const HeroCarouselSection = (props: HeroCarouselSectionProps) => {
   return (
-    <UI.HeroCarouselContainer>
-      <UI.HeroCarouselLogo>
-        <UI.HeroCarouselImg {...props.image}></UI.HeroCarouselImg>
-      </UI.HeroCarouselLogo>
-      <UI.HeroCarouselContent>
-        <UI.VerticalSpace height={"40px"} />
-        <UI.HeroCarouselTitle>{props.title}</UI.HeroCarouselTitle>
-        <UI.VerticalSpace height={"10px"} />
-        <Carousel {...props.carousel} />
-      </UI.HeroCarouselContent>
-    </UI.HeroCarouselContainer>
+    <UI.HeroCarouselSection>
+      <UI.HeroCarouselContainer>
+        <UI.HeroCarouselLogo>
+          <UI.HeroCarouselImg {...props.image}></UI.HeroCarouselImg>
+        </UI.HeroCarouselLogo>
+        <UI.HeroCarouselContent>
+          <UI.VerticalSpace height={"40px"} />
+          <UI.HeroCarouselTitle>{props.title}</UI.HeroCarouselTitle>
+          <UI.VerticalSpace height={"10px"} />
+          <Carousel {...props.carousel} />
+        </UI.HeroCarouselContent>
+      </UI.HeroCarouselContainer>
+    </UI.HeroCarouselSection>
   );
 };
 
 const Carousel = (props: CarouselProps) => {
   const [index, setIndex] = useState(0);
-  // const [variation, setVariation] = useState(props.variation[index])
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const timeout = setTimeout(() => {
       setIndex((index + 1) % props.variations.length);
     }, props.delay || 2000);
-    return () => clearInterval(interval);
+    return () => clearTimeout(timeout);
   }, [index, setIndex]);
 
   return (
@@ -262,13 +263,15 @@ const Carousel = (props: CarouselProps) => {
 const KeyFeaturesSection = (props: KeyFeaturesSectionProps) => {
   return (
     <UI.KeyFeatureSection>
-      <UI.KeyFeatureRow>
-        {props.features.map((feature) => (
-          <>
-            <KeyFeatureCard key={feature.title} {...feature} />
-          </>
-        ))}
-      </UI.KeyFeatureRow>
+      <UI.KeyFeatureContainer>
+        <UI.KeyFeatureRow>
+          {props.features.map((feature) => (
+            <>
+              <KeyFeatureCard key={feature.title} {...feature} />
+            </>
+          ))}
+        </UI.KeyFeatureRow>
+      </UI.KeyFeatureContainer>
     </UI.KeyFeatureSection>
   );
 };
@@ -288,25 +291,29 @@ const KeyFeatureCard = (props: KeyFeatureCardProps) => {
 const OverviewSection = (props: OverviewSectionProps) => {
   return (
     <UI.OverviewSection>
-      <UI.OverviewSectionHeader>Product Overview</UI.OverviewSectionHeader>
-      <UI.OverviewTitle>{props.title}</UI.OverviewTitle>
       <UI.OverviewSectionContainer>
-        <UI.OverviewSectionColumn>
-          {props.sections.map((section, i) => {
-            return (
-              <UI.OverviewParagraph key={i}>
-                {section} <br /> <br />
-              </UI.OverviewParagraph>
-            );
-          })}
-          <UI.OverviewLink {...props.link}>{props.link.text}</UI.OverviewLink>
-        </UI.OverviewSectionColumn>
-        <UI.OverviewSectionColumn>
-          <UI.OverviewImage {...props.image} />
-          {props.image.label && (
-            <UI.OverviewImageLabel>{props.image.label} </UI.OverviewImageLabel>
-          )}
-        </UI.OverviewSectionColumn>
+        <UI.OverviewSectionHeader>Product Overview</UI.OverviewSectionHeader>
+        <UI.OverviewTitle>{props.title}</UI.OverviewTitle>
+        <UI.OverviewSectionBody>
+          <UI.OverviewSectionColumn>
+            {props.sections.map((section, i) => {
+              return (
+                <UI.OverviewParagraph key={i}>
+                  {section} <br /> <br />
+                </UI.OverviewParagraph>
+              );
+            })}
+            <UI.OverviewLink {...props.link}>{props.link.text}</UI.OverviewLink>
+          </UI.OverviewSectionColumn>
+          <UI.OverviewSectionColumn>
+            <UI.OverviewImage {...props.image} />
+            {props.image.label && (
+              <UI.OverviewImageLabel>
+                {props.image.label}{" "}
+              </UI.OverviewImageLabel>
+            )}
+          </UI.OverviewSectionColumn>
+        </UI.OverviewSectionBody>
       </UI.OverviewSectionContainer>
     </UI.OverviewSection>
   );
@@ -315,12 +322,14 @@ const OverviewSection = (props: OverviewSectionProps) => {
 const TldrSection = (props: TldrSectionProps) => {
   return (
     <UI.TldrSection>
-      <UI.TldrRow>
-        <UI.TldrImageContainer>
-          <UI.TldrImage {...props.image} />
-        </UI.TldrImageContainer>
-        <UI.TldrDetails>{props.details}</UI.TldrDetails>
-      </UI.TldrRow>
+      <UI.TldrContainer>
+        <UI.TldrRow>
+          <UI.TldrImageContainer>
+            <UI.TldrImage {...props.image} />
+          </UI.TldrImageContainer>
+          <UI.TldrDetails>{props.details}</UI.TldrDetails>
+        </UI.TldrRow>
+      </UI.TldrContainer>
     </UI.TldrSection>
   );
 };
@@ -328,29 +337,31 @@ const TldrSection = (props: TldrSectionProps) => {
 const GettingStartedSection = (props: GettingStartedSectionProps) => {
   return (
     <UI.GettingStartedSection>
-      <UI.GettingStartedSectionHeader>
-        Getting Started
-      </UI.GettingStartedSectionHeader>
-      <UI.GettingStartedTitle>{props.title}</UI.GettingStartedTitle>
-      <UI.GettingStartedRow>
-        {props.sections.map((section, i) => (
-          <UI.GettingStartedCard key={section.title}>
-            <UI.GettingStartedCardBadge>{i + 1}</UI.GettingStartedCardBadge>
-            <div>
-              <UI.GettingStartedCardTitle>
-                {section.title}
-              </UI.GettingStartedCardTitle>
-              <UI.GettingStartedCardDetails>
-                {section.details}
-              </UI.GettingStartedCardDetails>
-            </div>
-          </UI.GettingStartedCard>
-        ))}
-      </UI.GettingStartedRow>
-      <UI.VerticalSpace height="40px" />
-      <UI.GettingStartedLink target="_blank" {...props.link}>
-        {props.link.text}
-      </UI.GettingStartedLink>
+      <UI.GettingStartedContainer>
+        <UI.GettingStartedSectionHeader>
+          Getting Started
+        </UI.GettingStartedSectionHeader>
+        <UI.GettingStartedTitle>{props.title}</UI.GettingStartedTitle>
+        <UI.GettingStartedRow>
+          {props.sections.map((section, i) => (
+            <UI.GettingStartedCard key={section.title}>
+              <UI.GettingStartedCardBadge>{i + 1}</UI.GettingStartedCardBadge>
+              <div>
+                <UI.GettingStartedCardTitle>
+                  {section.title}
+                </UI.GettingStartedCardTitle>
+                <UI.GettingStartedCardDetails>
+                  {section.details}
+                </UI.GettingStartedCardDetails>
+              </div>
+            </UI.GettingStartedCard>
+          ))}
+        </UI.GettingStartedRow>
+        <UI.VerticalSpace height="40px" />
+        <UI.GettingStartedLink target="_blank" {...props.link}>
+          {props.link.text}
+        </UI.GettingStartedLink>
+      </UI.GettingStartedContainer>
     </UI.GettingStartedSection>
   );
 };
@@ -358,12 +369,14 @@ const GettingStartedSection = (props: GettingStartedSectionProps) => {
 const PartnersSection = (props: PartnersSectionProps) => {
   return (
     <UI.PartnerSection>
-      <UI.PartnerTitle>{props.title}</UI.PartnerTitle>
-      <UI.PartnerRow>
-        {props.partners.map((partner) => (
-          <PartnerCard key={partner.title} {...partner} />
-        ))}
-      </UI.PartnerRow>
+      <UI.PartnerContainer>
+        <UI.PartnerTitle>{props.title}</UI.PartnerTitle>
+        <UI.PartnerRow>
+          {props.partners.map((partner) => (
+            <PartnerCard key={partner.title} {...partner} />
+          ))}
+        </UI.PartnerRow>
+      </UI.PartnerContainer>
     </UI.PartnerSection>
   );
 };
@@ -384,11 +397,13 @@ const PartnerCard = (props: PartnerCardProps) => {
 const TestimonialsSection = (props: TestimonialsSectionProps) => {
   return (
     <UI.TestimonialSection>
-      <UI.TestimonialRow>
-        {props.testimonials.map((testimonial, i) => (
-          <TestimonialCard key={i} {...testimonial} />
-        ))}
-      </UI.TestimonialRow>
+      <UI.TestimonialContainer>
+        <UI.TestimonialRow>
+          {props.testimonials.map((testimonial, i) => (
+            <TestimonialCard key={i} {...testimonial} />
+          ))}
+        </UI.TestimonialRow>
+      </UI.TestimonialContainer>
     </UI.TestimonialSection>
   );
 };
