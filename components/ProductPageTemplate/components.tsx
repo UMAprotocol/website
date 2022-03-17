@@ -6,6 +6,26 @@ import { PrimaryLink, SecondaryLink } from "../Link";
 
 const { QUERIES, COLORS } = constants;
 
+/* The typing effect */
+export const Typing = keyframes`
+  from { width: 0% }
+  to { width: 100% }
+`;
+
+export const BlinkCaret = keyframes`
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+`;
+export const Typewriter = styled.span`
+  display: block;
+  overflow: hidden;
+  border-right: .1em solid white; 
+  white-space: nowrap;
+  animation: 
+    ${Typing} 1s steps(40, end) infinite,
+    ${BlinkCaret} 1s step-end infinite;
+}
+`;
 export const HeroContainer = styled.section`
   padding: 32px 0 16px;
   background: linear-gradient(to left, #ff4a4a 66%, #272528);

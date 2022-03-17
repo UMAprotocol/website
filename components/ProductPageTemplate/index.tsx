@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { DefaultLayout } from "../../layouts/Default";
 import SeoHead from "../SeoHead";
 import * as UI from "./components";
@@ -238,12 +238,22 @@ const HeroCarouselSection = (props: HeroCarouselSectionProps) => {
 };
 
 const Carousel = (props: CarouselProps) => {
+  const [index, setIndex] = useState(0);
+  // const [variation, setVariation] = useState(props.variation[index])
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((index + 1) % props.variations.length);
+    }, props.delay || 2000);
+    return () => clearInterval(interval);
+  }, [index, setIndex]);
+
   return (
     <UI.HeroCarousel>
-      <UI.HeroCarouselPrefix> {props.prefix} </UI.HeroCarouselPrefix>{" "}
+      <UI.HeroCarouselPrefix> {props.prefix} </UI.HeroCarouselPrefix>
       <UI.HeroCarouselVariation>
         {" "}
-        {props.variations[0]}{" "}
+        {props.variations[index]}{" "}
       </UI.HeroCarouselVariation>
     </UI.HeroCarousel>
   );
