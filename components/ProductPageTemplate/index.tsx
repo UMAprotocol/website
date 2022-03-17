@@ -195,26 +195,30 @@ const HeroSection = (props: HeroSectionProps) => {
 };
 const BasicContentSection = (props: BasicContentSectionProps) => {
   return (
-    <UI.SectionContainer>
+    <UI.BasicContentContainer>
       {props.sections.map((section, i) => {
         return (
           <div key={i}>
-            <UI.SectionTitle> {section.title} </UI.SectionTitle>
+            <UI.BasicContentTitle> {section.title} </UI.BasicContentTitle>
             {section.details &&
               section.details.map((details, i) => {
-                return <UI.SectionDetail key={i}>{details}</UI.SectionDetail>;
+                return (
+                  <UI.BasicContentDetail key={i}>
+                    {details} <br /> <br />
+                  </UI.BasicContentDetail>
+                );
               })}
             {section.link && (
-              <UI.SectionLinkContainer>
-                <UI.SectionButton target="_blank" {...section.link}>
+              <UI.BasicContentLinkContainer>
+                <UI.BasicContentLink target="_blank" {...section.link}>
                   {section.link.text}
-                </UI.SectionButton>
-              </UI.SectionLinkContainer>
+                </UI.BasicContentLink>
+              </UI.BasicContentLinkContainer>
             )}
           </div>
         );
       })}
-    </UI.SectionContainer>
+    </UI.BasicContentContainer>
   );
 };
 const HeroCarouselSection = (props: HeroCarouselSectionProps) => {
@@ -250,7 +254,9 @@ const KeyFeaturesSection = (props: KeyFeaturesSectionProps) => {
     <UI.KeyFeatureSection>
       <UI.KeyFeatureRow>
         {props.features.map((feature) => (
-          <KeyFeatureCard key={feature.title} {...feature} />
+          <>
+            <KeyFeatureCard key={feature.title} {...feature} />
+          </>
         ))}
       </UI.KeyFeatureRow>
     </UI.KeyFeatureSection>
@@ -261,8 +267,10 @@ const KeyFeatureCard = (props: KeyFeatureCardProps) => {
   return (
     <UI.KeyFeatureCard>
       <UI.KeyFeatureImage {...props.image} />
-      <UI.KeyFeatureTitle>{props.title} </UI.KeyFeatureTitle>
-      <UI.KeyFeatureDetails>{props.details} </UI.KeyFeatureDetails>
+      <div>
+        <UI.KeyFeatureTitle>{props.title} </UI.KeyFeatureTitle>
+        <UI.KeyFeatureDetails>{props.details} </UI.KeyFeatureDetails>
+      </div>
     </UI.KeyFeatureCard>
   );
 };
@@ -270,12 +278,10 @@ const KeyFeatureCard = (props: KeyFeatureCardProps) => {
 const OverviewSection = (props: OverviewSectionProps) => {
   return (
     <UI.OverviewSection>
+      <UI.OverviewSectionHeader>Product Overview</UI.OverviewSectionHeader>
+      <UI.OverviewTitle>{props.title}</UI.OverviewTitle>
       <UI.OverviewSectionContainer>
         <UI.OverviewSectionColumn>
-          <UI.OverviewSectionHeader>Product Overview</UI.OverviewSectionHeader>
-          <UI.VerticalSpace height="10px" />
-          <UI.OverviewTitle>{props.title}</UI.OverviewTitle>
-          <UI.VerticalSpace height="40px" />
           {props.sections.map((section, i) => {
             return (
               <UI.OverviewParagraph key={i}>
@@ -283,9 +289,7 @@ const OverviewSection = (props: OverviewSectionProps) => {
               </UI.OverviewParagraph>
             );
           })}
-          <UI.OverviewButton {...props.link}>
-            {props.link.text}
-          </UI.OverviewButton>
+          <UI.OverviewLink {...props.link}>{props.link.text}</UI.OverviewLink>
         </UI.OverviewSectionColumn>
         <UI.OverviewSectionColumn>
           <UI.OverviewImage {...props.image} />
@@ -317,18 +321,19 @@ const GettingStartedSection = (props: GettingStartedSectionProps) => {
       <UI.GettingStartedSectionHeader>
         Getting Started
       </UI.GettingStartedSectionHeader>
-      <UI.VerticalSpace height="20px" />
       <UI.GettingStartedTitle>{props.title}</UI.GettingStartedTitle>
       <UI.GettingStartedRow>
         {props.sections.map((section, i) => (
           <UI.GettingStartedCard key={section.title}>
             <UI.GettingStartedCardBadge>{i + 1}</UI.GettingStartedCardBadge>
-            <UI.GettingStartedCardTitle>
-              {section.title}
-            </UI.GettingStartedCardTitle>
-            <UI.GettingStartedCardDetails>
-              {section.details}
-            </UI.GettingStartedCardDetails>
+            <div>
+              <UI.GettingStartedCardTitle>
+                {section.title}
+              </UI.GettingStartedCardTitle>
+              <UI.GettingStartedCardDetails>
+                {section.details}
+              </UI.GettingStartedCardDetails>
+            </div>
           </UI.GettingStartedCard>
         ))}
       </UI.GettingStartedRow>
@@ -359,9 +364,9 @@ const PartnerCard = (props: PartnerCardProps) => {
       <UI.PartnerCardImage {...props.image} />
       <UI.PartnerCardTitle>{props.title}</UI.PartnerCardTitle>
       <UI.VerticalSpace height={"10px"} />
-      <UI.PartnerCardButton target="_blank" {...props.link}>
+      <UI.PartnerCardLink target="_blank" {...props.link}>
         {props.link.text}
-      </UI.PartnerCardButton>
+      </UI.PartnerCardLink>
     </UI.PartnerCard>
   );
 };
