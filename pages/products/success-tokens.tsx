@@ -134,7 +134,7 @@ const sections = [
         title: "Shapeshift Proposal",
         link: {
           text: "Read it here",
-          href: "https://docs.google.com/spreadsheets/d/1wRYgPVIjEyk6ADi1f0IKhKXoN3iaZRG7v3Iza-HhNIw/edit#gid=53260911",
+          href: "https://forum.shapeshift.com/t/success-token-proposal-discussion/599",
         },
       },
       {
