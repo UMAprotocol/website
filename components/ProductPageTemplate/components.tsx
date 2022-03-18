@@ -165,7 +165,7 @@ export const BasicContentLinkContainer = styled.div`
 export const BasicContentLink = styled(PrimaryLink)`
   width: auto;
   font-size: 1.1rem;
-  padding 16px 0;
+  padding: 16px 0;
   @media ${QUERIES.tabletAndUp} {
     width: 400px;
     margin: 0;

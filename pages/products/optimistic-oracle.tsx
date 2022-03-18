@@ -104,7 +104,7 @@ const sections = [
     partners: [
       {
         image: {
-          src: "/images/products/UMA-Across.svg",
+          src: "/images/projects/across.png",
           alt: "Across Protocol",
         },
         title: "Across Protocol",
@@ -115,7 +115,7 @@ const sections = [
       },
       {
         image: {
-          src: "/images/products/UMA-Sherlock.svg",
+          src: "/images/projects/sherlock.png",
           alt: "Sherlock",
         },
         title: "Sherlock",
@@ -126,7 +126,7 @@ const sections = [
       },
       {
         image: {
-          src: "/images/products/UMA-Opiumx2.png",
+          src: "/images/projects/opium.png",
           alt: "SpaceX Insurance",
         },
         title: "SpaceX Insurance",

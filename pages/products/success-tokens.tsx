@@ -117,7 +117,7 @@ const sections = [
     partners: [
       {
         image: {
-          src: "/images/products/UMA-Sushi.svg",
+          src: "/images/projects/sushi.svg",
           alt: "SushiSwap",
         },
         title: "SushiSwap Proposal",
@@ -128,7 +128,7 @@ const sections = [
       },
       {
         image: {
-          src: "/images/products/UMA-Shapeshift.svg",
+          src: "/images/projects/shapeshift.svg",
           alt: "Shapeshift",
         },
         title: "Shapeshift Proposal",
@@ -139,7 +139,7 @@ const sections = [
       },
       {
         image: {
-          src: "/images/products/UMA-UMA.svg",
+          src: "/images/projects/uma.svg",
           alt: "UMA",
         },
         title: "Success Token Article",
