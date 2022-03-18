@@ -21,7 +21,6 @@ const globalStyles = css`
   #__next {
     height: 100%;
     color: var(--gray-700);
-    scroll-behavior: smooth;
   }
   #__next {
     isolation: isolate;
@@ -34,7 +33,5 @@ const globalStyles = css`
 `;
 
 export const GlobalStyles = () => {
-  return (
-    <Global styles={globalStyles} />
-  );
-}
+  return <Global styles={globalStyles} />;
+};
