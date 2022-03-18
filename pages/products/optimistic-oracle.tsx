@@ -110,7 +110,7 @@ const sections = [
         title: "Across Protocol",
         link: {
           text: "Read it here",
-          href: "https://across.gitbook.io/bridge/",
+          href: "https://docs.across.to/bridge/",
         },
       },
       {
