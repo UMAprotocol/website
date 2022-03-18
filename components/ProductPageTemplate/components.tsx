@@ -195,6 +195,8 @@ export const KeyFeatureRow = styled.div`
   }
 `;
 export const KeyFeatureCard = styled.div`
+  flex-basis: 0;
+  flex-grow: 1;
   background-color: var(--white);
   display: flex;
   padding: 16px 16px;
@@ -215,8 +217,8 @@ export const KeyFeatureImage = styled.img`
   margin: 0px 16px 0px 0px;
   height: 42px;
   @media ${QUERIES.tabletAndUp} {
-    height: 105px;
-    width: 105px;
+    height: 64px;
+    width: 64px;
   }
 `;
 export const KeyFeatureTitle = styled.h4`
@@ -256,7 +258,13 @@ export const OverviewSectionBody = styled.div`
   }
 `;
 
-export const OverviewSectionColumn = styled.div``;
+export const OverviewSectionColumn = styled.div`
+  @media ${QUERIES.tabletAndUp} {
+    :first-child {
+      margin-right: 32px;
+    }
+  }
+`;
 
 export const OverviewSectionHeader = styled.h6`
   color: #a8a8a8;
@@ -370,6 +378,8 @@ export const GettingStartedRow = styled.div`
 `;
 
 export const GettingStartedCard = styled.div`
+  flex-basis: 0;
+  flex-grow: 1;
   text-align: center;
   background-color: var(--white);
   border-radius: 5px;
@@ -420,6 +430,11 @@ export const GettingStartedCardDetails = styled.h5`
 export const GettingStartedLink = styled(SecondaryLink)`
   font-size: 1.3rem;
   width: 215px;
+  color: var(--primary);
+  &:hover {
+    color: var(--primary);
+    background-color: var(--gray-300);
+  }
 `;
 
 export const PartnerSection = styled.section`
@@ -458,11 +473,13 @@ export const PartnerRow = styled.div`
 `;
 
 export const PartnerCard = styled.div`
+  flex-basis: 0;
+  flex-grow: 1;
   box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.03);
   padding: 16px;
   border-radius: 5px;
   border: 1px solid whitesmoke;
-  margin: 16px 0px;
+  margin: 16px 16px;
   @media ${QUERIES.tabletAndUp} {
     padding: 32px;
   }
@@ -509,6 +526,8 @@ export const TestimonialRow = styled.div`
   }
 `;
 export const TestimonialCard = styled.div`
+  flex-basis: 0;
+  flex-grow: 1;
   box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.03);
   padding: 16px;
   border-radius: 5px;

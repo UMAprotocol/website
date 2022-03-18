@@ -14,7 +14,7 @@ const sections = [
       prefix: "Smart airdrops motivate your community to",
       variations: [
         "migrate liquidity",
-        "recruit freinds",
+        "recruit friends",
         "establish partnerships",
         "increase adoption",
         "create content",
