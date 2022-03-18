@@ -11,8 +11,7 @@ const sections = [
       alt: "UMA_logo",
     },
     details: [
-      "Call and Put options allow DAO treasuries to offer yield opportunities to tokenholders, as well as leverage opportunities to speculators.",
-      "The options are traded against the project token, so DAOs can create liquidity without any opportunity cost.",
+      "Call and Put options allow DAO treasuries to offer yield opportunities to tokenholders, as well as leverage opportunities to speculators. The options are traded against the project token, so DAOs can create liquidity without any opportunity cost.",
     ],
   },
   {

@@ -15,7 +15,7 @@ const sections = [
       variations: [
         "raise funds for operations",
         "attract strategic investors",
-        "put vesting agreements on chain",
+        "put vesting agreements on-chain",
         "align investors with the community",
       ],
     },
@@ -33,7 +33,7 @@ const sections = [
       },
       {
         title: "DeFi Native Raise",
-        details: "No lawyers or off-chain brokers required.",
+        details: "No lawyers or off-chain brokers required",
         image: {
           src: "/images/products/UMA-Defi-native-65x65.svg",
           alt: "DeFi Native Raise",

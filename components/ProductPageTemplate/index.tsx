@@ -204,7 +204,7 @@ const BasicContentSection = (props: BasicContentSectionProps) => {
               section.details.map((details, i) => {
                 return (
                   <UI.BasicContentDetail key={i}>
-                    {details} <br /> <br />
+                    {details}
                   </UI.BasicContentDetail>
                 );
               })}
@@ -306,7 +306,9 @@ const OverviewSection = (props: OverviewSectionProps) => {
             <UI.OverviewLink {...props.link}>{props.link.text}</UI.OverviewLink>
           </UI.OverviewSectionColumn>
           <UI.OverviewSectionColumn>
-            <UI.OverviewImage {...props.image} />
+            <UI.OverviewImageContainer>
+              <UI.OverviewImage {...props.image} />
+            </UI.OverviewImageContainer>
             {props.image.label && (
               <UI.OverviewImageLabel>
                 {props.image.label}{" "}

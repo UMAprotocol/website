@@ -83,7 +83,7 @@ const sections = [
     sections: [
       {
         title: "Define Target",
-        details: "Define the KPI (Key Perfomance Index) you want to hit.",
+        details: "Define the Key Perfomance Index (KPI) you want to hit.",
       },
       {
         title: "Create the KPI Options",
@@ -92,7 +92,7 @@ const sections = [
       {
         title: "Distribute and Market",
         details:
-          "The tokens to your target community and advertise your campaign.",
+          "the tokens to your target community and advertise your campaign.",
       },
     ],
     link: {

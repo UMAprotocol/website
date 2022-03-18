@@ -32,7 +32,7 @@ const sections = [
         details: [
           "Compared to EMP contracts on UMA, the LSP contracts are non-liquidatable and do not require running bots.",
           "The dual token design means that sponsor positions are transferable.",
-          "Accommodates various financial payout types and products with minimal changes",
+          "Accommodates various financial payout types and products with minimal changes.",
           "Ability to use any collateral type without any security considerations, as the payout is denominated in units of collateral and is fully capitalized.",
         ],
       },

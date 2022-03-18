@@ -13,8 +13,8 @@ const sections = [
     carousel: {
       prefix: "The Optimistic Oracle lets you securely",
       variations: [
-        "send cross chain messages",
-        "do off chain calculations",
+        "send cross-chain messages",
+        "do off-chain calculations",
         "bring real world data on-chain",
       ],
     },

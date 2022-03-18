@@ -33,7 +33,5 @@ const globalStyles = css`
 `;
 
 export const GlobalStyles = () => {
-  return (
-    <Global styles={globalStyles} />
-  );
-}
+  return <Global styles={globalStyles} />;
+};

@@ -41,9 +41,9 @@ export const HeroTitle = styled.h1`
   font-weight: 600;
   color: var(--white);
   font-size: 3rem;
-  margin: 1rem 0rem;
+  margin: 16px 0;
   @media ${QUERIES.tabletAndUp} {
-    margin: auto;
+    margin: 0 auto 32px auto;
     text-align: left;
     line-height: 1.08;
     font-size: 6rem;
@@ -57,6 +57,7 @@ export const HeroDetails = styled.h4`
   font-weight: 300;
   @media ${QUERIES.tabletAndUp} {
     margin: auto;
+    padding-right: 24px;
     max-width: 800px;
   }
 `;
@@ -124,23 +125,24 @@ export const BasicContentContainer = styled.section`
   width: 100%;
 `;
 export const BasicContentTitle = styled.p`
+  padding: 0 0 16px 0;
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
   @media ${QUERIES.tabletAndUp} {
     text-align: left;
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
   }
 `;
 export const BasicContentDetail = styled.p`
-  padding: 0 32px;
+  padding: 0 0 16px 0;
   font-size: 1.2rem;
   @media ${QUERIES.tabletAndUp} {
-    text-align: left;
     max-width: 800px;
+    padding: 0 32px 16px 16px;
     margin: auto;
-    padding: 0 16px;
+    text-align: left;
     ::before {
       content: "";
       position: absolute;
@@ -148,7 +150,7 @@ export const BasicContentDetail = styled.p`
       border-style: solid;
       border-width: 0.125rem;
       height: 24px;
-      margin: 4px 0;
+      margin: 4px 0 0 4px;
       transform: translateX(-16px);
     }
   }
@@ -259,6 +261,8 @@ export const OverviewSectionBody = styled.div`
 `;
 
 export const OverviewSectionColumn = styled.div`
+  flex-basis: 0;
+  flex-grow: 1;
   @media ${QUERIES.tabletAndUp} {
     :first-child {
       margin-right: 32px;
@@ -287,19 +291,31 @@ export const OverviewParagraph = styled.h4`
   color: var(--gray-700);
 `;
 
+export const OverviewImageContainer = styled.div`
+  @media ${QUERIES.tabletAndUp} {
+    display: flex;
+    justify-content: center;
+  }
+`;
+
 export const OverviewImage = styled.img`
   width: 100%;
   padding: 24px 0px 0px 0px;
   @media ${QUERIES.tabletAndUp} {
     padding: 0px;
+    max-height: 400px;
+    width: auto;
   }
 `;
 
 export const OverviewImageLabel = styled.div`
   font-size: 0.66rem;
-  color: var(--gray-700);
+  color: var(--gray-400);
   font-weight: 400;
   text-align: center;
+  @media ${QUERIES.tabletAndUp} {
+    font-size: 0.85rem;
+  }
 `;
 
 export const OverviewLink = styled(PrimaryLink)`
@@ -319,8 +335,10 @@ export const TldrContainer = styled.div`
 `;
 
 export const TldrImageContainer = styled.div`
-  margin-left: 16px;
-  margin-top: -16px;
+  margin: -16px 8px;
+  @media ${QUERIES.tabletAndUp} {
+    margin: -16px 48px;
+  }
 `;
 
 export const TldrImage = styled.img`
@@ -343,6 +361,9 @@ export const TldrDetails = styled.p`
   line-height: 1.67;
   color: #000;
   margin: 16px;
+  @media ${QUERIES.tabletAndUp} {
+    font-size: 1.25rem;
+  }
 `;
 
 export const GettingStartedSection = styled.section`
