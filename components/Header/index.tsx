@@ -23,8 +23,8 @@ const NavLinks = () => {
 export const Header: React.FunctionComponent = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
-  const onToggle = (toggled: boolean) => {
-    setShowMobileMenu(toggled);
+  const onToggle = () => {
+    setShowMobileMenu((prevShowMobileMenu) => !prevShowMobileMenu);
   }
 
   return (
@@ -36,19 +36,19 @@ export const Header: React.FunctionComponent = () => {
         <UI.NavContainer>
           <NavLinks />
         </UI.NavContainer>
-        <MenuToggle onToggle={onToggle} />
-        <MobileMenuComponent show={showMobileMenu} />
+        <MenuToggle toggled={showMobileMenu} onToggle={onToggle} />
+        <MobileMenuComponent show={showMobileMenu} onClickLink={onToggle} />
       </UI.Content>
     </UI.Container>
   );
 }
 
-const MobileMenuComponent: React.FC<{ show: boolean }> = ({ show }) => {
+const MobileMenuComponent: React.FC<{ show: boolean, onClickLink: () => void }> = ({ show, onClickLink }) => {
   const router = useRouter();
 
   return (
     <UI.MobileMenuContainer show={show}>
-        {MOBILE_HEADER_LINKS.map((link) => link.component({ path: router.pathname }))}
+        {MOBILE_HEADER_LINKS.map((link) => link.component({ path: router.pathname, onClick: onClickLink }))}
         <UI.MobileCommunityLinks>
           {COMMUNITY_LINKS.map((link, idx) => (
             <UI.MobileCommunityLink key={idx} href={link.href} target="_blank">
@@ -60,24 +60,18 @@ const MobileMenuComponent: React.FC<{ show: boolean }> = ({ show }) => {
   );
 }
 
-const MenuToggle: React.FC<{ onToggle: (toggled: boolean) => void }> = ({ onToggle }) => {
-  const [toggled, setToggle] = useState(false);
-
-  const onClickToggle = () => {
-    setToggle((prevToggled) => {
-      onToggle(!prevToggled);
-      return !prevToggled;
-    });
-  }
-
+const MenuToggle: React.FC<{ toggled: boolean; onToggle: () => void }> = ({
+  toggled,
+  onToggle,
+}) => {
   return (
-    <UI.MenuToggleButton onClick={onClickToggle} toggled={toggled}>
+    <UI.MenuToggleButton onClick={onToggle} toggled={toggled}>
       <span></span>
       <span></span>
       <span></span>
     </UI.MenuToggleButton>
   );
-}
+};
 
 const CommunityDropdown: React.FunctionComponent = () => {
   return (
@@ -123,14 +117,18 @@ const HEADER_LINKS = [
   },
 ];
 
-const MOBILE_HEADER_LINKS = [
+interface IHeaderLink {
+  key: string;
+  component: (args: { path: string; onClick?: () => void }) => JSX.Element;
+}
+const MOBILE_HEADER_LINKS: IHeaderLink[] = [
   {
     key: "Projects",
     component: () => <UI.MobileNavLink href="https://projects.umaproject.org/">Projects</UI.MobileNavLink>,
   },
   {
     key: "Products",
-    component: ({ path }: { path: string }) => <UI.MobileNavLink href="/products" active={path === "/products"}>Products</UI.MobileNavLink>,
+    component: ({ path, onClick }) => <UI.MobileNavLink href="/products" active={path === "/products"} onClick={onClick}>Products</UI.MobileNavLink>,
   },
   {
     key: "Docs",
