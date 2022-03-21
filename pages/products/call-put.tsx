@@ -37,7 +37,7 @@ const sections = [
         title: "Examples",
         details: [
           "Uniswap creates a put option on UNI with a $25 strike. A trader buys it for .05 UNI. At expiry, the price is $15 and the option is worth $10.",
-          "Take the above example, except the token fails to rally. The call options expire valueless, and have no cost to the UMA treasury.",
+          "Take the above example, except the token fails to rally. The call options expire valueless, and have no cost to the UNI treasury.",
           "For a put option, consider UNI creates a put option with a $25 strike. A trader buys it for .05 UNI. At expiry, the price is $15, and so the option is settled worth $10.",
         ],
       },
