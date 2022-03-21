@@ -31,6 +31,7 @@ export const LINKS = {
   docs: "https://docs.umaproject.org/",
   projects: "https://projects.umaproject.org/",
   oo: "/products/optimistic-oracle",
+  ooDocs: "https://docs.umaproject.org/getting-started/oracle",
   kpiOptions: "/products/kpi-options",
   successTokens: "/products/success-tokens",
   rangeTokens: "/products/range-tokens",

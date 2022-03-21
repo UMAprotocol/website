@@ -19,7 +19,7 @@ export const HomePage: React.FunctionComponent = () => {
       <UI.Container>
         <UI.Content>
           <UI.Title>UMA is an <span>optimistic oracle</span> built for Web3</UI.Title>
-          <PrimaryLink href={LINKS.docs}>Get started</PrimaryLink>
+          <PrimaryLink href={LINKS.oo}>Get started</PrimaryLink>
         </UI.Content>
       </UI.Container>
       <WhatIsOO />
@@ -46,7 +46,7 @@ const WhatIsOO: React.FunctionComponent = () => {
             </UI.OOBoxContainer>
           ))}
         </UI.OOBoxes>
-        <SecondaryLink href={LINKS.oo}>Learn more</SecondaryLink>
+        <SecondaryLink href={LINKS.ooDocs}>Learn more</SecondaryLink>
       </UI.HomeSectionContent>
     </UI.HomeSectionContainer>
   );
