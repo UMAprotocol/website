@@ -136,6 +136,7 @@ export const OOBoxContainer = styled(GridColumn)`
 export const OOBox = styled(Box)<{ visible?: boolean }>`
   position: relative;
   padding: 15px 20px;
+  height: 100%;
   opacity: ${({ visible }) => visible ? 1: 0};
   top: ${({ visible }) =>  visible ? 0 : "40px"};
   transition: opacity 0.4s ease-out, top 0.4s ease-out;
