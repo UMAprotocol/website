@@ -25,5 +25,9 @@
           }
         ]
       }
+    ],
+    "redirects": [
+      { "source": "/kpi-options", "destination": "/products/kpi-options" }
+      
     ]
   }
