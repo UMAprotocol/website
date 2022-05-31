@@ -45,7 +45,7 @@ const sections = [
         title: "How do I get started?",
         link: {
           text: "Read UMA’s documentation",
-          href: "https://docs.umaproject.org/range-tokens/summary",
+          href: "https://docs.outcome.finance/resources/other-outcome-products",
         },
       },
     ],

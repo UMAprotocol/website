@@ -70,7 +70,7 @@ const sections = [
     ],
     link: {
       text: "Learn More",
-      href: "https://docs.umaproject.org/getting-started/oracle",
+      href: "https://docs.umaproject.org/protocol-overview/how-does-umas-oracle-work",
     },
   },
   {

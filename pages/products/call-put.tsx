@@ -45,7 +45,7 @@ const sections = [
         title: "How do I get started?",
         link: {
           text: "Read the Call Options documentation",
-          href: "https://docs.umaproject.org/products/calloption",
+          href: "https://docs.outcome.finance/resources/other-outcome-products",
         },
       },
     ],
