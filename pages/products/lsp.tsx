@@ -48,7 +48,7 @@ const sections = [
         title: "How do I get started?",
         link: {
           text: "Read the LSP Contract documentation",
-          href: "https://docs.umaproject.org/synthetic-tokens/long-short-pair",
+          href: "https://docs.outcome.finance/",
         },
       },
     ],

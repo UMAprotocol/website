@@ -74,7 +74,7 @@ const sections = [
     ],
     link: {
       text: "Learn More",
-      href: "https://docs.umaproject.org/kpi-options/summary",
+      href: "https://docs.outcome.finance/kpi-options/what-are-kpi-options",
     },
   },
   {

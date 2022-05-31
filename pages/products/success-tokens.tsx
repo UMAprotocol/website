@@ -74,7 +74,7 @@ const sections = [
     ],
     link: {
       text: "Learn More",
-      href: "https://docs.umaproject.org/success-tokens/summary",
+      href: "https://docs.outcome.finance/success-tokens/what-are-success-tokens",
     },
   },
   {
