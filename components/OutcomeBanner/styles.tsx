@@ -132,6 +132,8 @@ export const OutcomeLink = styled(Link)`
   background-color: var(--white);
   border-radius: 24px;
   color: #033C99;
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
 
   span {
     margin-right: 12px;
@@ -145,6 +147,10 @@ export const OutcomeLink = styled(Link)`
 
   @media ${QUERIES.tabletAndUp} {
     padding: 17px 24px;
+  }
+
+  :hover {
+    opacity: 0.9;
   }
 `
 
