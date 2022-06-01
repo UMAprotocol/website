@@ -37,4 +37,20 @@ export const typography = css`
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: 'Larken';
+    src: url('/fonts/Larken-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
 `;

@@ -9,6 +9,7 @@ import { UmaFeature, UMA_FEATURES } from "./features";
 import { Product, PRODUCTS_LIST } from "./products";
 import { OOBoxData, OOBoxesData } from "./oo";
 import { useReveal } from "../../utils/hooks";
+import { OutcomeBanner } from "../OutcomeBanner";
 
 const { LINKS } = constants;
 
@@ -26,6 +27,7 @@ export const HomePage: React.FunctionComponent = () => {
       <Projects />
       <WhyUseUMA />
       <Products />
+      <Outcome />
       <GetStarted />
     </DefaultLayout>
   )
@@ -147,6 +149,14 @@ const Products: React.FunctionComponent = () => {
       </UI.HomeSectionContent>
     </UI.HomeSectionContainer>
   );
+}
+
+const Outcome: React.FC = () => {
+  return (
+    <UI.OutcomeContainer>
+      <OutcomeBanner />
+    </UI.OutcomeContainer>
+  )
 }
 
 export const ProductComponent: React.FC<{ product: Product }> = ({ product }) => {

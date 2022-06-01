@@ -99,19 +99,12 @@ const CommunityDropdown: React.FunctionComponent = () => {
             href="https://cryptojobslist.com/companies/uma"
             target="_blank"
           >
-            <a
-              href="https://cryptojobslist.com/companies/uma"
-              title="We are hiring!"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                src="https://cryptojobslist.com/images/logo-circle-color.svg"
-                width="24px"
-                height="24px"
+              <Image
+                src="/images/social/crypto-jobs-list.svg"
+                width={24}
+                height={24}
                 alt="We are hiring!"
               />
-            </a>
             <span>We are hiring!</span>
           </UI.CommunityLink>
         </UI.CommunityLinks>
