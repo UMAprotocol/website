@@ -16,7 +16,7 @@ export const OutcomeBanner: React.FC<{ className?: string }> = ({ className }) =
             <span>Outcome</span>
           </UI.Logo>
           <UI.Title>
-            KPI options and Success tokens are now part of Outcome.Finance.
+            KPI options and Success tokens are now part of Outcome Finance.
           </UI.Title>
           <UI.OutcomeLink href="https://outcome.finance" target="_blank">
             <span>OUTCOME FINANCE</span>
