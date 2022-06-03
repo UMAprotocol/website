@@ -13,6 +13,7 @@ export enum Section {
   Starting = "Starting",
   Partners = "Partners",
   Testimonials = "Testimonials",
+  Outcome = "Outcome"
 }
 
 // section props
@@ -67,6 +68,10 @@ type TestimonialsSectionProps = {
   testimonials: TestimonialCardProps[];
 };
 
+type OutcomeSectionProps = {
+  type: Section.Outcome;
+};
+
 type TestimonialCardProps = {
   image: Image;
   details: string;
@@ -119,6 +124,7 @@ type ProductTemplateProps = {
     | GettingStartedSectionProps
     | PartnersSectionProps
     | TestimonialsSectionProps
+    | OutcomeSectionProps
   )[];
 };
 
@@ -163,6 +169,9 @@ const ProductTemplate = ({ sections }: ProductTemplateProps) => {
           }
           case Section.Testimonials: {
             return <TestimonialsSection key={i} {...section} />;
+          }
+          case Section.Outcome: {
+            return <OutcomeSection key={i} />;
           }
         }
       })}
@@ -418,4 +427,8 @@ const TestimonialCard = (props: TestimonialCardProps) => {
       <UI.TestimonialCardSignature>{props.client}</UI.TestimonialCardSignature>
     </UI.TestimonialCard>
   );
+};
+
+const OutcomeSection = () => {
+  return <UI.OutcomeSection />
 };

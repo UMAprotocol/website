@@ -473,3 +473,5 @@ export const GetStartedLink = styled(PrimaryLink)`
     color: var(--primary);
   }
 `
+
+export const OutcomeContainer = styled.section``;

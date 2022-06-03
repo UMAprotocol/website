@@ -93,6 +93,7 @@ const CoverSection: React.FC = () => {
 const ProductsSection: React.FC = () => {
   return (
     <UI.Container>
+      <UI.ProductsOutcomeBanner />
       <UI.ProductsContent>
         <ProductsContainer>
           {PRODUCTS.map((product, idx) => (

@@ -59,6 +59,7 @@ const sections = [
       },
     ],
   },
+  { type: Section.Outcome as Section.Outcome },
   {
     type: Section.Overview as Section.Overview,
     title: "What is it?",

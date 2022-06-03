@@ -3,6 +3,7 @@ import { keyframes } from "@emotion/react";
 import { constants } from "../../utils";
 import { OOLogoIcon } from "../Icons";
 import { PrimaryLink } from "../Link";
+import { OutcomeBanner } from "../OutcomeBanner";
 
 const { QUERIES, COLORS } = constants;
 const PulseRingAnimation1 = keyframes`
@@ -299,3 +300,7 @@ export const ProductsContent = styled(Content)`
     padding: 0 40px;
   }
 `;
+
+export const ProductsOutcomeBanner = styled(OutcomeBanner)`
+  margin: 50px auto 40px; 
+`

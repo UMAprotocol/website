@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 import { keyframes } from "@emotion/react";
 import { constants } from "../../utils";
-import { OOLogoIcon } from "../Icons";
 import { PrimaryLink, SecondaryLink } from "../Link";
+import { OutcomeBanner } from "../OutcomeBanner";
 
-const { QUERIES, COLORS } = constants;
+const { QUERIES } = constants;
 
 /* The typing effect */
 export const Typing = keyframes`
@@ -575,8 +575,8 @@ export const TestimonialCardDetails = styled.h3`
 `;
 
 export const TestimonialCardSignature = styled.h2`
-  fontweight: 600;
-  fontsize: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
   margin: 16px;
 `;
 
@@ -585,3 +585,8 @@ export const VerticalSpace = styled.div<{ height: string }>`
 `;
 
 export const Container = styled.section``;
+
+export const OutcomeSection = styled(OutcomeBanner)`
+  margin: 50px auto 40px;
+  max-width: 1280px;
+`
