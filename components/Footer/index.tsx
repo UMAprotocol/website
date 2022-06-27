@@ -18,7 +18,7 @@ const LINKS_LIST = [
     href: LINKS.getStarted,
   },
   { name: "Vote", href: LINKS.vote },
-  { name: "Careers", href: "https://angel.co/company/uma-project/jobs" },
+  { name: "Careers", href: "https://jobs.lever.co/umaproject" },
 ];
 
 const MAILCHIMP_URL =
